@@ -8,7 +8,7 @@
 
 # Sprint 1
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/product_backlog.md)
-* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_backlog.md)
+* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_1_backlog.md)
   * Burndown Chart
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/requirements.md)
 * Design Documents
@@ -21,7 +21,7 @@
 
 # Sprint 2
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/product_backlog.md)
-* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_backlog.md)
+* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_2_backlog.md)
   * Burndown Chart
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/requirements.md)
 * Design Documents
@@ -33,7 +33,7 @@
 * Product Demonstration
 # Sprint 3
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/product_backlog.md)
-* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_backlog.md)
+* [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/sprint_3_backlog.md)
   * Burndown Chart
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/project_markdown_files/requirements.md)
 * Design Documents
