@@ -5,7 +5,7 @@
 * Pranav Sharma
 * Luis Zayas Guerrero
 ## Vision Statement
-Many people love the thrill and excitement of horror games. Nothing is quite as scary as playing a game at home, alone, at night, in first person, and having a monster jump at you on your screen. For anyone who loves having fun and being a little scared, **SCARY MAZE** is the game for you.
+Many people love the thrill and excitement of horror games. Nothing is quite as scary as playing a game at home, alone, at night, in first person, and having a monster jump at you on your screen. For anyone who loves having fun and being a little scared, **Scary Maze** is the game for you.
 
 **Scary Maze** is a PC game that keeps the player uneasy and has some frights in store. The player is tasked with completing mazes of increasing difficulty and size, with only a limited light source and items. While doing this, they must be on the lookout for monsters, which they may need to fight in order to progress.
 
