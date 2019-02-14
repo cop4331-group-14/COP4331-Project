@@ -17,9 +17,9 @@ THIS_IS_A_CONSTANT
 
 someVariable
 
-this_is_a_function()
-{
-	functions should look like this!
+this_is_a_function()  
+{  
+&nbsp;&nbsp;&nbsp;&nbsp;this is a function!  
 }
 
 Class object = new Class()
