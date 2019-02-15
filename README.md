@@ -21,7 +21,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * System Architecture
   * Class Diagrams
   * Sequence Diagrams
-* Source Code
+* [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * Test Cases
 * Product Demonstration
 
@@ -34,7 +34,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * System Architecture
   * Class Diagrams
   * Sequence Diagrams
-* Source Code
+* [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * Test Cases
 * Product Demonstration
 # Sprint 3
@@ -46,6 +46,6 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * System Architecture
   * Class Diagrams
   * Sequence Diagrams
-* Source Code
+* [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * Test Cases
 * Product Demonstration
