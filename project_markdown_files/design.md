@@ -15,13 +15,4 @@ menu: new game, load game, save game, settings, exit game
 inventory: contains limited items
 
 ## Naming Conventions
-THIS_IS_A_CONSTANT
-
-someVariable
-
-this_is_a_function()  
-{  
-&nbsp;&nbsp;&nbsp;&nbsp;this is a function!  
-}
-
-Class object = new Class()
+Naming conventions follow Epic Games [Coding Standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard)
