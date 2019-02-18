@@ -18,7 +18,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * [Burndown Chart](https://github.com/cop4331-group-14/COP4331-Project/blob/master/burndownSprint1.pdf)
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
-  * System Architecture
+  * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
@@ -31,7 +31,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Burndown Chart
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
-  * System Architecture
+  * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
@@ -43,7 +43,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Burndown Chart
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
-  * System Architecture
+  * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
