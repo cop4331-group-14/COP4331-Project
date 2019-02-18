@@ -22,7 +22,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
-* Test Cases
+* [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
 * Product Demonstration
 
 # Sprint 2
@@ -35,7 +35,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
-* Test Cases
+* [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
 * Product Demonstration
 # Sprint 3
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/product_backlog.md)
@@ -47,5 +47,5 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Class Diagrams
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
-* Test Cases
+* [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
 * Product Demonstration
