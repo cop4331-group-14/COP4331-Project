@@ -4,8 +4,8 @@
 | 001 | 001 | The menu will be fit to screen. | NOT VERIFIED |
 | 002 | 001 | The menu will have clickable options. | NOT VERIFIED |
 | 003 | 001 | The menu will have text for 'New Game' | NOT VERIFIED |
-| 004 | 001 | The menu will have text for 'Load Game' | NOT STARTED |
-| 005 | 001 | The menu will have text for 'Save Game' | NOT STARTED |
+| 004 | 001 | The menu will have text for 'Load Game' | NOT VERIFIED |
+| 005 | 001 | The menu will have text for 'Save Game' | NOT VERIFIED |
 | 006 | 001 | The menu will have a solid background. | NOT VERIFIED |
 | 007 | 001 | The menu text will have a color that contrasts with the background. | NOT VERIFIED |
 | 008 | 002 | 'New Game' initializes the level count to 1. | NOT VERIFIED |
@@ -25,3 +25,6 @@
 | 022 | 004 | The player can move in all cardinal directions using the keyboard. | NOT VERIFIED |
 | 023 | 005 | The game's lighting is dim. | NOT VERIFIED |
 | 024 | 005 | Initial visibility is limited (draw distance is limited) | NOT VERIFIED |
+| 025 | 007 | Player has health statistic. | NOT VERIFIED |
+| 026 | 007 | Player has attack statistic. | NOT VERIFIED |
+| 027 | 007 | Player has defense statistic. | NOT VERIFIED |

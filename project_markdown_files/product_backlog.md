@@ -2,13 +2,13 @@
 
 | ID | User Story | Effort | Priority | Validation Criteria | Status |
 |----|------------|--------|----------|---------------------|--------|
-| 001 | As a developer, I want a menu to provide the player with an interface so they can navigate and complete certain tasks such as starting, loading, or saving a game. | 2 | 1 | When the game starts or the menu is selected, a menu that lists game options is displayed. | NOT STARTED |
-| 002 | As a player, I want to begin a new game when I select 'New Game' so that I can start playing. | 3 | 2 | When 'New Game' is selected, the game begins at the first level. | NOT STARTED |
-| 003 | As a developer, I want a maze so the player might traverse it. | 4 | 3 | When a game is being played, the screen displays a maze. | NOT STARTED |
-| 004 | As a developer, I want the player to play the game in first person to increase immersion. | 2 | 3 | When the player plays the game, it is from a first-person point-of-view. | NOT STARTED |
-| 005 | As a developer, I want the player to have limited lighting to increase the horror aspect of the game. | 2 | 3 | When the player plays the game, the screen is dark and view distance is poor. | NOT STARTED |
+| 001 | As a developer, I want a menu to provide the player with an interface so they can navigate and complete certain tasks such as starting, loading, or saving a game. | 2 | 1 | When the game starts or the menu is selected, a menu that lists game options is displayed. | WORKING |
+| 002 | As a player, I want to begin a new game when I select 'New Game' so that I can start playing. | 3 | 2 | When 'New Game' is selected, the game begins at the first level. | WORKING |
+| 003 | ~As a developer, I want a maze so the player might traverse it.~ | 4 | 3 | When a game is being played, the screen displays a maze. | COMPLETE |
+| 004 | ~As a developer, I want the player to play the game in first person to increase immersion.~ | 2 | 3 | When the player plays the game, it is from a first-person point-of-view. | COMPLETE |
+| 005 | As a developer, I want the player to have limited lighting to increase the horror aspect of the game. | 2 | 3 | When the player plays the game, the screen is dark and view distance is poor. | WORKING |
 | 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | NOT STARTED |
-| 007 | As a developer, I want the player to have health, attack, and defense statistics in order to adjust the player's experience based on their choices. | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | NOT STARTED |
+| 007 | As a developer, I want the player to have health, attack, and defense statistics in order to adjust the player's experience based on their choices. | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | WORKING |
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | NOT STARTED |
 | 009 | As a developer, I want the maze to have enemy monsters to increase the difficulty of completing the maze. | 8 | 5 | When navigating the maze, the maze contains monsters. | NOT STARTED |
 | 010 | As a developer, I want the monsters to have health, attack, and defense statistics. | 3 | 5 | When a monster exists, it has the appropriate statistics. | NOT STARTED |
