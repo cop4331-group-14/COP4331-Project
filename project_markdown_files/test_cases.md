@@ -1,4 +1,4 @@
-#Test Cases
+# Test Cases
 * When the game starts or the menu is selected, a menu that lists game options is displayed.
 * When 'New Game' is selected, the game begins at the first level.
 * When a game is being played, the screen displays a maze.
