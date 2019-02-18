@@ -28,7 +28,7 @@
 
 
 ## Security
-* The game is not online and does not access personal infromation. Therefore, security is not a concert.
+* The game is not online and does not access personal infromation. Therefore, security is not a concern.
 
 ## Performance
 * The game should operate at >= 30 frames-per-second.
