@@ -6,4 +6,4 @@
 | 003 | As a developer, I want a maze so the player might traverse it. | 4 | 3 | When a game is being played, the screen displays a maze. | James |
 | 004 | As a developer, I want the player to play the game in first person to increase immersion. | 2 | 3 | When the player plays the game, it is from a first-person point-of-view. | Sherry |
 | 005 | As a developer, I want the player to have limited lighting to increase the horror aspect of the game. | 2 | 3 | When the player plays the game, the screen is dark and view distance is poor. | Pranav |
-| 007 | As a developer, I want the player to have health, attack, and defense statistics in order to adjust the player's experience based on their choices. | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | Sherry |
+| 007 | ~As a developer, I want the player to have health, attack, and defense statistics in order to adjust the player's experience based on their choices.~ | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | Sherry |
