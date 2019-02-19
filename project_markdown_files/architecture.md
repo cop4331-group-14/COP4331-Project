@@ -23,6 +23,7 @@
 
 ## User Interface Design
 [Menu Design]()
+
 [In-Game Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.pdf)
 
 ## Resource Management
