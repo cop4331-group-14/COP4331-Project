@@ -19,7 +19,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
   * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
-  * Class Diagrams
+  * [Class Diagrams](https://docs.google.com/document/d/1Xy7xksGz8BhLTd2dPK7bVZjgM5H7RG0JDzJAzTOTlr8/edit)
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
@@ -32,11 +32,12 @@ If you are a fan of horror, then you will love **Scary Maze**!
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
   * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
-  * Class Diagrams
+  * [Class Diagrams](https://docs.google.com/document/d/1Xy7xksGz8BhLTd2dPK7bVZjgM5H7RG0JDzJAzTOTlr8/edit)
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
 * Product Demonstration
+
 # Sprint 3
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/product_backlog.md)
 * [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/sprint_3_backlog.md)
@@ -44,7 +45,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * Design Documents
   * [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
-  * Class Diagrams
+  * [Class Diagrams](https://docs.google.com/document/d/1Xy7xksGz8BhLTd2dPK7bVZjgM5H7RG0JDzJAzTOTlr8/edit)
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
