@@ -20,11 +20,11 @@
 | 017 | 003 | The maze has a definite end. | NOT VERIFED |
 | 018 | 003 | The maze walls are taller than the player. | NOT VERIFED |
 | 019 | 003 | The walls have a texture. | NOT VERIFIED |
-| 020 | 004 | The camera is positioned from the player's point-of-view. | NOT VERIFIED |
+| 020 | 004 | The camera is positioned from the player's point-of-view. | VERIFIED |
 | 021 | 004 | The player can look in all directions by moving the mouse. | NOT VERIFIED |
-| 022 | 004 | The player can move in all cardinal directions using the keyboard. | NOT VERIFIED |
+| 022 | 004 | The player can move in all cardinal directions using the keyboard. | VERIFIED |
 | 023 | 005 | The game's lighting is dim. | NOT VERIFIED |
 | 024 | 005 | Initial visibility is limited (draw distance is limited) | NOT VERIFIED |
-| 025 | 007 | Player has health statistic. | NOT VERIFIED |
-| 026 | 007 | Player has attack statistic. | NOT VERIFIED |
-| 027 | 007 | Player has defense statistic. | NOT VERIFIED |
+| 025 | 007 | Player has health statistic. | VERIFIED |
+| 026 | 007 | Player has attack statistic. | VERIFIED |
+| 027 | 007 | Player has defense statistic. | VERIFIED |
