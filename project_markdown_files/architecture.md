@@ -22,13 +22,15 @@
 * The game is not subject to business rules.
 
 ## User Interface Design
-[Menu Design]()
+[Menu Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/menudesign.pdf)
+
+[In-Game Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.pdf)
 
 ## Resource Management
 
 
 ## Security
-* The game is not online and does not access personal infromation. Therefore, security is not a concern.
+* The game is not online and does not access personal information. Therefore, security is not a concern.
 
 ## Performance
 * The game should operate at >= 30 frames-per-second.

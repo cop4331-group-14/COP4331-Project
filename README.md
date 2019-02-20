@@ -23,7 +23,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
   * Sequence Diagrams
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * [Test Cases](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_cases.md)
-* [Product Demonstration](https://youtu.be/xiSDnts801g) 
+* [Product Demonstration (No sound, explanation in description of video)](https://youtu.be/xiSDnts801g) 
 
 # Sprint 2
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/product_backlog.md)
