@@ -1,13 +1,13 @@
 # Requirements
 | Requirement ID | User Story ID | Requirement | Status |
 |----------------|---------------|-------------|--------|
-| 001 | 001 | The menu will be fit to screen. | VERIFIED |
-| 002 | 001 | The menu will have clickable options. | VERIFIED |
-| 003 | 001 | The menu will have text for 'New Game' | VERIFIED |
-| 004 | 001 | The menu will have text for 'Load Game' | VERIFIED |
-| 005 | 001 | The menu will have text for 'Save Game' | VERIFIED |
-| 006 | 001 | The menu will have a solid background. | VERIFIED |
-| 007 | 001 | The menu text will have a color that contrasts with the background. | VERIFIED |
+| 001 | 001 | The menu will be fit to screen. | NOT VERIFIED |
+| 002 | 001 | The menu will have clickable options. | NOT VERIFIED |
+| 003 | 001 | The menu will have text for 'New Game' | NOT VERIFIED |
+| 004 | 001 | The menu will have text for 'Load Game' | NOT VERIFIED |
+| 005 | 001 | The menu will have text for 'Save Game' | NOT VERIFIED |
+| 006 | 001 | The menu will have a solid background. | NOT VERIFIED |
+| 007 | 001 | The menu text will have a color that contrasts with the background. | NOT VERIFIED |
 | 008 | 002 | 'New Game' initializes the level count to 1. | NOT VERIFIED |
 | 009 | 002 | 'New Game' initializes score to 0. | NOT VERIFIED |
 | 010 | 002 | 'New Game' initializes player to default. | NOT VERIFIED |
