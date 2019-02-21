@@ -9,7 +9,7 @@ Many people love the thrill and excitement of horror games. Nothing is quite as 
 
 **Scary Maze** is a PC game that keeps the player uneasy and has some frights in store. The player is tasked with completing mazes of increasing difficulty and size, with only a limited light source and items. While doing this, they must be on the lookout for monsters, which they may need to fight in order to progress.
 
-This game was made in the spirit of such games as the *Silent Hill* series, or more recently, the *Outlast* series and even *Five Nights at Freddy's*. However, unlike those games, the mazes in INSERT TITLE are randomly generated, resulting in a different experience each time the player plays.
+This game was made in the spirit of such games as the *Silent Hill* series, or more recently, the *Outlast* series and even *Five Nights at Freddy's*. However, unlike those games, the mazes in **Scary Maze** are randomly generated, resulting in a different experience each time the player plays.
 
 If you are a fan of horror, then you will love **Scary Maze**!
 # Sprint 1
