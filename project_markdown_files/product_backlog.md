@@ -2,12 +2,12 @@
 
 | ID | User Story | Effort | Priority | Validation Criteria | Status |
 |----|------------|--------|----------|---------------------|--------|
-| 001 | As a player, I want a menu to provide me with an interface so I can navigate and complete certain tasks such as starting, loading, or saving a game. | 2 | 1 | When the game starts or the menu is selected, a menu that lists game options is displayed. | WORKING |
-| 002 | As a player, I want to begin a new game when I select 'New Game' so that I can start playing. | 3 | 2 | When 'New Game' is selected, the game begins at the first level. | WORKING |
+| 001 | ~As a player, I want a menu to provide me with an interface so I can navigate and complete certain tasks such as starting, loading, or saving a game.~ | 2 | 1 | When the game starts or the menu is selected, a menu that lists game options is displayed. | COMPLETE |
+| 002 | ~As a player, I want to begin a new game when I select 'New Game' so that I can start playing. | 3 | 2 | When 'New Game' is selected, the game begins at the first level.~ | COMPLETE |
 | 003 | ~As a player, I want a maze so that I might be challenged by traversing it.~ | 4 | 3 | When a game is being played, the screen displays a maze. | COMPLETE |
 | 004 | ~As a player, I want the to play the game in first person to increase immersion.~ | 2 | 3 | When the player plays the game, it is from a first-person point-of-view. | COMPLETE |
 | 005 | ~As a player, I want to have limited lighting to increase the horror aspect of the game.~ | 2 | 3 | When the player plays the game, the screen is dark and view distance is poor. | COMPLETE |
-| 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | NOT STARTED |
+| 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | WORKING |
 | 007 | ~As a player, I want to have health, attack, and defense statistics in order to adjust my experience based on my choices.~ | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | COMPLETE |
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | NOT STARTED |
 | 009 | As a player, I want the maze to have enemy monsters to increase the difficulty of completing the maze. | 8 | 5 | When navigating the maze, the maze contains monsters. | NOT STARTED |
