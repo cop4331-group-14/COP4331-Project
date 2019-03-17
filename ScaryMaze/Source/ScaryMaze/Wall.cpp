@@ -12,6 +12,9 @@ AWall::AWall()
 	WallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("WallMeshComponent"));
 	RootComponent = WallMesh;
 
+	// Make the wall 400x400x400
+	WallMesh->SetWorldScale3D(FVector(4.f, 4.f, 4.f));
+
 	SetIsBoundary(false);
 	SetIsVisited(false);
 }

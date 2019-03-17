@@ -16,7 +16,7 @@
 // Some constants to make adjusting the maze parameters easier.
 const int SIZE = DIMENSION * DIMENSION;
 const float Z_COORD_GROUND = 0.f;
-const float Z_COORD_WALL = 0.f;
+const float Z_COORD_WALL = 200.f;
 const float Z_COORD_GOAL = 200.f;
 const float WALL_BLOCK_SIZE = 400.f;
 const float WALL_OFFSET = 200.f;

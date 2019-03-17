@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ScaryMaze-156.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ScaryMaze-999.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ScaryMaze-156.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ScaryMaze-999.pdb",
 			"Type": "SymbolFile"
 		},
 		{
