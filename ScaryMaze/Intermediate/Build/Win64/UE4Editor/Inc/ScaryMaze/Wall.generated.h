@@ -13,9 +13,81 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SCARYMAZE_Wall_generated_h
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_RPC_WRAPPERS
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_INCLASS_NO_PURE_DECLS \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetIsBoundary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsBoundary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetIsBoundary) \
+	{ \
+		P_GET_UBOOL(Z_Param_bBoundary); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetIsBoundary(Z_Param_bBoundary); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetIsVisited) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsVisited(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetIsVisited) \
+	{ \
+		P_GET_UBOOL(Z_Param_bVisited); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetIsVisited(Z_Param_bVisited); \
+		P_NATIVE_END; \
+	}
+
+
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetIsBoundary) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsBoundary(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetIsBoundary) \
+	{ \
+		P_GET_UBOOL(Z_Param_bBoundary); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetIsBoundary(Z_Param_bBoundary); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetIsVisited) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetIsVisited(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetIsVisited) \
+	{ \
+		P_GET_UBOOL(Z_Param_bVisited); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetIsVisited(Z_Param_bVisited); \
+		P_NATIVE_END; \
+	}
+
+
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWall(); \
 	friend struct Z_Construct_UClass_AWall_Statics; \
@@ -24,7 +96,7 @@ public: \
 	DECLARE_SERIALIZER(AWall)
 
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_INCLASS \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAWall(); \
 	friend struct Z_Construct_UClass_AWall_Statics; \
@@ -33,7 +105,7 @@ public: \
 	DECLARE_SERIALIZER(AWall)
 
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_STANDARD_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWall(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWall) \
@@ -46,7 +118,7 @@ private: \
 public:
 
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_ENHANCED_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWall(AWall&&); \
@@ -57,26 +129,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWall); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWall)
 
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_PRIVATE_PROPERTY_OFFSET
-#define ScaryMaze_Source_ScaryMaze_Wall_h_9_PROLOG
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_GENERATED_BODY_LEGACY \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__WallMesh() { return STRUCT_OFFSET(AWall, WallMesh); }
+
+
+#define ScaryMaze_Source_ScaryMaze_Wall_h_13_PROLOG
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_RPC_WRAPPERS \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_INCLASS \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_STANDARD_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_RPC_WRAPPERS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_INCLASS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ScaryMaze_Source_ScaryMaze_Wall_h_12_GENERATED_BODY \
+#define ScaryMaze_Source_ScaryMaze_Wall_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_INCLASS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_Wall_h_12_ENHANCED_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_INCLASS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_Wall_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

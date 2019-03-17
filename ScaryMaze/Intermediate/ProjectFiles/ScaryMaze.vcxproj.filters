@@ -90,4 +90,20 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ScaryMaze\Maze.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\Goal.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ScaryMaze\Maze.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\Goal.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
