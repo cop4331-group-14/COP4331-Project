@@ -1148,3 +1148,59 @@ Exception rethrown at [0]:
 [2019.03.17-16.49.42:864][146]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/Sphere01F661E441E99E73913720B0E3F047F4.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Content/Assets/Goal/Meshes/Sphere.uasset'
 [2019.03.17-16.49.43:589][186]LogSlate: Window 'Sphere' being destroyed
 [2019.03.17-16.49.43:608][186]LogSlate: Window 'Sphere' being destroyed
+[2019.03.17-16.51.33:192][981]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/LevelOne_Auto2FED3513F478D9AC78DE218A6EFFD748B.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/Autosaves/Game/LevelOne_Auto2.umap'
+[2019.03.17-16.51.33:198][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelOne' took 0.165
+[2019.03.17-16.51.33:198][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2019.03.17-16.51.33:249][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Walls/Meshes/1M_Cube] ([1] browsable assets)...
+[2019.03.17-16.51.33:332][981]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Walls/Meshes/1M_Cube.1M_Cube]
+[2019.03.17-16.51.33:332][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Walls/Meshes/1M_Cube]
+[2019.03.17-16.51.33:353][981]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/1M_Cube_Auto2214AAFB749AAEF54B3493BAB9437C6C6.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/Autosaves/Game/Assets/Walls/Meshes/1M_Cube_Auto2.uasset'
+[2019.03.17-16.51.33:356][981]LogFileHelpers: Auto-saving content packages took 0.156
+[2019.03.17-16.51.49:074][906]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" -game -rocket -progress
+[2019.03.17-16.51.49:682][906]Discovering modules, targets and source code for project...
+[2019.03.17-16.51.52:802][906]Binding IntelliSense data...
+[2019.03.17-16.51.56:227][906]Binding IntelliSense data... 100%
+[2019.03.17-16.51.56:227][906]Writing project files...
+[2019.03.17-16.52.04:374][906]Writing project files... 100%
+[2019.03.17-16.52.04:509][906]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.03.17-16.52.04:513][906]Candidate modules for hot reload:
+[2019.03.17-16.52.04:513][906]  ScaryMaze
+[2019.03.17-16.52.04:513][906]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ScaryMaze,9245 Win64 Development -TargetType=Editor -Project="../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" -canskiplink "C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" ]
+[2019.03.17-16.55.24:024][906]CompilerResultsLog: New page: Compilation - Mar 17, 2019, 8:55:24 AM
+[2019.03.17-16.55.24:035][906]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.03.17-16.55.24:035][906]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331 Project).
+[2019.03.17-16.55.24:035][906]CompilerResultsLog: Creating makefile for hot reloading ScaryMazeEditor (source directory changed)
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Parsing headers for ScaryMazeEditor
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Reflection code generated for ScaryMazeEditor in 12.3450396 seconds
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   [1/5] ScaryMaze.init.gen.cpp
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   [2/5] Ground.cpp
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   [3/5] Ground.gen.cpp
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   [4/5] UE4Editor-ScaryMaze-9245.lib
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:      Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-9245.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-9245.exp
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:   [5/5] UE4Editor-ScaryMaze-9245.dll
+[2019.03.17-16.55.24:036][906]CompilerResultsLog:      Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-9245.suppressed.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-9245.suppressed.exp
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: ERROR: Failed to write dependency cache: Could not find a part of the path 'D:\Documents\GitHub\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor'.
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: ERROR: Failed to write FlatCPPIncludeDependencyCache: Could not find a part of the path 'D:\Documents\GitHub\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor'.
+[2019.03.17-16.55.24:036][906]CompilerResultsLog: Total build time: 199.20 seconds (Parallel executor: 122.07 seconds)
+[2019.03.17-16.55.24:046][906]LogMainFrame: MainFrame: Module compiling took 199.537 seconds
+[2019.03.17-16.55.24:180][906]LogClass: Could not find existing class Ground in package /Script/ScaryMaze for HotReload, assuming new class
+[2019.03.17-16.55.24:207][906]LogContentBrowser: Native class hierarchy updated for 'ScaryMaze' in 0.0008 seconds. Added 7 classes and 2 folders.
+[2019.03.17-16.55.24:220][906]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.03.17-16.55.24:343][906]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2659 classes and 624 folders.
+[2019.03.17-16.55.24:386][906]Display: HotReload took 199.9s.
+[2019.03.17-16.55.24:387][906]Warning: HotReload operation took 199.9s.
+[2019.03.17-16.55.24:442][906]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.03.17-16.55.24:478][906]LogHotReload: New module detected: UE4Editor-ScaryMaze-9245.dll
+[2019.03.17-16.55.24:527][907]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.17-16.55.24:590][907]LogContentBrowser: Native class hierarchy updated for 'ScaryMaze' in 0.0007 seconds. Added 7 classes and 2 folders.
+[2019.03.17-16.55.24:593][907]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.17-16.55.24:632][907]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2659 classes and 624 folders.
+[2019.03.17-16.55.24:635][907]Display: HotReload took  0.1s.
+[2019.03.17-16.55.24:640][907]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-16.55.24:640][907]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-16.56.14:663][165]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Source/ScaryMaze/Ground.h'
+[2019.03.17-16.56.15:348][166]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.708 sec). This should never happen. Something is wrong with the timer delegate!
