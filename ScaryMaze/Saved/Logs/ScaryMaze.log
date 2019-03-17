@@ -1204,3 +1204,109 @@ Exception rethrown at [0]:
 [2019.03.17-16.55.24:640][907]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.03.17-16.56.14:663][165]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Source/ScaryMaze/Ground.h'
 [2019.03.17-16.56.15:348][166]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.708 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.05.03:336][472]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" -game -rocket -progress
+[2019.03.17-17.05.05:713][472]Discovering modules, targets and source code for project...
+[2019.03.17-17.05.21:498][472]Binding IntelliSense data...
+[2019.03.17-17.05.26:127][472]Binding IntelliSense data... 100%
+[2019.03.17-17.05.26:127][472]Writing project files...
+[2019.03.17-17.05.36:593][472]Writing project files... 67%
+[2019.03.17-17.05.36:593][472]Writing project files... 100%
+[2019.03.17-17.05.36:965][472]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.03.17-17.05.36:968][472]Candidate modules for hot reload:
+[2019.03.17-17.05.36:968][472]  ScaryMaze
+[2019.03.17-17.05.36:969][472]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ScaryMaze,935 Win64 Development -TargetType=Editor -Project="../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" -canskiplink "C:/Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/ScaryMaze.uproject" ]
+[2019.03.17-17.10.22:854][472]CompilerResultsLog: New page: Compilation - Mar 17, 2019, 9:10:22 AM
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331 Project).
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Creating makefile for hot reloading ScaryMazeEditor (source directory changed)
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Parsing headers for ScaryMazeEditor
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Reflection code generated for ScaryMazeEditor in 26.6179876 seconds
+[2019.03.17-17.10.22:863][472]CompilerResultsLog: Building 7 actions with 4 processes...
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:   [1/7] Ground.cpp
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(14) : error C2079: 'AGround' uses undefined class 'UNREAL_PRACTICE_API'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(14) : error C2143: syntax error: missing ';' before ':'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(14) : error C2059: syntax error: ':'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(14) : error C2059: syntax error: 'public'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(15) : error C2143: syntax error: missing ';' before '{'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(15) : error C2447: '{': missing function header (old-style formal list?)
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(6) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:863][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(6) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(7) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(7) : error C2365: 'AGround': redefinition; previous definition was 'data variable'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   c:\users\james\desktop\processes for oos\cop4331 project\scarymaze\source\scarymaze\Ground.h(14): note: see declaration of 'AGround'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(9) : error C2065: 'PrimaryActorTick': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(12) : error C2065: 'GroundMesh': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(12) : error C2065: 'CreateDefaultSubobject': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(12) : error C2275: 'UStaticMeshComponent': illegal use of this type as an expression
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(171): note: see declaration of 'UStaticMeshComponent'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(13) : error C2065: 'RootComponent': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze\Ground.cpp(13) : error C2065: 'GroundMesh': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   [2/7] Wall.cpp
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   [3/7] Ground.gen.cpp
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14) : error C2079: 'AGround' uses undefined class 'UNREAL_PRACTICE_API'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14) : error C2143: syntax error: missing ';' before ':'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14) : error C2059: syntax error: ':'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14) : error C2059: syntax error: 'public'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(15) : error C2143: syntax error: missing ';' before '{'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(15) : error C2447: '{': missing function header (old-style formal list?)
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(22) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(22) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(27) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(27) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(27) : error C3861: 'StaticClass': identifier not found
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(61) : error C2132: syntax error: unexpected identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(61): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(66) : error C2923: 'TCppClassTypeTraits': 'AGround' is not a valid template type argument for parameter 'CPPCLASS'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14): note: see declaration of 'AGround'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(66) : error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(1951): note: see declaration of 'TCppClassTypeTraits'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(67): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(69) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(69) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(69) : error C2065: 'StaticClass': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2923: 'TClassCompiledInDefer': 'AGround' is not a valid template type argument for parameter 'TClass'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14): note: see declaration of 'AGround'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(319): note: see declaration of 'TClassCompiledInDefer'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C3861: 'StaticPackage': identifier not found
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2065: 'StaticClassFlags': undeclared identifier
+[2019.03.17-17.10.22:864][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C3861: 'StaticClassCastFlags': identifier not found
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C3861: 'StaticConfigName': identifier not found
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88): note: None of the functions with this name in scope match the target type
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88): note: None of the functions with this name in scope match the target type
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(88) : error C2065: 'StaticClass': undeclared identifier
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(89) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(89) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(89) : error C2065: 'StaticClass': undeclared identifier
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(90) : error C2825: 'AGround': must be a class or namespace when followed by '::'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(90) : error C2510: 'AGround': left of '::' must be a class/struct/union
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(90) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(90) : error C2365: 'AGround': redefinition; previous definition was 'data variable'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:   C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Source\ScaryMaze/Ground.h(14): note: see declaration of 'AGround'
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:    C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Inc\ScaryMaze\Ground.gen.cpp(90) : error C2550: 'AGround': constructor initializer lists are only allowed on constructor definitions
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:   [4/7] ScaryMaze.init.gen.cpp
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:   [5/7] Wall.gen.cpp
+[2019.03.17-17.10.22:865][472]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Binaries\Win64\UE4Editor-ScaryMaze-935.dll
+[2019.03.17-17.10.22:865][472]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.17-17.10.22:865][472]CompilerResultsLog: ERROR: Failed to write dependency cache: Could not find a part of the path 'D:\Documents\GitHub\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor'.
+[2019.03.17-17.10.22:865][472]CompilerResultsLog: ERROR: Failed to write FlatCPPIncludeDependencyCache: Could not find a part of the path 'D:\Documents\GitHub\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor'.
+[2019.03.17-17.10.22:865][472]CompilerResultsLog: Total build time: 285.51 seconds (Parallel executor: 0.00 seconds)
+[2019.03.17-17.10.22:865][472]LogMainFrame: MainFrame: Module compiling took 285.899 seconds
+[2019.03.17-17.10.22:874][472]Warning: HotReload failed, recompile failed
+[2019.03.17-17.10.22:889][472]Warning: RebindPackages failed because compilation failed.
+[2019.03.17-17.10.32:773][472]LogSlate: Window 'Message' being destroyed
+[2019.03.17-17.10.32:781][472]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.03.17-17.10.32:887][473]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.10.32:887][473]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.10.32:887][473]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.10.32:887][473]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.10.36:446][685]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (3.558 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.17-17.10.48:916][422]LogSlate: Window 'Message Log' being destroyed
+[2019.03.17-17.10.48:922][422]LogSlate: Window 'Message Log' being destroyed
