@@ -11,7 +11,7 @@
  *
  */
 UCLASS()
-class UNREAL_PRACTICE_API AGround : public AActor
+class SCARYMAZE_API AGround : public AActor
 {
 	GENERATED_BODY()
 

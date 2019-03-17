@@ -22,7 +22,7 @@ const float WALL_BLOCK_SIZE = 400.f;
 const float WALL_OFFSET = 200.f;
 
 UCLASS()
-class UNREAL_PRACTICE_API AMaze : public AActor
+class SCARYMAZE_API AMaze : public AActor
 {
 	GENERATED_BODY()
 

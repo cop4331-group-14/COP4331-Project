@@ -9,7 +9,7 @@
 #include "Goal.generated.h"
 
 UCLASS()
-class UNREAL_PRACTICE_API AGoal : public AActor
+class SCARYMAZE_API AGoal : public AActor
 {
 	GENERATED_BODY()
 

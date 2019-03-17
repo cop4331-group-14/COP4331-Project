@@ -11,7 +11,7 @@
  *
  */
 UCLASS()
-class UNREAL_PRACTICE_API AWall : public AActor
+class SCARYMAZE_API AWall : public AActor
 {
 	GENERATED_BODY()
 
