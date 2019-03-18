@@ -13,17 +13,30 @@ class SCARYMAZE_API AScaryMazeBaseCharacter : public ACharacter
 
 public:
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-		float Health = 100.0;
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class USkeletalMeshComponent* Mesh1P;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* FirstPersonCameraComponent;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-		int AttackPower = 1;
+	float Health;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-		int Defense = 1;
+	int AttackPower;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
+	int Defense;
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Base Character")
-		bool IsDead = false;
+	bool IsDead;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	float BaseTurnRate;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	float BaseLookUpRate;
+
 
 	virtual void CalculateDead();
 	
@@ -67,5 +80,8 @@ public:
 	void MoveRight(float Value);
 	void LookUp(float Value);
 	void LookRight(float Value);
+	void TurnAtRate(float Rate);
+	void LookUpAtRate(float Rate);
+
 
 };

@@ -1,0 +1,976 @@
+﻿Log file open, 03/17/19 20:03:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ScaryMaze
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.839054
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.261s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.18-00.03.28:414][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.18-00.03.28:415][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.18-00.03.28:416][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.18-00.03.28:417][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:418][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:429][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:429][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.18-00.03.28:429][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.18-00.03.28:429][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:429][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.18-00.03.28:429][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:429][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.18-00.03.28:430][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.18-00.03.28:431][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:431][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.18-00.03.28:432][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.18-00.03.28:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.18-00.03.28:434][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.18-00.03.28:435][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.18-00.03.28:436][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.18-00.03.28:436][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:436][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.18-00.03.28:436][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.18-00.03.28:436][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-00.03.28:437][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.18-00.03.28:456][  0]LogHAL: Display: Platform has ~ 16 GB [17048965120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.18-00.03.28:456][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.18-00.03.28:456][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.18-00.03.28:457][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.18-00.03.28:457][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.18-00.03.28:458][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.18-00.03.28:459][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.18-00.03.28:459][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.18-00.03.28:459][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.18-00.03.28:459][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:459][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.18-00.03.28:459][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.18-00.03.28:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.18-00.03.28:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.18-00.03.28:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.18-00.03.28:460][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.18-00.03.28:460][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.18-00.03.28:461][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.18-00.03.28:461][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.18-00.03.28:461][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.18-00.03.28:461][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.18-00.03.28:461][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.18-00.03.28:462][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.18-00.03.28:462][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.18-00.03.28:462][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.18-00.03.28:462][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.18-00.03.28:462][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.18-00.03.28:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.18-00.03.28:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.18-00.03.28:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.18-00.03.28:463][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.18-00.03.28:463][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.18-00.03.28:464][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.18-00.03.28:465][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.18-00.03.28:466][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.18-00.03.28:466][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.18-00.03.28:466][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.18-00.03.28:466][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.18-00.03.28:466][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:467][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.18-00.03.28:467][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.18-00.03.28:467][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.18-00.03.28:467][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.18-00.03.28:467][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.18-00.03.28:468][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.18-00.03.28:469][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.18-00.03.28:469][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.18-00.03.28:469][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.03.18-00.03.28:469][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.18-00.03.28:469][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.18-00.03.28:470][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.18-00.03.28:471][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.18-00.03.28:471][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.03.18-00.03.28:473][  0]LogInit: Computer: LAPTOP-QTRP2V0F
+[2019.03.18-00.03.28:473][  0]LogInit: User: tride
+[2019.03.18-00.03.28:473][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.18-00.03.28:473][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2019.03.18-00.03.28:474][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.18-00.03.28:474][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.18-00.03.28:475][  0]LogMemory: Process Physical Memory: 102.68 MB used, 102.68 MB peak
+[2019.03.18-00.03.28:475][  0]LogMemory: Process Virtual Memory: 92.44 MB used, 92.44 MB peak
+[2019.03.18-00.03.28:475][  0]LogMemory: Physical Memory: 14690.34 MB used,  1568.82 MB free, 16259.16 MB total
+[2019.03.18-00.03.28:475][  0]LogMemory: Virtual Memory: 4652.73 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.03.18-00.03.28:778][  0]LogInit: Using OS detected language (en-US).
+[2019.03.18-00.03.28:778][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.18-00.03.28:782][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.18-00.03.29:347][  0]LogStreaming: Display: Took  0.569s to InitEngineTextLocalization.
+[2019.03.18-00.03.29:347][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.18-00.03.29:445][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.18-00.03.29:449][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.18-00.03.30:015][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-00.03.30:015][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.18-00.03.30:155][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.18-00.03.30:155][  0]LogD3D11RHI:       4021/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.18-00.03.30:192][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.18-00.03.30:192][  0]LogD3D11RHI:       128/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.18-00.03.30:202][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.18-00.03.30:203][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.18-00.03.30:203][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.18-00.03.30:254][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.18-00.03.30:254][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.03.18-00.03.30:255][  0]LogWindows: EnumDisplayDevices:
+[2019.03.18-00.03.30:255][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.03.18-00.03.30:255][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.18-00.03.30:256][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.18-00.03.30:256][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.18-00.03.30:257][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.18-00.03.30:257][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.18-00.03.30:257][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.18-00.03.30:257][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.03.18-00.03.30:321][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.18-00.03.30:426][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.18-00.03.30:886][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.18-00.03.30:920][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.18-00.03.30:953][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.18-00.03.30:985][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.18-00.03.31:020][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.18-00.03.31:055][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.18-00.03.31:084][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.18-00.03.31:115][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.18-00.03.31:138][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.18-00.03.31:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:271][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-00.03.31:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.18-00.03.31:402][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-00.03.31:402][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-00.03.31:447][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-00.03.31:447][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-00.03.31:475][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.18-00.03.31:500][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.18-00.03.31:522][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.18-00.03.31:547][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.18-00.03.31:619][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.18-00.03.31:619][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.18-00.03.31:619][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.18-00.03.31:990][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Intermediate/Shaders/WorkingDirectory/40732/).
+[2019.03.18-00.03.31:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tride/AppData/Local/Temp/UnrealShaderWorkingDir/0C10CABB41A4084FE9A3628600D4F98C/'.
+[2019.03.18-00.03.32:003][  0]LogXGEController: Cleaning working directory: C:/Users/tride/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.18-00.03.32:004][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.18-00.03.32:004][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.18-00.03.32:004][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.18-00.03.32:926][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.18-00.03.33:030][  0]LogDerivedDataCache: Loaded boot cache 0.10s 73MB C:/Users/tride/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.18-00.03.33:031][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tride/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.18-00.03.33:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.18-00.03.33:031][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.18-00.03.33:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.18-00.03.33:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.18-00.03.33:054][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.18-00.03.33:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.18-00.03.33:054][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.18-00.03.33:068][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tride/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.18-00.03.33:068][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.18-00.03.33:068][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.18-00.03.33:110][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.18-00.03.33:117][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.18-00.03.33:121][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.18-00.03.33:324][  0]LogAssetRegistry: FAssetRegistry took 0.0431 seconds to start up
+[2019.03.18-00.03.33:968][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-00.03.34:233][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.18-00.03.34:291][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.18-00.03.34:292][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.18-00.03.34:292][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.18-00.03.34:293][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.18-00.03.34:463][  0]LogNetVersion: ScaryMaze 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3370334168)
+[2019.03.18-00.03.35:663][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.208445 seconds
+[2019.03.18-00.03.35:674][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.18-00.03.35:675][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.03.18-00.03.35:675][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.18-00.03.38:454][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.18-00.03.38:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.18-00.03.40:084][  0]SourceControl: Source control is disabled
+[2019.03.18-00.03.40:084][  0]SourceControl: Source control is disabled
+[2019.03.18-00.03.40:117][  0]SourceControl: Source control is disabled
+[2019.03.18-00.03.40:132][  0]SourceControl: Source control is disabled
+[2019.03.18-00.03.40:872][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.18-00.03.41:061][  0]LogOcInput: OculusInput pre-init called
+[2019.03.18-00.03.41:380][  0]LogEngine: Initializing Engine...
+[2019.03.18-00.03.41:383][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-00.03.41:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-00.03.41:386][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-00.03.41:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-00.03.41:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-00.03.41:714][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.18-00.03.41:793][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-00.03.41:830][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-00.03.41:868][  0]LogInit: FAudioDevice initialized.
+[2019.03.18-00.03.41:869][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.18-00.03.41:926][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/tride/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.18-00.03.41:929][  0]LogInit: Texture streaming: Enabled
+[2019.03.18-00.03.42:001][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.18-00.03.42:002][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={30389E1A-4E1C-5A39-8BF7-06840B77F362}
+[2019.03.18-00.03.42:036][  0]LogInit: Transaction tracking system initialized
+[2019.03.18-00.03.42:163][  0]BlueprintLog: New page: Editor Load
+[2019.03.18-00.03.42:668][  0]LocalizationService: Localization service is disabled
+[2019.03.18-00.03.43:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/' took 0.02s
+[2019.03.18-00.03.43:690][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.18-00.03.43:691][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.18-00.03.43:692][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.18-00.03.43:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-00.03.43:693][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-00.03.43:693][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-00.03.43:693][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-00.03.44:343][  0]SourceControl: Source control is disabled
+[2019.03.18-00.03.44:345][  0]Cmd: MAP LOAD FILE="../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.18-00.03.44:346][  0]LightingResults: New page: Lighting Build
+[2019.03.18-00.03.44:366][  0]MapCheck: New page: Map Check
+[2019.03.18-00.03.44:367][  0]LightingResults: New page: Lighting Build
+[2019.03.18-00.03.44:538][  0]LogLinker: Warning: Can't find file '/Game/LevelOne_BuiltData'
+[2019.03.18-00.03.44:539][  0]LogLinker: Warning: Can't find file for asset '/Game/LevelOne_BuiltData' while loading ../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/LevelOne.umap.
+[2019.03.18-00.03.44:539][  0]LoadErrors: Error: /Game/LevelOne : Can't find file for asset. /Game/LevelOne_BuiltData
+[2019.03.18-00.03.44:542][  0]LogLinker: Warning: Can't find file '/Game/LevelOne_BuiltData'
+[2019.03.18-00.03.44:543][  0]LogLinker: Warning: Can't find file for asset '/Game/LevelOne_BuiltData' while loading ../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/LevelOne.umap.
+[2019.03.18-00.03.44:543][  0]LoadErrors: Error: /Game/LevelOne : Can't find file for asset. /Game/LevelOne_BuiltData
+[2019.03.18-00.03.44:575][  0]LogLinker: Warning: Can't find file '/Game/LevelOne_BuiltData'
+[2019.03.18-00.03.44:576][  0]LogLinker: Warning: Can't find file for asset '/Game/LevelOne_BuiltData' while loading NULL.
+[2019.03.18-00.03.44:576][  0]LogLinker: Warning: Can't find file '/Game/LevelOne_BuiltData'
+[2019.03.18-00.03.44:576][  0]LogLinker: Warning: Can't find file for asset '/Game/LevelOne_BuiltData' while loading NULL.
+[2019.03.18-00.03.44:588][  0]LogLinker: Warning: Can't find file '/Game/LevelOne_BuiltData'
+[2019.03.18-00.03.44:588][  0]LoadErrors: Failed to load /Game/LevelOne_BuiltData.LevelOne_BuiltData Referenced by PersistentLevel
+[2019.03.18-00.03.44:589][  0]LogLinker: Warning: Can't find file for asset '/Game/LevelOne_BuiltData' while loading NULL.
+[2019.03.18-00.03.44:589][  0]LoadErrors: Failed to load /Game/LevelOne_BuiltData.LevelOne_BuiltData Referenced by PersistentLevel
+[2019.03.18-00.03.44:606][  0]LogStaticMesh: Building static mesh SM_Goal...
+[2019.03.18-00.03.44:639][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Goal/Meshes/SM_Goal.SM_Goal
+[2019.03.18-00.03.44:727][  0]LogMaterial: Display: Missing cached shader map for material M_Wall_BrickCutStone, compiling. 
+[2019.03.18-00.03.44:846][  0]LogStaticMesh: Building static mesh SM_Wall_BrickCutStone...
+[2019.03.18-00.03.44:852][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.18-00.03.44:852][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.18-00.03.44:852][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.18-00.03.44:853][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.18-00.03.44:853][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Walls/Meshes/SM_Wall_BrickCutStone.SM_Wall_BrickCutStone
+[2019.03.18-00.03.44:871][  0]LogMaterial: Display: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2019.03.18-00.03.44:917][  0]LogMaterial: Display: Missing cached shader map for material M_Goal, compiling. 
+[2019.03.18-00.03.44:962][  0]LogAIModule: Creating AISystem for world LevelOne
+[2019.03.18-00.03.45:009][  0]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.03.18-00.03.45:009][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.18-00.03.45:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.18-00.03.45:054][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.24ms to complete.
+[2019.03.18-00.03.45:055][  0]LogFileHelpers: Loading map 'LevelOne' took 0.711
+[2019.03.18-00.03.45:300][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.03.45:318][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.03.45:334][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.03.45:351][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.03.45:385][  0]LogCollectionManager: Loaded 0 collections in 0.004406 seconds
+[2019.03.18-00.03.45:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Saved/Collections/' took 0.01s
+[2019.03.18-00.03.45:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/Developers/tride/Collections/' took 0.01s
+[2019.03.18-00.03.45:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/Content/Collections/' took 0.01s
+[2019.03.18-00.03.45:488][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.18-00.03.45:520][  0]LogContentBrowser: Native class hierarchy populated in 0.0277 seconds. Added 2661 classes and 622 folders.
+[2019.03.18-00.03.45:556][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.18-00.03.45:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:605][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:621][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.18-00.03.45:769][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.18-00.03.45:803][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.03.18-00.03.45:895][  0]LogSlate: Took 0.000828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.18-00.03.45:906][  0]LogSlate: Took 0.001017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.18-00.03.45:927][  0]LogSlate: Took 0.000810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.18-00.03.46:127][  0]LogRenderer: Reallocating scene render targets to support 936x480 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-00.03.46:287][  0]LogSlate: Took 0.000767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-00.03.50:415][  0]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.03.18-00.03.50:459][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.03.18-00.03.50:459][  0]LogLoad: (Engine Initialization) Total time: 26.18 seconds
+[2019.03.18-00.03.50:460][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.18-00.03.50:484][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.18-00.03.50:587][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.18-00.03.50:596][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-00.03.50:877][  3]LogAssetRegistry: Asset discovery search completed in 17.5789 seconds
+[2019.03.18-00.03.50:881][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.18-00.03.50:881][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000657 seconds (updated 0 objects)
+[2019.03.18-00.03.52:699][103]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.18-00.03.56:195][271]LogSlate: Window 'Message Log' being destroyed
+[2019.03.18-00.03.56:201][271]LogSlate: Window 'Message Log' being destroyed
+[2019.03.18-00.03.58:245][390]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.18-00.03.58:810][423]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.18-00.03.59:351][454]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.18-00.04.01:469][578]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.18-00.04.14:925][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-00.04.15:008][387]LogTemp: Repeating last play command: Simulate
+[2019.03.18-00.04.15:022][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.04.15:024][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-00.04.15:029][387]PIE: New page: SIE session: LevelOne (Mar 17, 2019, 4:04:15 PM)
+[2019.03.18-00.04.15:048][387]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2019.03.18-00.04.15:054][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005109s)
+[2019.03.18-00.04.15:055][387]LogAIModule: Creating AISystem for world LevelOne
+[2019.03.18-00.04.15:056][387]LogPlayLevel: PIE: World Init took: (0.002093s)
+[2019.03.18-00.04.15:057][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.008284s)
+[2019.03.18-00.04.15:097][387]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-00.04.15:124][387]LogInit: FAudioDevice initialized.
+[2019.03.18-00.04.15:186][387]LogLoad: Game class is 'ScaryMazeGameMode'
+[2019.03.18-00.04.15:192][387]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.03.17-20.04.15
+[2019.03.18-00.04.15:194][387]LogWorld: Bringing up level for play took: 0.002561
+[2019.03.18-00.04.15:229][387]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.03.18-00.04.15:398][387]PIE: Play in editor start time for /Game/UEDPIE_0_LevelOne 1.008
+[2019.03.18-00.04.15:401][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.04.16:327][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.04.21:578][748]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.18-00.04.21:672][748]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-00.05.07:250][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-00.05.08:136][352]LogRenderer: Reallocating scene render targets to support 936x484 Format 10 NumSamples 1 (Frame:3485).
+[2019.03.18-00.05.08:710][381]LogRenderer: Reallocating scene render targets to support 936x488 Format 10 NumSamples 1 (Frame:3489).
+[2019.03.18-00.05.08:771][382]LogRenderer: Reallocating scene render targets to support 936x492 Format 10 NumSamples 1 (Frame:3491).
+[2019.03.18-00.05.08:832][383]LogRenderer: Reallocating scene render targets to support 936x496 Format 10 NumSamples 1 (Frame:3493).
+[2019.03.18-00.05.08:895][384]LogRenderer: Reallocating scene render targets to support 936x500 Format 10 NumSamples 1 (Frame:3495).
+[2019.03.18-00.05.08:953][385]LogRenderer: Reallocating scene render targets to support 936x504 Format 10 NumSamples 1 (Frame:3497).
+[2019.03.18-00.05.09:014][386]LogRenderer: Reallocating scene render targets to support 936x508 Format 10 NumSamples 1 (Frame:3499).
+[2019.03.18-00.05.09:077][387]LogRenderer: Reallocating scene render targets to support 936x512 Format 10 NumSamples 1 (Frame:3501).
+[2019.03.18-00.05.15:859][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.15:867][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.15:927][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-00.05.15:928][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.15:965][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.15:993][763]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.18-00.05.16:647][802]LogTemp: Repeating last play command: Simulate
+[2019.03.18-00.05.16:659][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.16:660][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-00.05.16:660][802]PIE: New page: SIE session: LevelOne (Mar 17, 2019, 4:05:16 PM)
+[2019.03.18-00.05.16:660][802]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2019.03.18-00.05.16:664][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004232s)
+[2019.03.18-00.05.16:664][802]LogAIModule: Creating AISystem for world LevelOne
+[2019.03.18-00.05.16:665][802]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2019.03.18-00.05.16:665][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.005823s)
+[2019.03.18-00.05.16:704][802]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-00.05.16:729][802]LogInit: FAudioDevice initialized.
+[2019.03.18-00.05.16:771][802]LogLoad: Game class is 'ScaryMazeGameMode'
+[2019.03.18-00.05.16:772][802]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.03.17-20.05.16
+[2019.03.18-00.05.16:773][802]LogWorld: Bringing up level for play took: 0.001058
+[2019.03.18-00.05.16:963][802]PIE: Play in editor start time for /Game/UEDPIE_0_LevelOne 0.574
+[2019.03.18-00.05.16:967][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.17:807][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-00.05.17:871][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.23:045][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-00.05.23:162][157]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.23:163][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.23:216][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-00.05.23:216][157]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.23:254][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.23:272][158]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.03.18-00.05.24:177][212]LogTemp: Repeating last play command: Simulate
+[2019.03.18-00.05.24:190][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.24:191][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-00.05.24:191][212]PIE: New page: SIE session: LevelOne (Mar 17, 2019, 4:05:24 PM)
+[2019.03.18-00.05.24:192][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2019.03.18-00.05.24:195][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003829s)
+[2019.03.18-00.05.24:196][212]LogAIModule: Creating AISystem for world LevelOne
+[2019.03.18-00.05.24:196][212]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2019.03.18-00.05.24:196][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.005367s)
+[2019.03.18-00.05.24:234][212]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-00.05.24:258][212]LogInit: FAudioDevice initialized.
+[2019.03.18-00.05.24:304][212]LogLoad: Game class is 'ScaryMazeGameMode'
+[2019.03.18-00.05.24:305][212]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.03.17-20.05.24
+[2019.03.18-00.05.24:306][212]LogWorld: Bringing up level for play took: 0.001066
+[2019.03.18-00.05.24:495][212]PIE: Play in editor start time for /Game/UEDPIE_0_LevelOne 0.105
+[2019.03.18-00.05.24:499][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.05.25:617][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.05.39:085][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Goal_C (BP_Goal)
+[2019.03.18-00.13.05:520][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-00.13.05:603][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.13.05:607][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.13.05:658][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-00.13.05:658][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2019.03.18-00.13.05:689][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-00.13.05:706][306]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.18-00.13.06:562][355]Candidate modules for hot reload:
+[2019.03.18-00.13.06:562][355]  ScaryMaze
+[2019.03.18-00.13.06:563][355]Launching UnrealBuildTool... [C:/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ScaryMaze,5290 Win64 Development -TargetType=Editor -Project="../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/ScaryMaze.uproject" -canskiplink "C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/ScaryMaze.uproject" ]
+[2019.03.18-00.13.06:570][355]Warning: Starting HotReload took  0.0s.
+[2019.03.18-00.14.09:671][336]CompilerResultsLog: New page: Compilation - Mar 17, 2019, 4:14:09 PM
+[2019.03.18-00.14.09:697][336]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tride\Desktop\Unreal Projects\COP4331-Project).
+[2019.03.18-00.14.09:697][336]CompilerResultsLog: Creating makefile for hot reloading ScaryMazeEditor (.uproject file is newer)
+[2019.03.18-00.14.09:697][336]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.18-00.14.09:698][336]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.18-00.14.09:698][336]CompilerResultsLog: Parsing headers for ScaryMazeEditor
+[2019.03.18-00.14.09:698][336]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.18-00.14.09:698][336]CompilerResultsLog: Reflection code generated for ScaryMazeEditor in 12.6632504 seconds
+[2019.03.18-00.14.09:699][336]CompilerResultsLog: Building 12 actions with 8 processes...
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [1/12] EnemyCharacter.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [2/12] ScaryMaze.init.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [3/12] ScaryMazeBaseCharacter.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [4/12] EnemyCharacter.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [5/12] BTTask_MoveToPlayer.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [6/12] BTService_CheckForPlayer.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [7/12] EnemyAI.gen.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [8/12] EnemyAI.cpp
+[2019.03.18-00.14.09:699][336]CompilerResultsLog:   [9/12] BTTask_MoveToPlayer.cpp
+[2019.03.18-00.14.09:700][336]CompilerResultsLog:   [10/12] BTService_CheckForPlayer.cpp
+[2019.03.18-00.14.09:700][336]CompilerResultsLog:   [11/12] UE4Editor-ScaryMaze-5290.lib
+[2019.03.18-00.14.09:700][336]CompilerResultsLog:      Creating library C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-5290.lib and object C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-5290.exp
+[2019.03.18-00.14.09:700][336]CompilerResultsLog:   [12/12] UE4Editor-ScaryMaze-5290.dll
+[2019.03.18-00.14.09:700][336]CompilerResultsLog:      Creating library C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-5290.suppressed.lib and object C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-5290.suppressed.exp
+[2019.03.18-00.14.09:700][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UBTService::UBTService(class FObjectInitializer const &)" (__imp_??0UBTService@@QEAA@AEBVFObjectInitializer@@@Z) referenced in function "public: __cdecl UBTService_CheckForPlayer::UBTService_CheckForPlayer(void)" (??0UBTService_CheckForPlayer@@QEAA@XZ)
+[2019.03.18-00.14.09:700][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl UBTService::~UBTService(void)" (__imp_??1UBTService@@UEAA@XZ) referenced in function "public: virtual __cdecl UBTService_CheckForPlayer::~UBTService_CheckForPlayer(void)" (??1UBTService_CheckForPlayer@@UEAA@XZ)
+[2019.03.18-00.14.09:700][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl UBTService::~UBTService(void)" (__imp_??1UBTService@@UEAA@XZ)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UAISystem::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UAISystem@@CAPEAVUClass@@XZ) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: struct UAISystem::FBlackboardDataToComponentsIterator __cdecl UAISystem::CreateBlackboardDataToComponentsIterator(class UBlackboardData &)" (__imp_?CreateBlackboardDataToComponentsIterator@UAISystem@@QEAA?AUFBlackboardDataToComponentsIterator@1@AEAVUBlackboardData@@@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned char __cdecl UBlackboardData::GetKeyID(class FName const &)const " (__imp_?GetKeyID@UBlackboardData@@QEBAEAEBVFName@@@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: struct FBlackboardEntry const * __cdecl UBlackboardData::GetKey(unsigned char)const " (__imp_?GetKey@UBlackboardData@@QEBAPEBUFBlackboardEntry@@E@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct FBlackboardEntry const * __cdecl UBlackboardData::GetKey(unsigned char)const " (__imp_?GetKey@UBlackboardData@@QEBAPEBUFBlackboardEntry@@E@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl UBlackboardComponent::IsKeyInstanceSynced(unsigned char)const " (__imp_?IsKeyInstanceSynced@UBlackboardComponent@@QEBA_NE@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class UBlackboardData * __cdecl UBlackboardComponent::GetBlackboardAsset(void)const " (__imp_?GetBlackboardAsset@UBlackboardComponent@@QEBAPEAVUBlackboardData@@XZ) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:701][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) protected: void __cdecl UBlackboardComponent::NotifyObservers(unsigned char)const " (__imp_?NotifyObservers@UBlackboardComponent@@IEBAXE@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) protected: bool __cdecl UBlackboardComponent::ShouldSyncWithBlackboard(class UBlackboardComponent &)const " (__imp_?ShouldSyncWithBlackboard@UBlackboardComponent@@IEBA_NAEAV1@@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UBlackboardKeyType_Object::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UBlackboardKeyType_Object@@CAPEAVUClass@@XZ) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UBlackboardKeyType_Object::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UBlackboardKeyType_Object@@CAPEAVUClass@@XZ)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl UBlackboardKeyType_Object::SetValue(class UBlackboardKeyType_Object *,unsigned char *,class UObject *)" (__imp_?SetValue@UBlackboardKeyType_Object@@SA_NPEAV1@PEAEPEAVUObject@@@Z) referenced in function "public: bool __cdecl UBlackboardComponent::SetValue<class UBlackboardKeyType_Object>(unsigned char,class UObject *)" (??$SetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEAA_NEPEAVUObject@@@Z)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl AAIController::~AAIController(void)" (__imp_??1AAIController@@UEAA@XZ) referenced in function "public: virtual __cdecl AEnemyAI::~AEnemyAI(void)" (??1AEnemyAI@@UEAA@XZ)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl AAIController::~AAIController(void)" (__imp_??1AAIController@@UEAA@XZ)
+[2019.03.18-00.14.09:702][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl AAIController::~AAIController(void)" (__imp_??1AAIController@@UEAA@XZ)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl AAIController::~AAIController(void)" (__imp_??1AAIController@@UEAA@XZ)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::CleanupMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryClear::Type)const " (?CleanupMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryClear@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::CleanupMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryClear::Type)const " (?CleanupMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryClear@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::CleanupMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryClear::Type)const " (?CleanupMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryClear@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::CleanupMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryClear::Type)const " (?CleanupMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryClear@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTAuxiliaryNode::DescribeRuntimeValues(class UBehaviorTreeComponent const &,unsigned char *,enum EBTDescriptionVerbosity::Type,class TArray<class FString,class FDefaultAllocator> &)const " (?DescribeRuntimeValues@UBTAuxiliaryNode@@UEBAXAEBVUBehaviorTreeComponent@@PEAEW4Type@EBTDescriptionVerbosity@@AEAV?$TArray@VFString@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTAuxiliaryNode::DescribeRuntimeValues(class UBehaviorTreeComponent const &,unsigned char *,enum EBTDescriptionVerbosity::Type,class TArray<class FString,class FDefaultAllocator> &)const " (?DescribeRuntimeValues@UBTAuxiliaryNode@@UEBAXAEBVUBehaviorTreeComponent@@PEAEW4Type@EBTDescriptionVerbosity@@AEAV?$TArray@VFString@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:703][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl UBTNode::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@UBTNode@@UEBAEXZ)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl UBTNode::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@UBTNode@@UEBAEXZ)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl UBTNode::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@UBTNode@@UEBAEXZ)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl UBTNode::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@UBTNode@@UEBAEXZ)
+[2019.03.18-00.14.09:704][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl UBTNode::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@UBTNode@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl UBTNode::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@UBTNode@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl UBTNode::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@UBTNode@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:705][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl UBTNode::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@UBTNode@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl UBTNode::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@UBTNode@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetInstanceMemorySize(void)const " (?GetInstanceMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetInstanceMemorySize(void)const " (?GetInstanceMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetInstanceMemorySize(void)const " (?GetInstanceMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetInstanceMemorySize(void)const " (?GetInstanceMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FName __cdecl UBTService::GetNodeIconName(void)const " (?GetNodeIconName@UBTService@@MEBA?AVFName@@XZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FName __cdecl UBTService::GetNodeIconName(void)const " (?GetNodeIconName@UBTService@@MEBA?AVFName@@XZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTAuxiliaryNode::GetSpecialMemorySize(void)const " (?GetSpecialMemorySize@UBTAuxiliaryNode@@UEBAGXZ)
+[2019.03.18-00.14.09:706][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTAuxiliaryNode::GetSpecialMemorySize(void)const " (?GetSpecialMemorySize@UBTAuxiliaryNode@@UEBAGXZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UBTService::GetStaticDescription(void)const " (?GetStaticDescription@UBTService@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UBTService::GetStaticDescription(void)const " (?GetStaticDescription@UBTService@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FString __cdecl UBTService::GetStaticServiceDescription(void)const " (?GetStaticServiceDescription@UBTService@@MEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class FString __cdecl UBTService::GetStaticServiceDescription(void)const " (?GetStaticServiceDescription@UBTService@@MEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UBTNode::GetWorld(void)const " (?GetWorld@UBTNode@@UEBAPEAVUWorld@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UBTNode::GetWorld(void)const " (?GetWorld@UBTNode@@UEBAPEAVUWorld@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UBTNode::GetWorld(void)const " (?GetWorld@UBTNode@@UEBAPEAVUWorld@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UBTNode::GetWorld(void)const " (?GetWorld@UBTNode@@UEBAPEAVUWorld@@XZ)
+[2019.03.18-00.14.09:707][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeFromAsset(class UBehaviorTree &)" (?InitializeFromAsset@UBTNode@@UEAAXAEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeFromAsset(class UBehaviorTree &)" (?InitializeFromAsset@UBTNode@@UEAAXAEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryInit::Type)const " (?InitializeMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryInit@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryInit::Type)const " (?InitializeMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryInit@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryInit::Type)const " (?InitializeMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryInit@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::InitializeMemory(class UBehaviorTreeComponent &,unsigned char *,enum EBTMemoryInit::Type)const " (?InitializeMemory@UBTNode@@UEBAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTMemoryInit@@@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTAuxiliaryNode::OnBecomeRelevant(class UBehaviorTreeComponent &,unsigned char *)" (?OnBecomeRelevant@UBTAuxiliaryNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:708][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTAuxiliaryNode::OnBecomeRelevant(class UBehaviorTreeComponent &,unsigned char *)" (?OnBecomeRelevant@UBTAuxiliaryNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTAuxiliaryNode::OnCeaseRelevant(class UBehaviorTreeComponent &,unsigned char *)" (?OnCeaseRelevant@UBTAuxiliaryNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTAuxiliaryNode::OnCeaseRelevant(class UBehaviorTreeComponent &,unsigned char *)" (?OnCeaseRelevant@UBTAuxiliaryNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:709][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl IGameplayTaskOwnerInterface::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@IGameplayTaskOwnerInterface@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@UBTNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@UBTNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@UBTNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@UBTNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceCreated(class UBehaviorTreeComponent &)" (?OnInstanceCreated@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceCreated(class UBehaviorTreeComponent &)" (?OnInstanceCreated@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceCreated(class UBehaviorTreeComponent &)" (?OnInstanceCreated@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:710][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceCreated(class UBehaviorTreeComponent &)" (?OnInstanceCreated@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceDestroyed(class UBehaviorTreeComponent &)" (?OnInstanceDestroyed@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceDestroyed(class UBehaviorTreeComponent &)" (?OnInstanceDestroyed@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceDestroyed(class UBehaviorTreeComponent &)" (?OnInstanceDestroyed@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnInstanceDestroyed(class UBehaviorTreeComponent &)" (?OnInstanceDestroyed@UBTNode@@UEAAXAEAVUBehaviorTreeComponent@@@Z)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnNodeCreated(void)" (?OnNodeCreated@UBTNode@@UEAAXXZ)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnNodeCreated(void)" (?OnNodeCreated@UBTNode@@UEAAXXZ)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnNodeCreated(void)" (?OnNodeCreated@UBTNode@@UEAAXXZ)
+[2019.03.18-00.14.09:711][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::OnNodeCreated(void)" (?OnNodeCreated@UBTNode@@UEAAXXZ)
+[2019.03.18-00.14.09:712][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTService::OnSearchStart(struct FBehaviorTreeSearchData &)" (?OnSearchStart@UBTService@@MEAAXAEAUFBehaviorTreeSearchData@@@Z)
+[2019.03.18-00.14.09:712][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTService::OnSearchStart(struct FBehaviorTreeSearchData &)" (?OnSearchStart@UBTService@@MEAAXAEAUFBehaviorTreeSearchData@@@Z)
+[2019.03.18-00.14.09:713][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::SetOwner(class AActor *)" (?SetOwner@UBTNode@@UEAAXPEAVAActor@@@Z)
+[2019.03.18-00.14.09:713][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::SetOwner(class AActor *)" (?SetOwner@UBTNode@@UEAAXPEAVAActor@@@Z)
+[2019.03.18-00.14.09:713][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::SetOwner(class AActor *)" (?SetOwner@UBTNode@@UEAAXPEAVAActor@@@Z)
+[2019.03.18-00.14.09:714][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::SetOwner(class AActor *)" (?SetOwner@UBTNode@@UEAAXPEAVAActor@@@Z)
+[2019.03.18-00.14.09:714][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UBTNode::UsesBlueprint(void)const " (?UsesBlueprint@UBTNode@@UEBA_NXZ)
+[2019.03.18-00.14.09:714][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UBTNode::UsesBlueprint(void)const " (?UsesBlueprint@UBTNode@@UEBA_NXZ)
+[2019.03.18-00.14.09:714][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UBTNode::UsesBlueprint(void)const " (?UsesBlueprint@UBTNode@@UEBA_NXZ)
+[2019.03.18-00.14.09:715][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UBTNode::UsesBlueprint(void)const " (?UsesBlueprint@UBTNode@@UEBA_NXZ)
+[2019.03.18-00.14.09:715][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UBTNode::_getUObject(void)const " (?_getUObject@UBTNode@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:715][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UBTNode::_getUObject(void)const " (?_getUObject@UBTNode@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:715][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UBTNode::_getUObject(void)const " (?_getUObject@UBTNode@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UBTNode::_getUObject(void)const " (?_getUObject@UBTNode@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UBTTask_BlackboardBase::UBTTask_BlackboardBase(class FObjectInitializer const &)" (__imp_??0UBTTask_BlackboardBase@@QEAA@AEBVFObjectInitializer@@@Z) referenced in function "public: __cdecl UBTTask_MoveToPlayer::UBTTask_MoveToPlayer(class FObjectInitializer const &)" (??0UBTTask_MoveToPlayer@@QEAA@AEBVFObjectInitializer@@@Z)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl UBTTask_BlackboardBase::UBTTask_BlackboardBase(class FObjectInitializer const &)" (__imp_??0UBTTask_BlackboardBase@@QEAA@AEBVFObjectInitializer@@@Z)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl UBTTask_BlackboardBase::~UBTTask_BlackboardBase(void)" (__imp_??1UBTTask_BlackboardBase@@UEAA@XZ) referenced in function "public: virtual __cdecl UBTTask_MoveToPlayer::~UBTTask_MoveToPlayer(void)" (??1UBTTask_MoveToPlayer@@UEAA@XZ)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl UBTTask_BlackboardBase::~UBTTask_BlackboardBase(void)" (__imp_??1UBTTask_BlackboardBase@@UEAA@XZ)
+[2019.03.18-00.14.09:716][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UObject * __cdecl UBlackboardKeyType_Object::GetValue(class UBlackboardKeyType_Object const *,unsigned char const *)" (__imp_?GetValue@UBlackboardKeyType_Object@@SAPEAVUObject@@PEBV1@PEBE@Z) referenced in function "public: class UObject * __cdecl UBlackboardComponent::GetValue<class UBlackboardKeyType_Object>(unsigned char)const " (??$GetValue@VUBlackboardKeyType_Object@@@UBlackboardComponent@@QEBAPEAVUObject@@E@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: enum EPathFollowingRequestResult::Type __cdecl AAIController::MoveToActor(class AActor *,float,bool,bool,bool,class TSubclassOf<class UNavigationQueryFilter>,bool)" (__imp_?MoveToActor@AAIController@@QEAA?AW4Type@EPathFollowingRequestResult@@PEAVAActor@@M_N11V?$TSubclassOf@VUNavigationQueryFilter@@@@1@Z) referenced in function "public: virtual enum EBTNodeResult::Type __cdecl UBTTask_MoveToPlayer::ExecuteTask(class UBehaviorTreeComponent &,unsigned char *)" (?ExecuteTask@UBTTask_MoveToPlayer@@UEAA?AW4Type@EBTNodeResult@@AEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual enum EBTNodeResult::Type __cdecl UBTTaskNode::AbortTask(class UBehaviorTreeComponent &,unsigned char *)" (?AbortTask@UBTTaskNode@@MEAA?AW4Type@EBTNodeResult@@AEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual enum EBTNodeResult::Type __cdecl UBTTaskNode::AbortTask(class UBehaviorTreeComponent &,unsigned char *)" (?AbortTask@UBTTaskNode@@MEAA?AW4Type@EBTNodeResult@@AEAVUBehaviorTreeComponent@@PEAE@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::DescribeRuntimeValues(class UBehaviorTreeComponent const &,unsigned char *,enum EBTDescriptionVerbosity::Type,class TArray<class FString,class FDefaultAllocator> &)const " (?DescribeRuntimeValues@UBTNode@@UEBAXAEBVUBehaviorTreeComponent@@PEAEW4Type@EBTDescriptionVerbosity@@AEAV?$TArray@VFString@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTNode::DescribeRuntimeValues(class UBehaviorTreeComponent const &,unsigned char *,enum EBTDescriptionVerbosity::Type,class TArray<class FString,class FDefaultAllocator> &)const " (?DescribeRuntimeValues@UBTNode@@UEBAXAEBVUBehaviorTreeComponent@@PEAEW4Type@EBTDescriptionVerbosity@@AEAV?$TArray@VFString@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FName __cdecl UBTTaskNode::GetNodeIconName(void)const " (?GetNodeIconName@UBTTaskNode@@UEBA?AVFName@@XZ)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FName __cdecl UBTTaskNode::GetNodeIconName(void)const " (?GetNodeIconName@UBTTaskNode@@UEBA?AVFName@@XZ)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetSpecialMemorySize(void)const " (?GetSpecialMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:717][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned short __cdecl UBTNode::GetSpecialMemorySize(void)const " (?GetSpecialMemorySize@UBTNode@@UEBAGXZ)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UBTNode::GetStaticDescription(void)const " (?GetStaticDescription@UBTNode@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UBTNode::GetStaticDescription(void)const " (?GetStaticDescription@UBTNode@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTTask_BlackboardBase::InitializeFromAsset(class UBehaviorTree &)" (?InitializeFromAsset@UBTTask_BlackboardBase@@UEAAXAEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTTask_BlackboardBase::InitializeFromAsset(class UBehaviorTree &)" (?InitializeFromAsset@UBTTask_BlackboardBase@@UEAAXAEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTTaskNode::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@UBTTaskNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UBTTaskNode::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@UBTTaskNode@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::OnMessage(class UBehaviorTreeComponent &,unsigned char *,class FName,int,bool)" (?OnMessage@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEVFName@@H_N@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::OnMessage(class UBehaviorTreeComponent &,unsigned char *,class FName,int,bool)" (?OnMessage@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEVFName@@H_N@Z)
+[2019.03.18-00.14.09:718][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::OnTaskFinished(class UBehaviorTreeComponent &,unsigned char *,enum EBTNodeResult::Type)" (?OnTaskFinished@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTNodeResult@@@Z)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::OnTaskFinished(class UBehaviorTreeComponent &,unsigned char *,enum EBTNodeResult::Type)" (?OnTaskFinished@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEW4Type@EBTNodeResult@@@Z)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::TickTask(class UBehaviorTreeComponent &,unsigned char *,float)" (?TickTask@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEM@Z)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UBTTaskNode::TickTask(class UBehaviorTreeComponent &,unsigned char *,float)" (?TickTask@UBTTaskNode@@MEAAXAEAVUBehaviorTreeComponent@@PEAEM@Z)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class UObject * UBlackboardKeyType_Object::InvalidValue" (__imp_?InvalidValue@UBlackboardKeyType_Object@@2QEAVUObject@@EA)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual class UObject * __cdecl AAIController::_getUObject(void)const " (__imp_?_getUObject@AAIController@@UEBAPEAVUObject@@XZ) referenced in function "[thunk]:public: virtual class UObject * __cdecl AAIController::_getUObject`adjustor{136}' (void)const " (?_getUObject@AAIController@@WII@EBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual class UObject * __cdecl AAIController::_getUObject(void)const " (__imp_?_getUObject@AAIController@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl AAIController::AAIController(class FObjectInitializer const &)" (__imp_??0AAIController@@QEAA@AEBVFObjectInitializer@@@Z) referenced in function "public: __cdecl AEnemyAI::AEnemyAI(void)" (??0AEnemyAI@@QEAA@XZ)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __cdecl AAIController::Possess(class APawn *)" (__imp_?Possess@AAIController@@UEAAXPEAVAPawn@@@Z) referenced in function "public: virtual void __cdecl AEnemyAI::Possess(class APawn *)" (?Possess@AEnemyAI@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UBehaviorTreeComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UBehaviorTreeComponent@@CAPEAVUClass@@XZ) referenced in function "public: __cdecl AEnemyAI::AEnemyAI(void)" (??0AEnemyAI@@QEAA@XZ)
+[2019.03.18-00.14.09:719][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UBehaviorTreeComponent::StartTree(class UBehaviorTree &,enum EBTExecutionMode::Type)" (__imp_?StartTree@UBehaviorTreeComponent@@QEAAXAEAVUBehaviorTree@@W4Type@EBTExecutionMode@@@Z) referenced in function "public: virtual void __cdecl AEnemyAI::Possess(class APawn *)" (?Possess@AEnemyAI@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UBlackboardComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UBlackboardComponent@@CAPEAVUClass@@XZ) referenced in function "public: __cdecl AEnemyAI::AEnemyAI(void)" (??0AEnemyAI@@QEAA@XZ)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned char __cdecl UBlackboardComponent::GetKeyID(class FName const &)const " (__imp_?GetKeyID@UBlackboardComponent@@QEBAEAEBVFName@@@Z) referenced in function "public: virtual void __cdecl AEnemyAI::Possess(class APawn *)" (?Possess@AEnemyAI@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl UBlackboardComponent::InitializeBlackboard(class UBlackboardData &)" (__imp_?InitializeBlackboard@UBlackboardComponent@@QEAA_NAEAVUBlackboardData@@@Z) referenced in function "public: virtual void __cdecl AEnemyAI::Possess(class APawn *)" (?Possess@AEnemyAI@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::ActorsPerceptionUpdated(class TArray<class AActor *,class FDefaultAllocator> const &)" (?ActorsPerceptionUpdated@AAIController@@UEAAXAEBV?$TArray@PEAVAActor@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::ActorsPerceptionUpdated(class TArray<class AActor *,class FDefaultAllocator> const &)" (?ActorsPerceptionUpdated@AAIController@@UEAAXAEBV?$TArray@PEAVAActor@@VFDefaultAllocator@@@@@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::ClearFocus(unsigned char)" (?ClearFocus@AAIController@@UEAAXE@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::ClearFocus(unsigned char)" (?ClearFocus@AAIController@@UEAAXE@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::DisplayDebug(class UCanvas *,class FDebugDisplayInfo const &,float &,float &)" (?DisplayDebug@AAIController@@UEAAXPEAVUCanvas@@AEBVFDebugDisplayInfo@@AEAM2@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::DisplayDebug(class UCanvas *,class FDebugDisplayInfo const &,float &,float &)" (?DisplayDebug@AAIController@@UEAAXPEAVUCanvas@@AEBVFDebugDisplayInfo@@AEAM2@Z)
+[2019.03.18-00.14.09:720][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::FindPathForMoveRequest(struct FAIMoveRequest const &,struct FPathFindingQuery &,class TSharedPtr<struct FNavigationPath,1> &)const " (?FindPathForMoveRequest@AAIController@@UEBAXAEBUFAIMoveRequest@@AEAUFPathFindingQuery@@AEAV?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::FindPathForMoveRequest(struct FAIMoveRequest const &,struct FPathFindingQuery &,class TSharedPtr<struct FNavigationPath,1> &)const " (?FindPathForMoveRequest@AAIController@@UEBAXAEBUFAIMoveRequest@@AEAUFPathFindingQuery@@AEAV?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl AAIController::GetDebugIcon(void)const " (?GetDebugIcon@AAIController@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl AAIController::GetDebugIcon(void)const " (?GetDebugIcon@AAIController@@UEBA?AVFString@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FVector __cdecl AAIController::GetFocalPointOnActor(class AActor const *)const " (?GetFocalPointOnActor@AAIController@@UEBA?AUFVector@@PEBVAActor@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FVector __cdecl AAIController::GetFocalPointOnActor(class AActor const *)const " (?GetFocalPointOnActor@AAIController@@UEBA?AUFVector@@PEBVAActor@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl AAIController::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@AAIController@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl AAIController::GetGameplayTaskAvatar(class UGameplayTask const *)const " (?GetGameplayTaskAvatar@AAIController@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl AAIController::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@AAIController@@UEBAEXZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual unsigned char __cdecl AAIController::GetGameplayTaskDefaultPriority(void)const " (?GetGameplayTaskDefaultPriority@AAIController@@UEBAEXZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl AAIController::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@AAIController@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class AActor * __cdecl AAIController::GetGameplayTaskOwner(class UGameplayTask const *)const " (?GetGameplayTaskOwner@AAIController@@UEBAPEAVAActor@@PEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl AAIController::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@AAIController@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UGameplayTasksComponent * __cdecl AAIController::GetGameplayTasksComponent(class UGameplayTask const &)const " (?GetGameplayTasksComponent@AAIController@@UEBAPEAVUGameplayTasksComponent@@AEBVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FGenericTeamId __cdecl AAIController::GetGenericTeamId(void)const " (?GetGenericTeamId@AAIController@@UEBA?AUFGenericTeamId@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FGenericTeamId __cdecl AAIController::GetGenericTeamId(void)const " (?GetGenericTeamId@AAIController@@UEBA?AUFGenericTeamId@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class IPathFollowingAgentInterface * __cdecl AAIController::GetPathFollowingAgent(void)const " (?GetPathFollowingAgent@AAIController@@UEBAPEAVIPathFollowingAgentInterface@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class IPathFollowingAgentInterface * __cdecl AAIController::GetPathFollowingAgent(void)const " (?GetPathFollowingAgent@AAIController@@UEBAPEAVIPathFollowingAgentInterface@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UAIPerceptionComponent * __cdecl AAIController::GetPerceptionComponent(void)" (?GetPerceptionComponent@AAIController@@UEAAPEAVUAIPerceptionComponent@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UAIPerceptionComponent * __cdecl AAIController::GetPerceptionComponent(void)" (?GetPerceptionComponent@AAIController@@UEAAPEAVUAIPerceptionComponent@@XZ)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual enum ETeamAttitude::Type __cdecl IGenericTeamAgentInterface::GetTeamAttitudeTowards(class AActor const &)const " (?GetTeamAttitudeTowards@IGenericTeamAgentInterface@@UEBA?AW4Type@ETeamAttitude@@AEBVAActor@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual enum ETeamAttitude::Type __cdecl IGenericTeamAgentInterface::GetTeamAttitudeTowards(class AActor const &)const " (?GetTeamAttitudeTowards@IGenericTeamAgentInterface@@UEBA?AW4Type@ETeamAttitude@@AEBVAActor@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::GrabDebugSnapshot(struct FVisualLogEntry *)const " (?GrabDebugSnapshot@AAIController@@UEBAXPEAUFVisualLogEntry@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::GrabDebugSnapshot(struct FVisualLogEntry *)const " (?GrabDebugSnapshot@AAIController@@UEBAXPEAUFVisualLogEntry@@@Z)
+[2019.03.18-00.14.09:721][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl AAIController::InitializeBlackboard(class UBlackboardComponent &,class UBlackboardData &)" (?InitializeBlackboard@AAIController@@MEAA_NAEAVUBlackboardComponent@@AEAVUBlackboardData@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl AAIController::InitializeBlackboard(class UBlackboardComponent &,class UBlackboardData &)" (?InitializeBlackboard@AAIController@@MEAA_NAEAVUBlackboardComponent@@AEAVUBlackboardData@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::IsFollowingAPath(void)const " (?IsFollowingAPath@AAIController@@UEBA_NXZ)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::IsFollowingAPath(void)const " (?IsFollowingAPath@AAIController@@UEBA_NXZ)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::LineOfSightTo(class AActor const *,struct FVector,bool)const " (?LineOfSightTo@AAIController@@UEBA_NPEBVAActor@@UFVector@@_N@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::LineOfSightTo(class AActor const *,struct FVector,bool)const " (?LineOfSightTo@AAIController@@UEBA_NPEBVAActor@@UFVector@@_N@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FPathFollowingRequestResult __cdecl AAIController::MoveTo(struct FAIMoveRequest const &,class TSharedPtr<struct FNavigationPath,1> *)" (?MoveTo@AAIController@@UEAA?AUFPathFollowingRequestResult@@AEBUFAIMoveRequest@@PEAV?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FPathFollowingRequestResult __cdecl AAIController::MoveTo(struct FAIMoveRequest const &,class TSharedPtr<struct FNavigationPath,1> *)" (?MoveTo@AAIController@@UEAA?AUFPathFollowingRequestResult@@AEBUFAIMoveRequest@@PEAV?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskActivated(class UGameplayTask &)" (?OnGameplayTaskActivated@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:722][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskDeactivated(class UGameplayTask &)" (?OnGameplayTaskDeactivated@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskInitialized(class UGameplayTask &)" (?OnGameplayTaskInitialized@AAIController@@UEAAXAEAVUGameplayTask@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskResourcesClaimed(struct FGameplayResourceSet,struct FGameplayResourceSet)" (?OnGameplayTaskResourcesClaimed@AAIController@@UEAAXUFGameplayResourceSet@@0@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnGameplayTaskResourcesClaimed(struct FGameplayResourceSet,struct FGameplayResourceSet)" (?OnGameplayTaskResourcesClaimed@AAIController@@UEAAXUFGameplayResourceSet@@0@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnMoveCompleted(struct FAIRequestID,struct FPathFollowingResult const &)" (?OnMoveCompleted@AAIController@@UEAAXUFAIRequestID@@AEBUFPathFollowingResult@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnMoveCompleted(struct FAIRequestID,struct FPathFollowingResult const &)" (?OnMoveCompleted@AAIController@@UEAAXUFAIRequestID@@AEBUFPathFollowingResult@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnMoveCompleted(struct FAIRequestID,enum EPathFollowingResult::Type)" (?OnMoveCompleted@AAIController@@UEAAXUFAIRequestID@@W4Type@EPathFollowingResult@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::OnMoveCompleted(struct FAIRequestID,enum EPathFollowingResult::Type)" (?OnMoveCompleted@AAIController@@UEAAXUFAIRequestID@@W4Type@EPathFollowingResult@@@Z)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::PostInitializeComponents(void)" (?PostInitializeComponents@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::PostInitializeComponents(void)" (?PostInitializeComponents@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:723][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::PostRegisterAllComponents(void)" (?PostRegisterAllComponents@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::PostRegisterAllComponents(void)" (?PostRegisterAllComponents@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::PreparePathfinding(struct FAIMoveRequest const &,struct FPathFindingQuery &)" (?PreparePathfinding@AAIController@@UEAA_NAEBUFAIMoveRequest@@AEAUFPathFindingQuery@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::PreparePathfinding(struct FAIMoveRequest const &,struct FPathFindingQuery &)" (?PreparePathfinding@AAIController@@UEAA_NAEBUFAIMoveRequest@@AEAUFPathFindingQuery@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FAIRequestID __cdecl AAIController::RequestMove(struct FAIMoveRequest const &,class TSharedPtr<struct FNavigationPath,1>)" (?RequestMove@AAIController@@UEAA?AUFAIRequestID@@AEBUFAIMoveRequest@@V?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FAIRequestID __cdecl AAIController::RequestMove(struct FAIMoveRequest const &,class TSharedPtr<struct FNavigationPath,1>)" (?RequestMove@AAIController@@UEAA?AUFAIRequestID@@AEBUFAIMoveRequest@@V?$TSharedPtr@UFNavigationPath@@$00@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FAIRequestID __cdecl AAIController::RequestPathAndMove(struct FAIMoveRequest const &,struct FPathFindingQuery &)" (?RequestPathAndMove@AAIController@@UEAA?AUFAIRequestID@@AEBUFAIMoveRequest@@AEAUFPathFindingQuery@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct FAIRequestID __cdecl AAIController::RequestPathAndMove(struct FAIMoveRequest const &,struct FPathFindingQuery &)" (?RequestPathAndMove@AAIController@@UEAA?AUFAIRequestID@@AEBUFAIMoveRequest@@AEAUFPathFindingQuery@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::Reset(void)" (?Reset@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::Reset(void)" (?Reset@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::RunBehaviorTree(class UBehaviorTree *)" (?RunBehaviorTree@AAIController@@UEAA_NPEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::RunBehaviorTree(class UBehaviorTree *)" (?RunBehaviorTree@AAIController@@UEAA_NPEAVUBehaviorTree@@@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetFocalPoint(struct FVector,unsigned char)" (?SetFocalPoint@AAIController@@UEAAXUFVector@@E@Z)
+[2019.03.18-00.14.09:724][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetFocalPoint(struct FVector,unsigned char)" (?SetFocalPoint@AAIController@@UEAAXUFVector@@E@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetFocus(class AActor *,unsigned char)" (?SetFocus@AAIController@@UEAAXPEAVAActor@@E@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetFocus(class AActor *,unsigned char)" (?SetFocus@AAIController@@UEAAXPEAVAActor@@E@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetGenericTeamId(struct FGenericTeamId const &)" (?SetGenericTeamId@AAIController@@UEAAXAEBUFGenericTeamId@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetGenericTeamId(struct FGenericTeamId const &)" (?SetGenericTeamId@AAIController@@UEAAXAEBUFGenericTeamId@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetPawn(class APawn *)" (?SetPawn@AAIController@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::SetPawn(class APawn *)" (?SetPawn@AAIController@@UEAAXPEAVAPawn@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::ShouldPostponePathUpdates(void)const " (?ShouldPostponePathUpdates@AAIController@@UEBA_NXZ)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::ShouldPostponePathUpdates(void)const " (?ShouldPostponePathUpdates@AAIController@@UEBA_NXZ)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::ShouldSyncBlackboardWith(class UBlackboardComponent const &)const " (?ShouldSyncBlackboardWith@AAIController@@UEBA_NAEBVUBlackboardComponent@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl AAIController::ShouldSyncBlackboardWith(class UBlackboardComponent const &)const " (?ShouldSyncBlackboardWith@AAIController@@UEBA_NAEBVUBlackboardComponent@@@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::StopMovement(void)" (?StopMovement@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::StopMovement(void)" (?StopMovement@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::Tick(float)" (?Tick@AAIController@@UEAAXM@Z)
+[2019.03.18-00.14.09:725][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::Tick(float)" (?Tick@AAIController@@UEAAXM@Z)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::UnPossess(void)" (?UnPossess@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::UnPossess(void)" (?UnPossess@AAIController@@UEAAXXZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::UpdateControlRotation(float,bool)" (?UpdateControlRotation@AAIController@@UEAAXM_N@Z)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AAIController::UpdateControlRotation(float,bool)" (?UpdateControlRotation@AAIController@@UEAAXM_N@Z)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl AAIController::_getUObject(void)const " (?_getUObject@AAIController@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl AAIController::_getUObject(void)const " (?_getUObject@AAIController@@UEBAPEAVUObject@@XZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static wchar_t const * __cdecl UBTNode::StaticConfigName(void)" (__imp_?StaticConfigName@UBTNode@@SAPEB_WXZ) referenced in function "private: static class UClass * __cdecl UBTService_CheckForPlayer::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@UBTService_CheckForPlayer@@CAPEAVUClass@@XZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static wchar_t const * __cdecl UBTNode::StaticConfigName(void)" (__imp_?StaticConfigName@UBTNode@@SAPEB_WXZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UClass * __cdecl UBTService::StaticClass(void)" (__imp_?StaticClass@UBTService@@SAPEAVUClass@@XZ) referenced in function "private: static class UClass * __cdecl UBTService_CheckForPlayer::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@UBTService_CheckForPlayer@@CAPEAVUClass@@XZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UBTService::UBTService(class FVTableHelper &)" (__imp_??0UBTService@@QEAA@AEAVFVTableHelper@@@Z) referenced in function "public: __cdecl UBTService_CheckForPlayer::UBTService_CheckForPlayer(class FVTableHelper &)" (??0UBTService_CheckForPlayer@@QEAA@AEAVFVTableHelper@@@Z)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTService_CheckForPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UBTService(void)" (__imp_?Z_Construct_UClass_UBTService@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static class UObject * (__cdecl*const * const Z_Construct_UClass_UBTService_CheckForPlayer_Statics::DependentSingletons)(void)''(void)" (??__E?DependentSingletons@Z_Construct_UClass_UBTService_CheckForPlayer_Statics@@2QBQ6APEAVUObject@@XZB@@YAXXZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UClass * __cdecl UBTTask_BlackboardBase::StaticClass(void)" (__imp_?StaticClass@UBTTask_BlackboardBase@@SAPEAVUClass@@XZ) referenced in function "private: static class UClass * __cdecl UBTTask_MoveToPlayer::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@UBTTask_MoveToPlayer@@CAPEAVUClass@@XZ)
+[2019.03.18-00.14.09:726][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UBTTask_BlackboardBase::UBTTask_BlackboardBase(class FVTableHelper &)" (__imp_??0UBTTask_BlackboardBase@@QEAA@AEAVFVTableHelper@@@Z) referenced in function "public: __cdecl UBTTask_MoveToPlayer::UBTTask_MoveToPlayer(class FVTableHelper &)" (??0UBTTask_MoveToPlayer@@QEAA@AEAVFVTableHelper@@@Z)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   BTTask_MoveToPlayer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UBTTask_BlackboardBase(void)" (__imp_?Z_Construct_UClass_UBTTask_BlackboardBase@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static class UObject * (__cdecl*const * const Z_Construct_UClass_UBTTask_MoveToPlayer_Statics::DependentSingletons)(void)''(void)" (??__E?DependentSingletons@Z_Construct_UClass_UBTTask_MoveToPlayer_Statics@@2QBQ6APEAVUObject@@XZB@@YAXXZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UClass * __cdecl AAIController::StaticClass(void)" (__imp_?StaticClass@AAIController@@SAPEAVUClass@@XZ) referenced in function "private: static class UClass * __cdecl AEnemyAI::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@AEnemyAI@@CAPEAVUClass@@XZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl AAIController::AAIController(class FVTableHelper &)" (__imp_??0AAIController@@QEAA@AEAVFVTableHelper@@@Z) referenced in function "public: __cdecl AEnemyAI::AEnemyAI(class FVTableHelper &)" (??0AEnemyAI@@QEAA@AEAVFVTableHelper@@@Z)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_AAIController(void)" (__imp_?Z_Construct_UClass_AAIController@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static class UObject * (__cdecl*const * const Z_Construct_UClass_AEnemyAI_Statics::DependentSingletons)(void)''(void)" (??__E?DependentSingletons@Z_Construct_UClass_AEnemyAI_Statics@@2QBQ6APEAVUObject@@XZB@@YAXXZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UBehaviorTreeComponent_NoRegister(void)" (__imp_?Z_Construct_UClass_UBehaviorTreeComponent_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AEnemyAI_Statics::NewProp_BehaviorComp''(void)" (??__E?NewProp_BehaviorComp@Z_Construct_UClass_AEnemyAI_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyAI.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UBlackboardComponent_NoRegister(void)" (__imp_?Z_Construct_UClass_UBlackboardComponent_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AEnemyAI_Statics::NewProp_BlackboardComp''(void)" (??__E?NewProp_BlackboardComp@Z_Construct_UClass_AEnemyAI_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   EnemyCharacter.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UBehaviorTree_NoRegister(void)" (__imp_?Z_Construct_UClass_UBehaviorTree_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior''(void)" (??__E?NewProp_BotBehavior@Z_Construct_UClass_AEnemyCharacter_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Error:   C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Binaries\Win64\UE4Editor-ScaryMaze-5290.dll : fatal error LNK1120: 118 unresolved externals
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Binaries\Win64\UE4Editor-ScaryMaze-5290.dll
+[2019.03.18-00.14.09:727][336]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.18-00.14.09:727][336]CompilerResultsLog: Total build time: 62.49 seconds (Parallel executor: 0.00 seconds)
+[2019.03.18-00.14.09:728][336]LogMainFrame: MainFrame: Module compiling took 63.171 seconds
+[2019.03.18-00.14.09:729][336]Warning: HotReload failed, recompile failed
+[2019.03.18-00.17.22:543][997]Candidate modules for hot reload:
+[2019.03.18-00.17.22:543][997]  ScaryMaze
+[2019.03.18-00.17.22:543][997]Launching UnrealBuildTool... [C:/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ScaryMaze,2541 Win64 Development -TargetType=Editor -Project="../../../../Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/ScaryMaze.uproject" -canskiplink "C:/Users/tride/Desktop/Unreal Projects/COP4331-Project/ScaryMaze/ScaryMaze.uproject" ]
+[2019.03.18-00.17.22:547][997]Warning: Starting HotReload took  0.0s.
+[2019.03.18-00.17.27:309][284]CompilerResultsLog: New page: Compilation - Mar 17, 2019, 4:17:27 PM
+[2019.03.18-00.17.27:310][284]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tride\Desktop\Unreal Projects\COP4331-Project).
+[2019.03.18-00.17.27:310][284]CompilerResultsLog: Creating makefile for hot reloading ScaryMazeEditor (changes to module files)
+[2019.03.18-00.17.27:310][284]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.18-00.17.27:310][284]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.18-00.17.27:310][284]CompilerResultsLog: ERROR: Could not find definition for module 'ScaryMaze' (referenced via ScaryMazeEditor.Target.cs)
+[2019.03.18-00.17.27:310][284]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.18-00.17.27:311][284]LogMainFrame: MainFrame: Module compiling took 4.771 seconds
+[2019.03.18-00.17.27:311][284]Warning: HotReload failed, recompile failed

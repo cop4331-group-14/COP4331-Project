@@ -1,12 +1,25 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ScaryMazeBaseCharacter.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/InputComponent.h"
 
 // Sets default values
 AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	Health = 100.0;
+	AttackPower = 1;
+	Defense = 1;
+	IsDead = false;
+	BaseTurnRate = 45.f;
+	BaseLookUpRate = 45.f;
+	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
+	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f); // Position the camera
+	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
 }
 
@@ -31,8 +44,10 @@ void AScaryMazeBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AScaryMazeBaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AScaryMazeBaseCharacter::MoveRight);
-	//PlayerInputComponent->BindAxis("LookUp", this, &AScaryMazeBaseCharacter::LookUp);
-	//PlayerInputComponent->BindAxis("LookRight", this, &AScaryMazeBaseCharacter::LookRight);
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+//	PlayerInputComponent->BindAxis("TurnRate", this, &AScaryMazeBaseCharacter::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+//	PlayerInputComponent->BindAxis("LookUpRate", this, &AScaryMazeBaseCharacter::LookUpAtRate);
 
 }
 void AScaryMazeBaseCharacter::MoveForward(float Value)
@@ -56,6 +71,18 @@ void AScaryMazeBaseCharacter::LookRight(float Value)
 
 }
 */
+void AScaryMazeBaseCharacter::TurnAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AScaryMazeBaseCharacter::LookUpAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
 void AScaryMazeBaseCharacter::CalculateHealth(float DeltaHealth)
 {
 	Health += DeltaHealth;
