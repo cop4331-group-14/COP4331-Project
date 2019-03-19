@@ -21,7 +21,7 @@
 | 018 | 003 | The maze walls are taller than the player. | VERIFED |
 | 019 | 003 | The walls have a texture. | VERIFIED |
 | 020 | 004 | The camera is positioned from the player's point-of-view. | VERIFIED |
-| 021 | 004 | The player can look in all directions by moving the mouse. | NOT VERIFIED |
+| 021 | 004 | The player can look in all directions by moving the mouse. | VERIFIED |
 | 022 | 004 | The player can move in all cardinal directions using the keyboard. | VERIFIED |
 | 023 | 005 | The game's lighting is dim. | VERIFIED |
 | 024 | 005 | Initial visibility is limited (draw distance is limited) | NOT VERIFIED |
