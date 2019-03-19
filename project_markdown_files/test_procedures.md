@@ -56,6 +56,9 @@
 ## U006
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Open the ScaryMaze.uproject file | The project should open in unreal. |
+| 2 | In the "Content" folder in the bottom left of the editor, navigate to "Content/Assets/Lights/Matches/Blueprints". | Observe BP_Match |
+| 3 | Left click on BP_Match, hold, and drag to the viewport. | A match that gives light should be in the viewport. | 
 
 ## U007
 | Step | Action | Observation |
