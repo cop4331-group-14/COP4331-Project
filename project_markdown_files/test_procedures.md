@@ -2,6 +2,12 @@
 ## U001
 | Step | Action | Observation |
 |------|--------|-------------|
+|1|Open Unreal Engine 4| Prompts if you want to create or open a project|
+|2| Click Open a project| Prompts a window to select a Project|
+|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+|5| Click the mouse over each button located on the screen| Observe that it does what the text on the button says|
+|6| Repeat step 5 for each button|Observe that it does what the text on the button does|
 
 ## U002
 | Step | Action | Observation |
@@ -129,6 +135,12 @@
 ## U018
 | Step | Action | Observation |
 |------|--------|-------------|
+|1| Open Unreal Engine 4| Prompts if you want to create or open a project|
+|2| Click Open a project| Prompts a window to select a Project|
+|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+|5| Press "New game" on the menu|Player will spawn in a scary maze|
+|6| 
 
 ## U019
 | Step | Action | Observation |
@@ -137,10 +149,28 @@
 ## U020
 | Step | Action | Observation |
 |------|--------|-------------|
+|1| Open Unreal Engine 4| Prompts if you want to create or open a project|
+|2| Click Open a project| Prompts a window to select a Project|
+|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+|5| Press "New game" on the menu|Player will spawn in a scary maze|
+|6| Walk forward for 4 seconds| A weapon will appear|
+|7| Walk on top of the weapon | The weapon will be added to the inventory|
+|8| Repeat steps 6 and 7| Adds different kinds of weapons that appear at random|
+|9| Hover the mouse over the weapon in the inventory| Shows the percentage of attack strength that will be increased|
 
 ## U021
 | Step | Action | Observation |
 |------|--------|-------------|
+|1| Open Unreal Engine 4| Prompts if you want to create or open a project|
+|2| Click Open a project| Prompts a window to select a Project|
+|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+|5| Press "New game" on the menu|Player will spawn in a scary maze|
+|6| Walk forward for 6 seconds| A type of armor will appear|
+|7| Walk on top of the armor | The armor will be added to the inventory|
+|8| Repeat steps 6 and 7| Adds different kinds of armors that appear at random|
+|9| Hover the mouse over the weapon in the inventory| Shows the percentage of defense strength that will be increased|
 
 ## U022
 | Step | Action | Observation |
