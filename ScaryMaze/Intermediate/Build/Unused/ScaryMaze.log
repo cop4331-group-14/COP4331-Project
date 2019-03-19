@@ -1,12 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331 Project).
-  Creating makefile for hot reloading ScaryMazeEditor (source directory changed)
-  Compiling game modules for hot reload
+  Creating makefile for ScaryMazeEditor (no existing makefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] ScaryMazeGameMode.cpp
-    [2/3] UE4Editor-ScaryMaze-6795.lib
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-6795.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-6795.exp
-    [3/3] UE4Editor-ScaryMaze-6795.dll
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-6795.suppressed.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze-6795.suppressed.exp
+  Target is up to date
   Deploying ScaryMazeEditor Win64 Development...
-  Total build time: 274.78 seconds (Parallel executor: 263.58 seconds)
+  Total build time: 31.02 seconds (NoActionsToExecute executor: 0.00 seconds)

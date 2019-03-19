@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ScaryMaze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0885782E-C063-4811-B601-9DCE08CBCC17}</UniqueIdentifier>
+      <UniqueIdentifier>{9C5FB6DB-41C2-4289-8153-8865B00DCF00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ScaryMaze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E94396BA-5384-43B9-8055-AAB5EBAFF9F6}</UniqueIdentifier>
+      <UniqueIdentifier>{B365CF07-717E-4CEB-BBB1-BF0819CC9B81}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ScaryMaze">
-      <UniqueIdentifier>{A2906957-D01D-4405-BF7D-45849D777341}</UniqueIdentifier>
+      <UniqueIdentifier>{EAF45548-E3A8-4A16-AF78-3B2E3B84262A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.cpp">
       <Filter>Source\ScaryMaze</Filter>
@@ -119,21 +119,17 @@
     <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeProjectile.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ScaryMaze\Wall.cpp">
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ScaryMaze\Wall.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.h">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.cpp">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
