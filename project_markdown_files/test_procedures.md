@@ -146,7 +146,12 @@
 |3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
 |4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
 |5| Press "New game" on the menu|Player will spawn in a scary maze|
-|6| 
+|6| Walk forward for 4 seconds| A weapon will appear|
+|7| Walk on top of the weapon | The weapon will be added to the inventory|
+|8| Click a weapon in the inventory located at the top right.| Adds clicked weapon to the player|
+|9| Procced to find a monster| Monster will want to battle|
+|10| kill the monster| The enemy will drop a gold nugget
+|11| Hover over the gold nugget| The count of nuggets will go up in the inventory located at the top right corner| 
 
 ## U019
 | Step | Action | Observation |
