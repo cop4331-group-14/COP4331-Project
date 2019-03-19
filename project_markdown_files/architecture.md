@@ -1,5 +1,7 @@
 # Program Organization
 
+## [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/systemarchitecture.pdf)
+
 ## Naming Conventions
 * Naming conventions follow Epic Games [Coding Standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard)
 
@@ -16,9 +18,10 @@
 
 * inventory: contains limited items
 
-* [Enemy Character Class Diagram](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.pdf)
+## Class Diagrams
+* [Enemy Character](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.pdf)
 
-* [Maze Class Diagram](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.pdf)
+* [Maze](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.pdf)
 
 ## Data Design
 
