@@ -16,7 +16,7 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	HUDClass = AScaryMazeHUD::StaticClass();
 
 	// Assign the Maze blueprint to ScaryMaze
-	static ConstructorHelpers::FObjectFinder<UClass> BP_Maze(TEXT("Blueprint'/Game/FirstPersonCPP/Blueprints/BP_Maze.BP_Maze_C'"));
+	static ConstructorHelpers::FObjectFinder<UClass> BP_Maze(TEXT("Blueprint'/Game/Blueprints/BP_Maze.BP_Maze_C'"));
 	CurrentMaze = (BP_Maze.Object != nullptr) ? BP_Maze.Object : AMaze::StaticClass();
 }
 

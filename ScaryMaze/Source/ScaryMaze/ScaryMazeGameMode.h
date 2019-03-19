@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Maze.h"
+#include "Wall.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
 

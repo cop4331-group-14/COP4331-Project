@@ -13,9 +13,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SCARYMAZE_ScaryMazeGameMode_generated_h
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_RPC_WRAPPERS
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnScaryMaze) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnScaryMaze(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnScaryMaze) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnScaryMaze(); \
+		P_NATIVE_END; \
+	}
+
+
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAScaryMazeGameMode(); \
 	friend struct Z_Construct_UClass_AScaryMazeGameMode_Statics; \
@@ -24,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_INCLASS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAScaryMazeGameMode(); \
 	friend struct Z_Construct_UClass_AScaryMazeGameMode_Statics; \
@@ -33,7 +53,7 @@ public: \
 	DECLARE_SERIALIZER(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	SCARYMAZE_API AScaryMazeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AScaryMazeGameMode) \
@@ -46,7 +66,7 @@ private: \
 public:
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	SCARYMAZE_API AScaryMazeGameMode(AScaryMazeGameMode&&); \
@@ -57,26 +77,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AScaryMazeGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_9_PROLOG
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_GENERATED_BODY_LEGACY \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CurrentMaze() { return STRUCT_OFFSET(AScaryMazeGameMode, CurrentMaze); } \
+	FORCEINLINE static uint32 __PPO__ScaryMaze() { return STRUCT_OFFSET(AScaryMazeGameMode, ScaryMaze); } \
+	FORCEINLINE static uint32 __PPO__ScaryMazePath() { return STRUCT_OFFSET(AScaryMazeGameMode, ScaryMazePath); }
+
+
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_11_PROLOG
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_RPC_WRAPPERS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_INCLASS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_STANDARD_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_RPC_WRAPPERS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_INCLASS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_GENERATED_BODY \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_INCLASS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
