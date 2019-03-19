@@ -15,9 +15,3 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	// use our custom HUD class
 	HUDClass = AScaryMazeHUD::StaticClass();
 }
-
-void AScaryMazeGameMode::BeginPlay()
-{
-	Super::BeginPlay();
-
-}
