@@ -5,8 +5,8 @@
 | 002 | ~As a player, I want to begin a new game when I select 'New Game' so that I can start playing.~ | 2 | 2 | When 'New Game' is selected, the game begins at the first level. | Pranav |
 | 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | Luis/James |
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | Pranav |
-| 009 | As a player, I want the maze to have enemy monsters to increase the difficulty of completing the maze. | 8 | 5 | When navigating the maze, the maze contains monsters. | Sherry |
-| 010 | As a player, I want the monsters to have health, attack, and defense statistics to make fighting them challenging. | 3 | 5 | When a monster exists, it has the appropriate statistics. | Sherry |
+| 009 | ~As a player, I want the maze to have enemy monsters to increase the difficulty of completing the maze.~ | 8 | 5 | When navigating the maze, the maze contains monsters. | Sherry |
+| 010 | ~As a player, I want the monsters to have health, attack, and defense statistics to make fighting them challenging.~ | 3 | 5 | When a monster exists, it has the appropriate statistics. | Sherry |
 | 015 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. | Sherry |
 | 017 | ~As a player, I want the mazes to be generated randomly, to increase the uniqueness of levels.~ | 6 | 6 | When a maze is created for a level, it is generated randomly. | James |
 | 018 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they find lootable containers with rewards. | Luis/James |
