@@ -14,6 +14,7 @@ AEnemyAI::AEnemyAI()
 	BehaviorComp = CreateDefaultSubobject<UBehaviorTreeComponent>(TEXT("BehaviorComp"));
 }
 
+// Override the possess function to allow the movement of the pawn
 void AEnemyAI::Possess(APawn *InPawn)
 {
 	Super::Possess(InPawn);

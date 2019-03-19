@@ -9,7 +9,7 @@
 #include "EnemyCharacter.h"
 #include "ScaryMazeBaseCharacter.h"
 
-
+// Allows the pawn to move towards the player
 EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 	AEnemyAI *CharPC = Cast<AEnemyAI>(OwnerComp.GetAIOwner());
