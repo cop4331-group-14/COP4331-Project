@@ -140,7 +140,10 @@
 ## U017
 | Step | Action | Observation |
 |------|--------|-------------|
-
+| 1 | Follow the test procedure U003. | A maze should be observed. |
+| 2 | Stop the simulation by pressing 'Esc' | The game should stop. |
+| 3 | Follow Test procedure U003 again. | Observe a different maze appears. |
+| 4 | Stop simulation and repeat as needed. | A different random maze should be observed each time. |
 ## U018
 | Step | Action | Observation |
 |------|--------|-------------|
