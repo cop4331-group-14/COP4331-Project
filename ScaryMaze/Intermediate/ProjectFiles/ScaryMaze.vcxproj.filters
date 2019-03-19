@@ -126,4 +126,20 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ScaryMaze\LightItem.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\Match.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\Match.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
