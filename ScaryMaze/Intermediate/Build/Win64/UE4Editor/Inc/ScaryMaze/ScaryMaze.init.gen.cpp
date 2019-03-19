@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeScaryMaze_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ScaryMaze",
 				PKG_CompiledIn | 0x00000000,
-				0x2F0A70C9,
-				0x5EA42A4D,
+				0x2E8AD53F,
+				0x74C75217,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

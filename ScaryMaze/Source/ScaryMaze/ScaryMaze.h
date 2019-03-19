@@ -5,4 +5,5 @@
 #include "CoreMinimal.h"
 #include "EngineGlobals.h"
 #include "Engine.h"
-
+#include "ScaryMazeSaveGame.h"
+#include "Kismet/GameplayStatics.h"
