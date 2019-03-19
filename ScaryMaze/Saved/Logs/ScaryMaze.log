@@ -601,3 +601,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.19-01.30.56:284][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.03.19-01.30.56:499][139]LogRenderer: Reallocating scene render targets to support 724x356 Format 10 NumSamples 1 (Frame:4079).
 [2019.03.19-01.30.56:615][140]LogRenderer: Reallocating scene render targets to support 732x360 Format 10 NumSamples 1 (Frame:4082).
+[2019.03.19-01.39.12:372][298]LogSlate: Took 0.053482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.19-01.44.35:438][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-01.45.32:088][ 33]LogSlate: Took 0.094422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.19-01.45.52:102][153]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2019.03.19-01.45.54:704][153]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.03.19-01.46.00:757][153]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.03.19-01.46.01:986][153]LogRenderer: Reallocating scene render targets to support 808x464 Format 10 NumSamples 1 (Frame:1).
+[2019.03.19-01.46.05:051][276]LogSlate: Took 0.024894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.19-01.46.11:539][590]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.19-01.46.31:689][582]BlueprintLog: New page: Compile BP_Maze
+[2019.03.19-01.46.34:254][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Maze" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Content/Blueprints/BP_Maze.uasset" SILENT=true
+[2019.03.19-01.46.34:429][649]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Saved/BP_Maze23237F824080F8F26FB370BA5E252C37.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331 Project/ScaryMaze/Content/Blueprints/BP_Maze.uasset'
+[2019.03.19-01.46.35:958][715]LogSlate: Window 'BP_Maze' being destroyed
+[2019.03.19-01.46.35:968][715]LogSlate: Window 'BP_Maze' being destroyed
