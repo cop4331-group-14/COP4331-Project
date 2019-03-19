@@ -28,3 +28,19 @@
 | 025 | 007 | Player has health statistic. | VERIFIED |
 | 026 | 007 | Player has attack statistic. | VERIFIED |
 | 027 | 007 | Player has defense statistic. | VERIFIED |
+| 028 | 006 | There is at least one item that can be equipped that increases visibility. | NOT VERIFIED |
+| 029 | 008 | The statistic for the player's health will display on the screen. | NOT VERIFIED |
+| 030 | 008 | The statistic for the player's attack will display on the screen. | NOT VERIFIED |
+| 031 | 008 | The statistic for the player's defense will display on the screen. | NOT VERIFIED |
+| 032 | 009 | There will be characters that are considered enemies besides the player who are within the maze. | VERIFIED |
+| 033 | 010 | Enemies have health statistic. | VERIFIED |
+| 034 | 010 | Enemies have attack statistic. | VERIFIED |
+| 035 | 010 | Enemies have defense statistic. | VERIFIED |
+| 036 | 015 | Enemies recognize a player within 5 Unreal Units of them. | VERIFIED |
+| 037 | 015 | Enemies try to attack the player when within 1 Unreal Units of them. | NOT VERIFIED |
+| 038 | 017 | Every maze that is generated will be random in arrangement. | VERIFIED |
+| 039 | 018 | The player will recieve "Gold" based on their progress. | NOT VERIFIED |
+| 040 | 020 | The player will recieve weapons which will increase their attack power. | NOT VERIFIED |
+| 041 | 021 | The player will recieve armor which will increase their defense. | NOT VERIFIED |
+| 042 | 026 | The game state will be able to be saved to preserve progress. | NOT VERIFIED |
+| 043 | 027 | The game state will be able to be loaded to continue progress. | NOT VERIFIED |
