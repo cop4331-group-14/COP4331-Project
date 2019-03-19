@@ -20,6 +20,9 @@ public:
 	class UCameraComponent* FirstPersonCameraComponent;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
+	float MaxHealth;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	float Health;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
@@ -39,10 +42,13 @@ public:
 
 
 	virtual void CalculateDead();
+
+	virtual void ValidateHealth();
 	
 	virtual void ValidateAttackPower();
 
 	virtual void ValidateDefense();
+
 
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 		virtual void CalculateHealth(float DeltaHealth);

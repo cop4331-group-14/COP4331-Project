@@ -11,6 +11,7 @@ AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	// Stats of the character
+	MaxHealth = 100.0;
 	Health = 100.0;
 	AttackPower = 1;
 	Defense = 1;
@@ -80,7 +81,7 @@ void AScaryMazeBaseCharacter::LookUpAtRate(float Rate)
 void AScaryMazeBaseCharacter::CalculateHealth(float DeltaHealth)
 {
 	Health += DeltaHealth;
-	CalculateDead();
+	ValidateHealth();
 }
 
 // Function to change the characters attack power, and check if it is valid
@@ -107,6 +108,18 @@ void AScaryMazeBaseCharacter::CalculateDead()
 	else
 	{
 		IsDead = false;
+	}
+}
+
+void AScaryMazeBaseCharacter::ValidateHealth()
+{
+	if (Health > MaxHealth)
+	{
+		Health = MaxHealth;
+	}
+	else
+	{
+		CalculateDead();
 	}
 }
 
