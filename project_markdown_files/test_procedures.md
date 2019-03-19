@@ -23,6 +23,12 @@
 ## U003
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Open the ScaryMaze.uproject file | The unreal project file should open in Unreal.|
+| 2 | Next to the "Play" button, click the drop-down and choose "Simulate". | The game should load and the menu shows.|
+| 3 | Click "New Game" button | The menu should disappear. |
+| 4 | In the viewport, right click with the mouse, hold, and pull back to look down. | The camera should look down in third person. |
+| 5 | In the viewport, hold the right mouse button and hold 's' to move the camera backwards/up. | The camera moves backward relative to the view and up relative to the world. |
+| 6 | Stop moving the camera when the maze comes into view. | A maze should be observed. |
 
 ## U004
 | Step | Action | Observation |
@@ -123,11 +129,6 @@
 ## U015
 | Step | Action | Observation |
 |------|--------|-------------|
-| 1 | Add a new enemy character (Refer to U009) | There should be a new enemy character in the world |
-| 2 | Approach the enemy character | The enemey character should recognize you are near it |
-| 3 | Stay still and allow the enemy character to get close to you | The enemy character should be getting closer to you |
-| 4 | Allow the enemy character to attempt to attack you | Your health on the HUD should be decreasing with consecutive hits from the enemy character |
-| 5 | Repeat step 4 until the player has lost all their health | The death screen should appear | 
 
 ## U016
 | Step | Action | Observation |
