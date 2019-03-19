@@ -10,12 +10,16 @@ AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	// Stats of the character
+	MaxHealth = 100.0;
 	Health = 100.0;
 	AttackPower = 1;
 	Defense = 1;
 	IsDead = false;
+	// Turn speed of character
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
+	// Create camera for the character (1st-person view)
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f); // Position the camera
@@ -42,14 +46,14 @@ void AScaryMazeBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// Binds functions to movement of character and camera
 	PlayerInputComponent->BindAxis("MoveForward", this, &AScaryMazeBaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AScaryMazeBaseCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-//	PlayerInputComponent->BindAxis("TurnRate", this, &AScaryMazeBaseCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-//	PlayerInputComponent->BindAxis("LookUpRate", this, &AScaryMazeBaseCharacter::LookUpAtRate);
 
 }
+
 void AScaryMazeBaseCharacter::MoveForward(float Value)
 {
 	AddMovementInput(GetActorForwardVector(), Value);
@@ -60,17 +64,7 @@ void AScaryMazeBaseCharacter::MoveRight(float Value)
 	AddMovementInput(GetActorRightVector(), Value);
 
 }
-/*
-void AScaryMazeBaseCharacter::LookUp(float Value)
-{
-	MouseInput.X += Value;
-}
 
-void AScaryMazeBaseCharacter::LookRight(float Value)
-{
-
-}
-*/
 void AScaryMazeBaseCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
@@ -83,24 +77,28 @@ void AScaryMazeBaseCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+// Function to change the characters health, and check if character is still alive
 void AScaryMazeBaseCharacter::CalculateHealth(float DeltaHealth)
 {
 	Health += DeltaHealth;
-	CalculateDead();
+	ValidateHealth();
 }
 
+// Function to change the characters attack power, and check if it is valid
 void AScaryMazeBaseCharacter::CalculateAttackPower(float DeltaAttackPower)
 {
 	AttackPower += DeltaAttackPower;
 	ValidateAttackPower();
 }
 
+// Function to change the characters defense, and check if it is valid
 void AScaryMazeBaseCharacter::CalculateDefense(float DeltaDefense)
 {
 	Defense += DeltaDefense;
 	ValidateDefense();
 }
 
+// Function to check if the character is still alive
 void AScaryMazeBaseCharacter::CalculateDead()
 {
 	if (Health <= 0.0)
@@ -110,6 +108,18 @@ void AScaryMazeBaseCharacter::CalculateDead()
 	else
 	{
 		IsDead = false;
+	}
+}
+
+void AScaryMazeBaseCharacter::ValidateHealth()
+{
+	if (Health > MaxHealth)
+	{
+		Health = MaxHealth;
+	}
+	else
+	{
+		CalculateDead();
 	}
 }
 
@@ -129,6 +139,7 @@ void AScaryMazeBaseCharacter::ValidateDefense()
 	}
 }
 
+// Allows editing within the Unreal Editor
 #if WITH_EDITOR
 
 void AScaryMazeBaseCharacter::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)

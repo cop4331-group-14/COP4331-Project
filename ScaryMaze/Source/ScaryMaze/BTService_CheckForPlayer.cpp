@@ -15,6 +15,7 @@ UBTService_CheckForPlayer::UBTService_CheckForPlayer()
 	bCreateNodeInstance = true;
 }
 
+// Function to check if player exists
 void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
 {
 	AEnemyAI *EnemyPC = Cast<AEnemyAI>(OwnerComp.GetAIOwner());
