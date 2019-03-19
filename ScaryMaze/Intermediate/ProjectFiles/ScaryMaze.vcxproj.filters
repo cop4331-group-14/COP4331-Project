@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ScaryMaze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E2A91D10-16F8-4B78-8898-E200836E0300}</UniqueIdentifier>
+      <UniqueIdentifier>{9C5FB6DB-41C2-4289-8153-8865B00DCF00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ScaryMaze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{54B66461-9C64-4B99-831E-5C17BC1975C2}</UniqueIdentifier>
+      <UniqueIdentifier>{B365CF07-717E-4CEB-BBB1-BF0819CC9B81}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,32 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ScaryMaze">
-      <UniqueIdentifier>{C310B1CF-0301-4B5F-ADC7-FECF27B653E7}</UniqueIdentifier>
+      <UniqueIdentifier>{EAF45548-E3A8-4A16-AF78-3B2E3B84262A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\BTTask_MoveToPlayer.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\BTTask_MoveToPlayer.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\EnemyAI.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\EnemyAI.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\EnemyCharacter.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\EnemyCharacter.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ScaryMaze\Goal.cpp">
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
@@ -93,6 +117,12 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeProjectile.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeSaveGame.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ScaryMaze\Wall.cpp">

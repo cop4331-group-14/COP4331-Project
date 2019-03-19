@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Maze.h"
+#include "Wall.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
 
@@ -13,6 +15,26 @@ class AScaryMazeGameMode : public AGameModeBase
 
 public:
 	AScaryMazeGameMode();
+
+protected:
+	virtual void BeginPlay() override;
+
+private:
+	// Used to spawn maze object.
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AMaze> CurrentMaze;
+
+	// Stores reference to spawned maze.
+	UPROPERTY()
+		AMaze* ScaryMaze;
+
+	// Stores array of path through the maze.
+	UPROPERTY()
+		TArray<AWall*> ScaryMazePath;
+
+	// Spawns the maze.
+	UFUNCTION()
+		void SpawnScaryMaze();
 };
 
 

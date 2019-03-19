@@ -133,7 +133,7 @@ class AWall;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TArray<int32>*)Z_Param__Result=P_THIS->GetMazePath(); \
+		*(TArray<AWall*>*)Z_Param__Result=P_THIS->GetMazePath(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -278,7 +278,7 @@ class AWall;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TArray<int32>*)Z_Param__Result=P_THIS->GetMazePath(); \
+		*(TArray<AWall*>*)Z_Param__Result=P_THIS->GetMazePath(); \
 		P_NATIVE_END; \
 	} \
  \

@@ -44,7 +44,7 @@ public:
 
 	// Returns the MazePath array.
 	UFUNCTION()
-		TArray<int> GetMazePath();
+		TArray<AWall*> GetMazePath();
 
 	// This function is turned off.
 	virtual void Tick(float DeltaTime) override;
@@ -73,8 +73,8 @@ private:
 	// The array that contains the indices of areas that have been visited and are thus the 'path' of the maze.
 	// They are in the order that the maze was constructed, beginning from MazeStart, but does not finish at
 	// MazeGoal.
-	UPROPERTY()
-		TArray<int> MazePath;
+	UPROPERTY(EditAnywhere)
+		TArray<AWall*> MazePath;
 
 	// The index where the player start in the MazeWalls array.
 	int StartIndex;
