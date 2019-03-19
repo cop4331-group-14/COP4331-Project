@@ -205,7 +205,20 @@
 ## U026
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Screenshot the player screen and save it as saved.png on your desktop | Verify that there is a file called saved.png on your desktop |
+| 3 | Return to the player screen in Unreal Engine and press the Escape key on the keyboard to open the menu | The Main Menu opens up on the screen |
+| 4 | Press the Save Game button in the Main Menu | The text "Game Saved" will appear on the screen |
+| 5 | Verify that a save game file has been created by navigating to the game file directory (e.g .../Unreal Projects/COP4331-Project/ScaryMaze) | Observe a file called savefile exists in the directory |
 
 ## U027
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U026 | Verify that the file savefile exists in the game file directory |
+| 2 | Close the Unreal Engine editor | Verify Unreal Engine is closed |
+| 3 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 4 | Press the Escape key on the keyboard to open the menu | The Main Menu opens up on the screen |
+| 5 | Press the Load Game button in the Main Menu | The Main Menu disappears and is replaced by walls surrounding the player and an open sky above the player |
+| 6 | Screenshot the player screen and save it as loaded.png on your desktop | Verify that there is a file called loaded.png on your desktop |
+| 7 | Close the Unreal Engine editor | Verify Unreal Engine is closed |
+| 8 | Navigate to your desktop and open files saved.png and loaded.png | Verify that both images display the same maze and the same player stats |
