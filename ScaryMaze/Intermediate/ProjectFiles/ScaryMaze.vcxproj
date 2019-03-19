@@ -521,8 +521,6 @@
     <ClInclude Include="..\..\Source\ScaryMaze\Ground.h"/>
     <ClCompile Include="..\..\Source\ScaryMaze\Maze.cpp"/>
     <ClInclude Include="..\..\Source\ScaryMaze\Maze.h"/>
-    <ClCompile Include="..\..\Source\ScaryMaze\MazeWall.cpp"/>
-    <ClInclude Include="..\..\Source\ScaryMaze\MazeWall.h"/>
     <None Include="..\..\Source\ScaryMaze\ScaryMaze.Build.cs"/>
     <ClCompile Include="..\..\Source\ScaryMaze\ScaryMaze.cpp"/>
     <ClInclude Include="..\..\Source\ScaryMaze\ScaryMaze.h"/>
