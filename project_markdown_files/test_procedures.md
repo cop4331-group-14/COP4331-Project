@@ -6,6 +6,13 @@
 ## U002
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Open the ScaryMaze.uproject file with Unreal Engine | Unreal Engine editor launches to the ScaryMaze project |
+| 2 | Open the Content folder in the Content Browser by expanding the Sources Panel with the button at the top left of the Content Browser below the Add New button and clicking Content in the Sources Panel | The files in the Content folder are displayed in the Content Browser to the right of the Sources Panel |
+| 3 | Double click on the LevelOne level file in the Content folder in the Content Browser | An empty sky displays in the Viewport Display at the center of the Unreal Engine Editor |
+| 4 | Click the Play button above the Viewport Display | The Main Menu appears on the screen and the background is darkened |
+| 5 | Click the New Game button in the Main Menu | The Main Menu disappears and is replaced by walls surrounding the player and an open sky above the player |
+| 6 | Verify that the player is able to look around by moving the mouse | When the mouse is moved in a certain direction, the view of the player also moves in that direction |
+| 7 | Verify that the player is able to move around by pressing W, A, S, and D (corresponding to forward, left, backward, and right, respectively) | Pressing W, A, S, or D causes the player camera to move in the corresponding direction |
 
 ## U003
 | Step | Action | Observation |
@@ -31,6 +38,8 @@
 ## U005
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Verify that the maze map is dark by looking around with mouse movements left and right | Observe that some maze walls are visible and lit, while other walls and corners are dark and unable to be seen, as they are obscured by shadows |
 
 ## U006
 | Step | Action | Observation |
@@ -55,6 +64,10 @@
 ## U008
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Verify that the health is shown in the HUD to be the default value (100) | The text at the bottom right corner of the screen displays "Health: 100" |
+| 3 | Verify that the defense is shown in the HUD to be the default value (1) | The text at the bottom right of the screen above the health value is "Defense: 1" |
+| 4 | Verify that the attack is shown in the HUD to be the default value (1) | The text at the bottom right of the screen above the attack value is "Attack: 1" |
 
 ## U009
 | Step | Action | Observation |
