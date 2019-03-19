@@ -123,6 +123,11 @@
 ## U015
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Add a new enemy character (Refer to U009) | There should be a new enemy character in the world |
+| 2 | Approach the enemy character | The enemey character should recognize you are near it |
+| 3 | Stay still and allow the enemy character to get close to you | The enemy character should be getting closer to you |
+| 4 | Allow the enemy character to attempt to attack you | Your health on the HUD should be decreasing with consecutive hits from the enemy character |
+| 5 | Repeat step 4 until the player has lost all their health | The death screen should appear | 
 
 ## U016
 | Step | Action | Observation |
