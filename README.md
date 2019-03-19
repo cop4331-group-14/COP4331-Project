@@ -30,7 +30,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
 * [Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
 * [Test Procedures](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/test_procedures.md)
-* Product Demonstration
+* [Product Demonstration (No sound, explanation in description of video)](https://youtu.be/B59kJfLTIBo)
 
 # Sprint 3
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/product_backlog.md)
