@@ -1,7 +1,4 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331 Project).
-  Creating makefile for ScaryMazeEditor (ini files are newer than UBTMakefile)
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\COP4331-Project).
   Target is up to date
   Deploying ScaryMazeEditor Win64 Development...
-  Total build time: 158.60 seconds (NoActionsToExecute executor: 0.01 seconds)
+  Total build time: 1.39 seconds (NoActionsToExecute executor: 0.00 seconds)

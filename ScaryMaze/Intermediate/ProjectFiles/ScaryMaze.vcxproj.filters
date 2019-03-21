@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ScaryMaze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6A500611-9767-441B-ABE7-C826DE53B305}</UniqueIdentifier>
+      <UniqueIdentifier>{B8F1853C-3C5F-4A61-8484-A84A2C371689}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ScaryMaze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E83C5623-E44A-441F-8A67-DB24928AF593}</UniqueIdentifier>
+      <UniqueIdentifier>{9E660A2B-34F0-465B-8418-9B3F79D7E3B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ScaryMaze">
-      <UniqueIdentifier>{8ECA7221-6BE5-416D-9EE6-22E7FE8BAD98}</UniqueIdentifier>
+      <UniqueIdentifier>{401B2E1D-92EC-444B-BEF2-D1335ECC7338}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.cpp">
       <Filter>Source\ScaryMaze</Filter>
@@ -66,6 +66,18 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ScaryMaze\Ground.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\LightItem.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\Match.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\Match.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ScaryMaze\Maze.cpp">
@@ -125,21 +137,5 @@
     <ClInclude Include="..\..\Source\ScaryMaze\Wall.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ScaryMaze\LightItem.h">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ScaryMaze\Match.h">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ScaryMaze\Match.cpp">
-      <Filter>Source\ScaryMaze</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
