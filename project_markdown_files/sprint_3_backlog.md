@@ -2,12 +2,12 @@
 | ID | User Story | Effort | Priority | Validation Criteria | Owner |
 |----|------------|--------|----------|---------------------|-------|
 | 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | James |
-| 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. |  |
+| 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | Pranav |
 | 011 | As a player, I want my health to lower based on damage from enemies so there is a consequence for playing poorly. | 5 | 6 | When damaged, the health statistic lowers appropriately. |  |
 | 012 | As a player, I want my character to die when health reaches zero, in order to make gameplay challenging. | 2 | 5 | When the player's health reaches zero, they die and are presented with 'Load Game' menu. If no game save exists, they are presented with 'New Game'. |  |
 | 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When an item is used that replenishes health, the health statistic increases appropriately. |  | 
 | 014 | As a player, I want to be able to equip items to assist me in completing the game. | 8 | 6 | When a player finds an equippable item and chooses to equip it, it equips and adjusts game state appropriately. |  |
-| 015 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. |  |
+| 015 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. | Sherry |
 | 016 | As a player, I want to be able to control game options to alter the game settings and customize my experience. | 3 | 10 | When the player adjusts settings in the 'Options' portion of the menu, the appropriate settings are adjusted. |  |
 | 018 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they find lootable containers with rewards. |  |
 | 019 | As a player, I want to be able to fight the enemy monsters in order to increase the challenge. | 9 | 8 | When a player encounters monsters, they can attack and defend against them. |  |
