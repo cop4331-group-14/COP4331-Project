@@ -17,18 +17,44 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	SCARYMAZE_API UClass* Z_Construct_UClass_AScaryMazeGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_ScaryMaze();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	SCARYMAZE_API UClass* Z_Construct_UClass_AMatch_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_AWall_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_AMaze_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	void AScaryMazeGameMode::StaticRegisterNativesAScaryMazeGameMode()
 	{
 		UClass* Class = AScaryMazeGameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "SpawnMatches", &AScaryMazeGameMode::execSpawnMatches },
 			{ "SpawnScaryMaze", &AScaryMazeGameMode::execSpawnScaryMaze },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+		{ "ToolTip", "Function to spawn the matches in the maze." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnMatches", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze_Statics
 	{
@@ -65,6 +91,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Match_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Match;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScaryMazePath_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ScaryMazePath;
@@ -86,6 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ScaryMaze,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AScaryMazeGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatches, "SpawnMatches" }, // 836005952
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze, "SpawnScaryMaze" }, // 1610296266
 	};
 #if WITH_METADATA
@@ -96,6 +127,14 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Match_MetaData[] = {
+		{ "Category", "ScaryMazeGameMode" },
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+		{ "ToolTip", "Used to spawn matches." },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Match = { UE4CodeGen_Private::EPropertyClass::Class, "Match", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, Match), Z_Construct_UClass_AMatch_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Match_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Match_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_ScaryMazePath_MetaData[] = {
 		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
@@ -120,6 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze = { UE4CodeGen_Private::EPropertyClass::Class, "CurrentMaze", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, CurrentMaze), Z_Construct_UClass_AMaze_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AScaryMazeGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Match,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_ScaryMazePath,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_ScaryMazePath_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_ScaryMaze,
@@ -148,7 +188,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeGameMode, 2122228363);
+	IMPLEMENT_CLASS(AScaryMazeGameMode, 3415451969);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeGameMode(Z_Construct_UClass_AScaryMazeGameMode, &AScaryMazeGameMode::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

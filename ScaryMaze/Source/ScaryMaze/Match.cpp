@@ -5,10 +5,6 @@
 // Sets default values
 AMatch::AMatch()
 {
-	// Mesh was scaled when FBX file was imported.
-
-
-	// Set the color and brightness of Match.
-	LightEmission->SetLightBrightness(1000000.f);
-	LightEmission->SetLightColor(FLinearColor::Red);
+	// Set the light's relative position to appear at the match head.
+	LightEmission->SetRelativeLocation(FVector(0.f, -80.f, 10.f));
 }

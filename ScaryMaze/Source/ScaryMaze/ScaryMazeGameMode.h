@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Maze.h"
 #include "Wall.h"
+#include "Match.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
 
@@ -35,6 +36,14 @@ private:
 	// Spawns the maze.
 	UFUNCTION()
 		void SpawnScaryMaze();
+
+	// Used to spawn matches.
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AMatch> Match;
+
+	// Function to spawn the matches in the maze.
+	UFUNCTION()
+		void SpawnMatches();
 };
 
 

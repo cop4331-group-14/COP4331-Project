@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeMatch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMatch, 2283297252);
+	IMPLEMENT_CLASS(AMatch, 285697704);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMatch(Z_Construct_UClass_AMatch, &AMatch::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AMatch"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMatch);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

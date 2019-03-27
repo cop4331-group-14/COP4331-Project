@@ -2,19 +2,37 @@
 
 #include "LightItem.h"
 
+#include "ScaryMazeBaseCharacter.h"
+#include "Runtime/Engine/Classes/Engine/Engine.h"
+#include "Match.h"
+
 // Sets default values
 ALightItem::ALightItem()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	// Set the LightRoot as the root component.
+	LightRoot = CreateDefaultSubobject<USceneComponent>(TEXT("LightRoot"));
+	RootComponent = LightRoot;
+
 	// Set the mesh as the root component.
 	LightMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LightMesh"));
-	RootComponent = LightMesh;
+	LightMesh->SetupAttachment(RootComponent);
 
 	// Set the LightEmission to be attached to the light.
 	LightEmission = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightEmission"));
+	// Set the default color and brightness.
+	LightEmission->SetIntensity(0.f);
+	LightEmission->SetLightColor(FLinearColor::Red);
 	LightEmission->SetupAttachment(RootComponent);
+
+	// Set the LightBox.
+	LightBox = CreateDefaultSubobject<UBoxComponent>(TEXT("LightPickupBox"));
+	LightBox->SetGenerateOverlapEvents(true);
+	LightBox->SetWorldScale3D(FVector(1.f, 1.f, 1.f));
+	LightBox->OnComponentBeginOverlap.AddDynamic(this, &ALightItem::OnPlayerEnterLightBox);
+	LightBox->SetupAttachment(RootComponent);
 
 }
 
@@ -23,6 +41,30 @@ void ALightItem::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
+	{
+		DisplayLightCollectionMessage();
+		Destroy();
+	}
+}
+
+void ALightItem::DisplayLightCollectionMessage()
+{
+	FString LightSource;
+
+	if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
+	{
+		LightSource = "match";
+	}
+	else
+	{
+		LightSource = "light source";
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("You collected a " + LightSource + "."));
 }
 
 // Called every frame

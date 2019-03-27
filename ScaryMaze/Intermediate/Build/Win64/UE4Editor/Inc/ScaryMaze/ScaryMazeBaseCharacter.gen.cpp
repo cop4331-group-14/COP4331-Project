@@ -169,6 +169,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -245,6 +249,13 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Float, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, Health), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "Base Character" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth = { UE4CodeGen_Private::EPropertyClass::Float, "MaxHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -268,6 +279,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Defense,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_AttackPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Mesh1P,
 	};
@@ -294,7 +306,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 3290483912);
+	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 3554706098);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeBaseCharacter(Z_Construct_UClass_AScaryMazeBaseCharacter, &AScaryMazeBaseCharacter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeBaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeBaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
