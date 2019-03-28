@@ -10,8 +10,8 @@
 | 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | WORKING |
 | 007 | ~As a player, I want to have health, attack, and defense statistics in order to adjust my experience based on my choices.~ | 3 | 5 | When a player plays the game, they have the correct health, attack, and defense statistics. | COMPLETE |
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | WORKING |
-| 009 | As a player, I want the maze to have enemy monsters to increase the difficulty of completing the maze. | 8 | 5 | When navigating the maze, the maze contains monsters. | WORKING |
-| 010 | As a player, I want the monsters to have health, attack, and defense statistics to make fighting them challenging. | 3 | 5 | When a monster exists, it has the appropriate statistics. | WORKING |
+| 009 | ~As a player, I want the maze to have enemy monsters to increase the difficulty of completing the maze.~ | 8 | 5 | When navigating the maze, the maze contains monsters. | COMPLETE |
+| 010 | ~As a player, I want the monsters to have health, attack, and defense statistics to make fighting them challenging.~ | 3 | 5 | When a monster exists, it has the appropriate statistics. | COMPLETE |
 | 011 | As a player, I want my health to lower based on damage from enemies so there is a consequence for playing poorly. | 5 | 6 | When damaged, the health statistic lowers appropriately. | NOT STARTED |
 | 012 | As a player, I want my character to die when health reaches zero, in order to make gameplay challenging. | 2 | 5 | When the player's health reaches zero, they die and are presented with 'Load Game' menu. If no game save exists, they are presented with 'New Game'. | NOT STARTED |
 | 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When an item is used that replenishes health, the health statistic increases appropriately. | NOT STARTED | 
