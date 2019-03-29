@@ -5,7 +5,11 @@
 #include "CoreMinimal.h"
 #include "Maze.h"
 #include "Wall.h"
+#include "ScaryMazeHUD.h"
+#include "ScaryMazeBaseCharacter.h"
+#include "UObject/ConstructorHelpers.h"
 #include "Match.h"
+#include "Engine/Engine.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
 
@@ -29,21 +33,23 @@ private:
 	UPROPERTY()
 		AMaze* ScaryMaze;
 
-	// Stores array of path through the maze.
-	UPROPERTY()
-		TArray<AWall*> ScaryMazePath;
-
-	// Spawns the maze.
 	UFUNCTION()
 		void SpawnScaryMaze();
 
-	// Used to spawn matches.
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AMatch> Match;
 
-	// Function to spawn the matches in the maze.
 	UFUNCTION()
 		void SpawnMatches();
+
+	UPROPERTY(EditAnywhere)
+		AScaryMazeBaseCharacter* Player;
+
+	UFUNCTION()
+		AScaryMazeBaseCharacter* SpawnPlayer();
+
+	UFUNCTION()
+		void MoveControllerToPlayer();
 };
 
 
