@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ScaryMaze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3E4BBEFF-A946-4C8B-A5D3-DE429555FF2C}</UniqueIdentifier>
+      <UniqueIdentifier>{BD94E80D-1C9D-49ED-AA17-90F78C6CD701}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ScaryMaze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{988C51DE-1DA7-4CC2-A56B-FF430B83172A}</UniqueIdentifier>
+      <UniqueIdentifier>{AA5A3D5E-9605-4929-9BAA-F46C41E8A124}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ScaryMaze">
-      <UniqueIdentifier>{37A39299-EDF3-4706-9E97-3939E200A863}</UniqueIdentifier>
+      <UniqueIdentifier>{B1751090-D5BD-43C3-AD91-2DFD8B1F3A65}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.cpp">
       <Filter>Source\ScaryMaze</Filter>
@@ -66,6 +66,12 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ScaryMaze\Ground.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScaryMaze\Lighter.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScaryMaze\Lighter.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp">

@@ -77,7 +77,7 @@ void AScaryMazeGameMode::SpawnMatches()
 				FVector Location = (ScaryMaze->GetMazePath())[CurrentCell]->GetActorLocation();
 
 				// Fine tune the location by lowering the z value so that the match sits on the ground.
-				Location.Z = 10.f;
+				Location.Z = 75.f;
 
 				// Spawn Parameters
 				FActorSpawnParameters SpawnParams;

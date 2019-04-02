@@ -9,6 +9,7 @@
 #include "ScaryMazeBaseCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Match.h"
+#include "Lighter.h"
 #include "Engine/Engine.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
@@ -41,6 +42,9 @@ private:
 
 	UFUNCTION()
 		void SpawnMatches();
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ALighter> Lighter;
 
 	UPROPERTY(EditAnywhere)
 		AScaryMazeBaseCharacter* Player;

@@ -519,6 +519,8 @@
     <ClInclude Include="..\..\Source\ScaryMaze\Goal.h"/>
     <ClCompile Include="..\..\Source\ScaryMaze\Ground.cpp"/>
     <ClInclude Include="..\..\Source\ScaryMaze\Ground.h"/>
+    <ClCompile Include="..\..\Source\ScaryMaze\Lighter.cpp"/>
+    <ClInclude Include="..\..\Source\ScaryMaze\Lighter.h"/>
     <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp"/>
     <ClInclude Include="..\..\Source\ScaryMaze\LightItem.h"/>
     <ClCompile Include="..\..\Source\ScaryMaze\Match.cpp"/>
