@@ -41,6 +41,11 @@ void AMaze::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// Get the game level and determine Dimension and Size.
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	Dimension = Instance->Level * BASE_DIMENSION;
+	Size = Dimension * Dimension;
+
 	// Maze walls and ground are created separately.
 	CreateMaze();
 	GenerateGround();
@@ -49,9 +54,9 @@ void AMaze::BeginPlay()
 // This calls SpawnGround to allow the ground to cover the same area as the maze.
 void AMaze::GenerateGround()
 {
-	for (int Cell = 0; Cell < SIZE; Cell++)
+	for (int Cell = 0; Cell < Size; Cell++)
 	{
-		FVector Location = FVector((Cell % DIMENSION) * WALL_BLOCK_SIZE, (Cell / DIMENSION) * WALL_BLOCK_SIZE, Z_COORD_GROUND);
+		FVector Location = FVector((Cell % Dimension) * WALL_BLOCK_SIZE, (Cell / Dimension) * WALL_BLOCK_SIZE, Z_COORD_GROUND);
 		SpawnGround(Location);
 	}
 }
@@ -60,7 +65,7 @@ void AMaze::GenerateGround()
 void AMaze::RemoveWalls()
 {
 	// Loop through the MazeWalls array
-	for (int Cell = 0; Cell < SIZE; Cell++)
+	for (int Cell = 0; Cell < Size; Cell++)
 	{
 		// If we visited this wall, it is part of the maze path. The method of hiding the wall and disabling collision
 		// is preferred over Unreal's Destroy() method as we still have access to the attributes of these disabled
@@ -85,8 +90,17 @@ void AMaze::SelectGoal()
 	// Loop until we find a spot in the second to last column that is not a wall.
 	while (true)
 	{
-		GoalIndex = (((rand() % (DIMENSION - 2)) + 2) * DIMENSION) - 2;
-
+		// Due to the nature of the maze construction algorithm, odd numbered dimensions
+		// have one wall on the far right, while even numbered dimensions have two walls
+		// on the right. This means we have to differentiate where the goal can be.
+		if (Dimension % 2 != 0)
+		{
+			GoalIndex = (((rand() % (Dimension - 2)) + 2) * Dimension) - 2;
+		}
+		else
+		{
+			GoalIndex = (((rand() % (Dimension - 2) + 2) * Dimension) - 3);
+		}
 		// Break when we find a spot that is visited as this must be a path.
 		if (MazeWalls[GoalIndex]->GetIsVisited())
 		{
@@ -128,13 +142,13 @@ void AMaze::CreateMaze()
 // path of the maze.
 void AMaze::InitializeMaze()
 {
-	for (int Cell = 0; Cell < SIZE; Cell++)
+	for (int Cell = 0; Cell < Size; Cell++)
 	{
 		// Location of Wall calculated from the index of Wall in the MazeWalls array, the size of the array,
 		// the size of the walls, and the offset of the wall's center in Unreal.
 		FVector Location;
-		float Xcoord = (float)(Cell % DIMENSION * WALL_BLOCK_SIZE + WALL_OFFSET);
-		float Ycoord = (float)(Cell / DIMENSION * WALL_BLOCK_SIZE + WALL_OFFSET);
+		float Xcoord = (float)(Cell % Dimension * WALL_BLOCK_SIZE + WALL_OFFSET);
+		float Ycoord = (float)(Cell / Dimension * WALL_BLOCK_SIZE + WALL_OFFSET);
 		Location.Set(Xcoord, Ycoord, Z_COORD_WALL);
 
 		// Spawn the wall in the world.
@@ -211,13 +225,13 @@ void AMaze::MazeConstructorLoop()
 // Check if possible cell is within bounds or if it is on or outside of bounds.
 bool AMaze::IsOnOrOutOfBounds(int Cell)
 {
-	bool bTopRow = Cell < DIMENSION;
-	bool bRightColumn = Cell % DIMENSION == DIMENSION - 1;
-	bool bBottomRow = Cell >= DIMENSION * DIMENSION - DIMENSION;
-	bool bLeftColumn = Cell % DIMENSION == 0;
+	bool bTopRow = Cell < Dimension;
+	bool bRightColumn = Cell % Dimension == Dimension - 1;
+	bool bBottomRow = Cell >= Dimension * Dimension - Dimension;
+	bool bLeftColumn = Cell % Dimension == 0;
 
 	// Out of bounds.
-	if (Cell < 0 || Cell > DIMENSION * DIMENSION - 1)
+	if (Cell < 0 || Cell > Dimension * Dimension - 1)
 	{
 		return true;
 	}
@@ -240,7 +254,7 @@ bool AMaze::IsOnOrOutOfBounds(int Cell)
 // integer from 1 to DIMENSION - 2, then multiply it by DIMENSION and add 1.
 int AMaze::SelectStart()
 {
-	return (((rand() % (DIMENSION - 2)) + 1) * DIMENSION) + 1;
+	return (((rand() % (Dimension - 2)) + 1) * Dimension) + 1;
 }
 
 // We want to randomly choose the index of one of the cells cardinally adjacent to the current index's cell (top,
@@ -248,9 +262,9 @@ int AMaze::SelectStart()
 int AMaze::GetNextIndex(int CurrentIndex)
 {
 	// Since the maze is stored as a 1D array, the following calculations are needed to find adjacent cells.
-	int TopIndex = CurrentIndex - 2 * DIMENSION;
+	int TopIndex = CurrentIndex - 2 * Dimension;
 	int RightIndex = CurrentIndex + 2;
-	int BottomIndex = CurrentIndex + 2 * DIMENSION;
+	int BottomIndex = CurrentIndex + 2 * Dimension;
 	int LeftIndex = CurrentIndex - 2;
 
 	// Holds potential, valid indices for NextIndex.

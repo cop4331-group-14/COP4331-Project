@@ -22,6 +22,8 @@ class AScaryMazeGameMode : public AGameModeBase
 public:
 	AScaryMazeGameMode();
 
+	int Level;
+
 protected:
 	virtual void BeginPlay() override;
 

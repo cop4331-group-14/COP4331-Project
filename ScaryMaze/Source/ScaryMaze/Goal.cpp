@@ -1,6 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Goal.h"
+#include "ScaryMazeGameMode.h"
+#include "ScaryMazeBaseCharacter.h"
+#include "Engine.h"
 
 // Sets default values
 AGoal::AGoal()

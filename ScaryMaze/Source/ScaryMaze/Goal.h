@@ -8,9 +8,6 @@
 #include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "ScaryMazeGameInstance.h"
-#include "ScaryMazeGameMode.h"
-#include "ScaryMazeBaseCharacter.h"
-#include "Engine.h"
 #include "Components/PointLightComponent.h"
 #include "Goal.generated.h"
 

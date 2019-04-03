@@ -8,13 +8,13 @@
 #include "Goal.h"
 #include "time.h"
 #include "Ground.h"
+#include "ScaryMazeGameInstance.h"
 #include "Engine/World.h"
 #include "Maze.generated.h"
 
-#define DIMENSION 25
+#define BASE_DIMENSION 25
 
 // Some constants to make adjusting the maze parameters easier.
-const int SIZE = DIMENSION * DIMENSION;
 const float Z_COORD_GROUND = 0.f;
 const float Z_COORD_WALL = 200.f;
 const float Z_COORD_GOAL = 200.f;
@@ -29,6 +29,10 @@ class SCARYMAZE_API AMaze : public AActor
 public:
 	// Sets default values for this actor's properties
 	AMaze();
+
+	int Dimension;
+	int Level;
+	int Size;
 
 	// Returns the index of the starting position in the MazeWalls array.
 	UFUNCTION()

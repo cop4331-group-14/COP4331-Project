@@ -19,11 +19,22 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	// Assign the match blueprint to Match.
 	static ConstructorHelpers::FClassFinder<AMatch> MatchBP(TEXT("Blueprint'/Game/Assets/Lights/Matches/Blueprints/BP_Match'"));
 	Match = (MatchBP.Class != nullptr) ? MatchBP.Class : AMatch::StaticClass();
+
+	// Make the Game Mode Level match the Level in Game Instance
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	if (Instance)
+	{
+		this->Level = Instance->Level;
+	}
 }
 
 void AScaryMazeGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Display the current Level
+	FString currentLevel = FString::FromInt(this->Level);
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Level: " + currentLevel));
 
 	// Spawn the ScaryMaze
 	SpawnScaryMaze();
@@ -71,7 +82,7 @@ void AScaryMazeGameMode::SpawnMatches()
 		for (int CurrentCell = 0; CurrentCell < PathLength; CurrentCell++)
 		{
 			// Only spawn if we are at the determined interval.
-			if (CurrentCell % DIMENSION == (DIMENSION / 2) || CurrentCell % DIMENSION == (DIMENSION - 1))
+			if (CurrentCell % ScaryMaze->Dimension == (ScaryMaze->Dimension / 2) || CurrentCell % ScaryMaze->Dimension == (ScaryMaze->Dimension - 1))
 			{
 				// Spawn Location
 				FVector Location = (ScaryMaze->GetMazePath())[CurrentCell]->GetActorLocation();
