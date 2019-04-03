@@ -5,7 +5,13 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
-#include "Runtime/Engine/Classes/Components/PointLightComponent.h"
+#include "Components/BoxComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "ScaryMazeGameInstance.h"
+#include "ScaryMazeGameMode.h"
+#include "ScaryMazeBaseCharacter.h"
+#include "Engine.h"
+#include "Components/PointLightComponent.h"
 #include "Goal.generated.h"
 
 UCLASS()
@@ -24,11 +30,26 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	// Scene Component of the Goal as root.
+	UPROPERTY(EditAnywhere)
+		USceneComponent* GoalRoot;
+
 	// The mesh for the goal.
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* MazeGoal;
+		UStaticMeshComponent* GoalMesh;
 
 	// A pointlight for the goal to project.
 	UPROPERTY(EditAnywhere)
 		UPointLightComponent* GoalLight;
+
+	// Box collider.
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* GoalBox;
+
+	// Overlap function.
+	UFUNCTION()
+		void OnPlayerEnterGoalBox(UPrimitiveComponent* OverlappedComp,
+			AActor* OtherActor, UPrimitiveComponent* OtherComp,
+			int32 OtherBodyIndex, bool bFromSweep,
+			const FHitResult& SweepResult);
 };
