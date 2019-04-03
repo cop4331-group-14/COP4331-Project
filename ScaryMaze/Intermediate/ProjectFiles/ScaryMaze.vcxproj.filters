@@ -144,4 +144,14 @@
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ScaryMaze\ScaryMazeGameInstance.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ScaryMaze\ScaryMazeGameInstance.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
