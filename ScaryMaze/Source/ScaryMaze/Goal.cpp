@@ -17,6 +17,7 @@ AGoal::AGoal()
 
 	// Attach the mesh component.
 	GoalMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("GoalMesh"));
+	GoalMesh->SetWorldScale3D(FVector(2.f, 2.f, 4.f));
 	GoalMesh->SetupAttachment(RootComponent);
 
 	// Set GoalLight color and intensity and attach component.

@@ -20,11 +20,12 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	static ConstructorHelpers::FClassFinder<AMatch> MatchBP(TEXT("Blueprint'/Game/Assets/Lights/Matches/Blueprints/BP_Match'"));
 	Match = (MatchBP.Class != nullptr) ? MatchBP.Class : AMatch::StaticClass();
 
-	// Make the Game Mode Level match the Level in Game Instance
+	// Make the Game Mode Level match the Level in Game Instance and get the Game Instance Player;
 	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	if (Instance)
 	{
 		this->Level = Instance->Level;
+		this->Player = Instance->Player;
 	}
 }
 
@@ -103,26 +104,34 @@ void AScaryMazeGameMode::SpawnMatches()
 
 AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer()
 {
-	// Get reference to World.
-	const UWorld* World = GetWorld();
+	// Spawn Location
+	FVector Location = ScaryMaze->GetMazePath()[0]->GetActorLocation();
+	Location.Z = 100.f;
 
-	if (World)
+	// If Player is nullptr, then we don't have a player and we need to spawn one in.
+	if (!Player)
 	{
-		// Spawn Location
-		FVector Location = ScaryMaze->GetMazePath()[0]->GetActorLocation();
-		Location.Z = 100.f;
+		// Get reference to World.
+		const UWorld* World = GetWorld();
 
-		// Spawn Parameters
-		FActorSpawnParameters SpawnParams;
-		SpawnParams.Owner = this;
-		//SpawnParams.Instigator = Instigator;
+		if (World)
+		{
+			// Spawn Parameters
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
 
-		// Spawn the player.
-		return GetWorld()->SpawnActor<AScaryMazeBaseCharacter>(AScaryMazeBaseCharacter::StaticClass(), Location, FRotator::ZeroRotator, SpawnParams);
+			// Spawn the player.
+			return GetWorld()->SpawnActor<AScaryMazeBaseCharacter>(AScaryMazeBaseCharacter::StaticClass(), Location, FRotator::ZeroRotator, SpawnParams);
+		}
+		else
+		{
+			return nullptr;
+		}
 	}
-	else
+	else // We already have a character, we just need to make it move to the beginning of the level.
 	{
-		return nullptr;
+		Player->SetActorLocation(Location);
+		return Player;
 	}
 }
 
