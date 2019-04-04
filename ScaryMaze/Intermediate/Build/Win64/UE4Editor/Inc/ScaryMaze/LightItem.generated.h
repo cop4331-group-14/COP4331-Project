@@ -111,7 +111,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALightItem); \
 #define ScaryMaze_Source_ScaryMaze_LightItem_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LightRoot() { return STRUCT_OFFSET(ALightItem, LightRoot); } \
 	FORCEINLINE static uint32 __PPO__LightMesh() { return STRUCT_OFFSET(ALightItem, LightMesh); } \
-	FORCEINLINE static uint32 __PPO__LightEmission() { return STRUCT_OFFSET(ALightItem, LightEmission); } \
+	FORCEINLINE static uint32 __PPO__LightIntensity() { return STRUCT_OFFSET(ALightItem, LightIntensity); } \
+	FORCEINLINE static uint32 __PPO__LightTime() { return STRUCT_OFFSET(ALightItem, LightTime); } \
+	FORCEINLINE static uint32 __PPO__LightColor() { return STRUCT_OFFSET(ALightItem, LightColor); } \
 	FORCEINLINE static uint32 __PPO__LightBox() { return STRUCT_OFFSET(ALightItem, LightBox); }
 
 

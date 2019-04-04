@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeLighter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALighter, 900298326);
+	IMPLEMENT_CLASS(ALighter, 341241938);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALighter(Z_Construct_UClass_ALighter, &ALighter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("ALighter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALighter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

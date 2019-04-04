@@ -25,6 +25,11 @@ AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
+	// Light to attach to character
+	LightSource = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightSource"));
+	LightSource->SetIntensity(0.f);
+	LightSource->SetLightColor(FLinearColor::Red);
+	LightSource->SetupAttachment(FirstPersonCameraComponent);
 }
 
 // Called when the game starts or when spawned

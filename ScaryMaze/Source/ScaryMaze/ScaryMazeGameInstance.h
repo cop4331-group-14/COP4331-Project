@@ -17,7 +17,7 @@ class SCARYMAZE_API UScaryMazeGameInstance : public UGameInstance
 
 public:
 	// The level of the game
-	int Level = 10;
+	int Level = 1;
 
 	// The current player.
 	AScaryMazeBaseCharacter* Player = nullptr;

@@ -3,6 +3,9 @@
 #include "LightItem.h"
 
 #include "ScaryMazeBaseCharacter.h"
+#include "ScaryMazeGameInstance.h"
+#include "Engine/Engine.h"
+#include "Kismet/GameplayStatics.h"
 #include "Runtime/Engine/Classes/Engine/Engine.h"
 #include "Match.h"
 
@@ -19,13 +22,6 @@ ALightItem::ALightItem()
 	// Set the mesh as the root component.
 	LightMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LightMesh"));
 	LightMesh->SetupAttachment(RootComponent);
-
-	// Set the LightEmission to be attached to the light.
-	LightEmission = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightEmission"));
-	// Set the default color and brightness.
-	LightEmission->SetIntensity(0.f);
-	LightEmission->SetLightColor(FLinearColor::Red);
-	LightEmission->SetupAttachment(RootComponent);
 
 	// Set the LightBox.
 	LightBox = CreateDefaultSubobject<UBoxComponent>(TEXT("LightPickupBox"));
@@ -45,8 +41,17 @@ void ALightItem::BeginPlay()
 
 void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	// If the player enters the LightBox
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
+		AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
+		if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
+		{
+			Player->LightSource->SetIntensity(this->LightIntensity);
+			Player->LightSource->SetLightColor(this->LightColor);
+			Player->LightTime = this->LightTime;
+
+		}
 		DisplayLightCollectionMessage();
 		Destroy();
 	}

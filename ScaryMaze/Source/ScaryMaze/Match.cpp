@@ -5,6 +5,7 @@
 // Sets default values
 AMatch::AMatch()
 {
-	// Set the light's relative position to appear at the match head.
-	LightEmission->SetRelativeLocation(FVector(0.f, -80.f, 10.f));
+	LightIntensity = 10000.f;
+	LightColor = FColor::Red;
+	LightTime = 10.f;
 }

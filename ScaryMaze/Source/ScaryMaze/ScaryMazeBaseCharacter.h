@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Runtime/Engine/Classes/Components/PointLightComponent.h"
 #include "ScaryMazeBaseCharacter.generated.h"
 
 UCLASS(Blueprintable)
@@ -58,6 +59,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 		virtual void CalculateDefense(float DeltaDefense);
+
+	UPROPERTY(EditAnywhere)
+		UPointLightComponent* LightSource;
+
+	UPROPERTY(EditAnywhere)
+		float LightTime;
 
 
 #if WITH_EDITOR

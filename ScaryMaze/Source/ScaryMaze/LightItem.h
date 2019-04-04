@@ -33,9 +33,14 @@ protected:
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* LightMesh;
 
-	// A pointlight for the light to project.
 	UPROPERTY(EditAnywhere)
-		UPointLightComponent* LightEmission;
+		float LightIntensity;
+
+	UPROPERTY(EditAnywhere)
+		float LightTime;
+
+	UPROPERTY(EditAnywhere)
+		FColor LightColor;
 
 	// Collider for Light.
 	UPROPERTY(EditAnywhere)
