@@ -32,6 +32,14 @@ public:
 	UPROPERTY(EditAnywhere)
 		float LightTime;
 
+	UFUNCTION()
+		void SetLightTime(float Time);
+
+	FTimerHandle LightTimerHandle;
+
+	UFUNCTION()
+		void OnLightTimeRunsOut();
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	float MaxHealth;
 

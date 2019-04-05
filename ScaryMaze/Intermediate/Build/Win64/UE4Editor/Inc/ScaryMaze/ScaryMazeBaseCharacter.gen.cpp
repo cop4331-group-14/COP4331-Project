@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDefense();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateHealth();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth();
@@ -37,6 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 			{ "CalculateDead", &AScaryMazeBaseCharacter::execCalculateDead },
 			{ "CalculateDefense", &AScaryMazeBaseCharacter::execCalculateDefense },
 			{ "CalculateHealth", &AScaryMazeBaseCharacter::execCalculateHealth },
+			{ "OnLightTimeRunsOut", &AScaryMazeBaseCharacter::execOnLightTimeRunsOut },
+			{ "SetLightTime", &AScaryMazeBaseCharacter::execSetLightTime },
 			{ "ValidateAttackPower", &AScaryMazeBaseCharacter::execValidateAttackPower },
 			{ "ValidateDefense", &AScaryMazeBaseCharacter::execValidateDefense },
 			{ "ValidateHealth", &AScaryMazeBaseCharacter::execValidateHealth },
@@ -161,6 +165,60 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "OnLightTimeRunsOut", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics
+	{
+		struct ScaryMazeBaseCharacter_eventSetLightTime_Parms
+		{
+			float Time;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Time;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::NewProp_Time = { UE4CodeGen_Private::EPropertyClass::Float, "Time", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ScaryMazeBaseCharacter_eventSetLightTime_Parms, Time), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::NewProp_Time,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "SetLightTime", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(ScaryMazeBaseCharacter_eventSetLightTime_Parms), Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -307,6 +365,8 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead, "CalculateDead" }, // 3544914373
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDefense, "CalculateDefense" }, // 2728587275
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateHealth, "CalculateHealth" }, // 84124604
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_OnLightTimeRunsOut, "OnLightTimeRunsOut" }, // 1582683884
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_SetLightTime, "SetLightTime" }, // 2736982744
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower, "ValidateAttackPower" }, // 3634511737
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense, "ValidateDefense" }, // 504804820
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth, "ValidateHealth" }, // 2939004103
@@ -458,7 +518,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 1027757587);
+	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 1312622329);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeBaseCharacter(Z_Construct_UClass_AScaryMazeBaseCharacter, &AScaryMazeBaseCharacter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeBaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeBaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

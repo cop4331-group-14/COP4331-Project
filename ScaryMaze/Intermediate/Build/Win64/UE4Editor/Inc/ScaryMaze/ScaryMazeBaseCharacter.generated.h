@@ -72,6 +72,23 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->CalculateDead(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnLightTimeRunsOut) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnLightTimeRunsOut(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetLightTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Time); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetLightTime(Z_Param_Time); \
+		P_NATIVE_END; \
 	}
 
 
@@ -133,6 +150,23 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CalculateDead(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnLightTimeRunsOut) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnLightTimeRunsOut(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetLightTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Time); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetLightTime(Z_Param_Time); \
 		P_NATIVE_END; \
 	}
 

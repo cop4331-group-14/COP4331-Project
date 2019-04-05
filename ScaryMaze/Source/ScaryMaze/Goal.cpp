@@ -52,7 +52,7 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 		if (Instance)
 		{
 			Instance->Level++;
-			Instance->Health -= 10;
+			//Instance->Health -= 10;
 
 			AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
 			Instance->Health = Player->Health;

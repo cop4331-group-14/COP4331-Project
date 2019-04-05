@@ -8,6 +8,7 @@
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "TimerManager.h"
 #include "MotionControllerComponent.h"
 
 // Sets default values
@@ -140,6 +141,16 @@ void AScaryMazeBaseCharacter::CalculateDefense(float DeltaDefense)
 {
 	Defense += DeltaDefense;
 	ValidateDefense();
+}
+
+void AScaryMazeBaseCharacter::SetLightTime(float Time)
+{
+	GetWorld()->GetTimerManager().SetTimer(LightTimerHandle, this, &AScaryMazeBaseCharacter::OnLightTimeRunsOut, Time, false);
+}
+
+void AScaryMazeBaseCharacter::OnLightTimeRunsOut()
+{
+	this->LightSource->SetIntensity(0.f);
 }
 
 // Function to check if the character is still alive

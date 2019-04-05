@@ -51,6 +51,8 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 			Player->LightSource->SetLightColor(this->LightColor);
 			Player->LightTime = this->LightTime;
 
+			Player->SetLightTime(this->LightTime);
+
 		}
 		DisplayLightCollectionMessage();
 		Destroy();
