@@ -19,8 +19,13 @@ public:
 	// The level of the game
 	int Level = 1;
 
-	// The current player.
-	AScaryMazeBaseCharacter* Player = nullptr;
-		
+	// The player's current health.
+	float Health;
+
+	// The player's current attack power.
+	int AttackPower;
+
+	// The player's current defense.
+	int Defense;
 	
 };

@@ -52,6 +52,12 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 		if (Instance)
 		{
 			Instance->Level++;
+			Instance->Health -= 10;
+
+			AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
+			Instance->Health = Player->Health;
+			Instance->AttackPower = Player->AttackPower;
+			Instance->Defense = Player->Defense;
 		}
 
 		UGameplayStatics::OpenLevel(GetWorld(), FName("LevelOne"), false);

@@ -18,19 +18,28 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ScaryMaze();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateAttackPower();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDefense();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateHealth();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth();
 	ENGINE_API UClass* Z_Construct_UClass_UPointLightComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeleton_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void AScaryMazeBaseCharacter::StaticRegisterNativesAScaryMazeBaseCharacter()
 	{
 		UClass* Class = AScaryMazeBaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CalculateAttackPower", &AScaryMazeBaseCharacter::execCalculateAttackPower },
+			{ "CalculateDead", &AScaryMazeBaseCharacter::execCalculateDead },
 			{ "CalculateDefense", &AScaryMazeBaseCharacter::execCalculateDefense },
 			{ "CalculateHealth", &AScaryMazeBaseCharacter::execCalculateHealth },
+			{ "ValidateAttackPower", &AScaryMazeBaseCharacter::execValidateAttackPower },
+			{ "ValidateDefense", &AScaryMazeBaseCharacter::execValidateDefense },
+			{ "ValidateHealth", &AScaryMazeBaseCharacter::execValidateHealth },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -64,6 +73,28 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateAttackPower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "CalculateDead", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -133,6 +164,72 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "ValidateAttackPower", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "ValidateDefense", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeBaseCharacter, "ValidateHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AScaryMazeBaseCharacter_NoRegister()
 	{
 		return AScaryMazeBaseCharacter::StaticClass();
@@ -144,14 +241,6 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LightTime_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LightTime;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LightSource_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LightSource;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -182,6 +271,22 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LightTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LightTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LightSource_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LightSource;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Skeleton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Skeleton;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Weapon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Weapon;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -199,8 +304,12 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateAttackPower, "CalculateAttackPower" }, // 833183091
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDead, "CalculateDead" }, // 3544914373
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateDefense, "CalculateDefense" }, // 2728587275
 		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_CalculateHealth, "CalculateHealth" }, // 84124604
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateAttackPower, "ValidateAttackPower" }, // 3634511737
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateDefense, "ValidateDefense" }, // 504804820
+		{ &Z_Construct_UFunction_AScaryMazeBaseCharacter_ValidateHealth, "ValidateHealth" }, // 2939004103
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::Class_MetaDataParams[] = {
@@ -211,21 +320,6 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData[] = {
-		{ "Category", "ScaryMazeBaseCharacter" },
-		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime = { UE4CodeGen_Private::EPropertyClass::Float, "LightTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, LightTime), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData[] = {
-		{ "Category", "ScaryMazeBaseCharacter" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource = { UE4CodeGen_Private::EPropertyClass::Object, "LightSource", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, LightSource), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -280,6 +374,36 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth = { UE4CodeGen_Private::EPropertyClass::Float, "MaxHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData[] = {
+		{ "Category", "ScaryMazeBaseCharacter" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime = { UE4CodeGen_Private::EPropertyClass::Float, "LightTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, LightTime), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData[] = {
+		{ "Category", "ScaryMazeBaseCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource = { UE4CodeGen_Private::EPropertyClass::Object, "LightSource", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, LightSource), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Skeleton_MetaData[] = {
+		{ "Category", "Skeleton" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Skeleton = { UE4CodeGen_Private::EPropertyClass::Object, "Skeleton", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, Skeleton), Z_Construct_UClass_USkeleton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Skeleton_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Skeleton_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Weapon_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Weapon = { UE4CodeGen_Private::EPropertyClass::Object, "Weapon", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, Weapon), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Weapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Weapon_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -297,8 +421,6 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead,
@@ -306,6 +428,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_AttackPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_LightSource,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Skeleton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Weapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Mesh1P,
 	};
@@ -332,7 +458,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 2114165348);
+	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 1027757587);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeBaseCharacter(Z_Construct_UClass_AScaryMazeBaseCharacter, &AScaryMazeBaseCharacter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeBaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeBaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

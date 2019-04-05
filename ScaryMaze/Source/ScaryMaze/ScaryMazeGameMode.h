@@ -49,7 +49,14 @@ private:
 		TSubclassOf<ALighter> Lighter;
 
 	UPROPERTY(EditAnywhere)
+		TSubclassOf<AScaryMazeBaseCharacter> PlayerToSpawn;
+
+	UPROPERTY(EditAnywhere)
 		AScaryMazeBaseCharacter* Player;
+
+	UPROPERTY(EditAnywhere)
+		APlayerController* Controller;
+	
 
 	UFUNCTION()
 		AScaryMazeBaseCharacter* SpawnPlayer();

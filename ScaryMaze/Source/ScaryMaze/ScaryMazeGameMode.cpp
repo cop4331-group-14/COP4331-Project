@@ -20,30 +20,42 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	static ConstructorHelpers::FClassFinder<AMatch> MatchBP(TEXT("Blueprint'/Game/Assets/Lights/Matches/Blueprints/BP_Match'"));
 	Match = (MatchBP.Class != nullptr) ? MatchBP.Class : AMatch::StaticClass();
 
-	// Make the Game Mode Level match the Level in Game Instance and get the Game Instance Player;
-	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
-	if (Instance)
-	{
-		this->Level = Instance->Level;
-		this->Player = Instance->Player;
-	}
+	// Assign PlayerToSpawn to MyScaryMazeMain
+	static ConstructorHelpers::FClassFinder<AScaryMazeBaseCharacter> PlayerToSpawnBP(TEXT("Blueprint'/Game/Blueprints/MyScaryMazeMainCharacter'"));
+	PlayerToSpawn = PlayerToSpawnBP.Class;
+
+
+
 }
 
 void AScaryMazeGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// Spawn the ScaryMaze
+	SpawnScaryMaze();
+
+
+	// Make the Game Mode Level match the Level in Game Instance and get the Game Instance Player stats;
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	if (Instance)
+	{
+		this->Level = Instance->Level;
+	}
+
 	// Display the current Level
 	FString currentLevel = FString::FromInt(this->Level);
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Level: " + currentLevel));
 
-	// Spawn the ScaryMaze
-	SpawnScaryMaze();
+	// Spawn the player and assign it to this player and the GameInstance player.
+	this->Player = SpawnPlayer();
 
-	// Spawn the player.
-	Player = SpawnPlayer();
+
 	// Change default controller to work on the spawned player.
 	MoveControllerToPlayer();
+
+	FString currentHealth = FString::FromInt(this->Player->Health);
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Health: " + currentHealth));
 
 	// Spawn the matches
 	SpawnMatches();
@@ -104,42 +116,40 @@ void AScaryMazeGameMode::SpawnMatches()
 
 AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer()
 {
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	// Spawn Location
 	FVector Location = ScaryMaze->GetMazePath()[0]->GetActorLocation();
 	Location.Z = 100.f;
 
-	// If Player is nullptr, then we don't have a player and we need to spawn one in.
-	if (!Player)
-	{
-		// Get reference to World.
-		const UWorld* World = GetWorld();
 
-		if (World)
-		{
-			// Spawn Parameters
-			FActorSpawnParameters SpawnParams;
-			SpawnParams.Owner = this;
+	// Get reference to World.
+	const UWorld* World = GetWorld();
 
-			// Spawn the player.
-			return GetWorld()->SpawnActor<AScaryMazeBaseCharacter>(AScaryMazeBaseCharacter::StaticClass(), Location, FRotator::ZeroRotator, SpawnParams);
-		}
-		else
-		{
-			return nullptr;
-		}
-	}
-	else // We already have a character, we just need to make it move to the beginning of the level.
+	if (World)
 	{
-		Player->SetActorLocation(Location);
-		return Player;
+		// Spawn Parameters
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+
+		// Spawn the player.
+		AScaryMazeBaseCharacter* SpawnedPlayer = GetWorld()->SpawnActor<AScaryMazeBaseCharacter>(PlayerToSpawn, Location, FRotator::ZeroRotator, SpawnParams);
+		
+		SpawnedPlayer->Health = Instance->Health;
+		SpawnedPlayer->AttackPower = Instance->AttackPower;
+		SpawnedPlayer->Defense = Instance->Defense;
+
+		return SpawnedPlayer;
 	}
+	else
+	{
+		UE_LOG(LogTemp, Fatal, TEXT("World was null!"));
+		return nullptr;
+	}
+
 }
 
 void AScaryMazeGameMode::MoveControllerToPlayer()
 {
-	// Cache a reference to the default controller.
-	APlayerController* Controller = GetWorld()->GetFirstPlayerController();
-
-	// Posses the player with the controller.
+	Controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	Controller->Possess(Player);
 }

@@ -131,7 +131,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AScaryMazeGameMode); \
 	FORCEINLINE static uint32 __PPO__ScaryMaze() { return STRUCT_OFFSET(AScaryMazeGameMode, ScaryMaze); } \
 	FORCEINLINE static uint32 __PPO__Match() { return STRUCT_OFFSET(AScaryMazeGameMode, Match); } \
 	FORCEINLINE static uint32 __PPO__Lighter() { return STRUCT_OFFSET(AScaryMazeGameMode, Lighter); } \
-	FORCEINLINE static uint32 __PPO__Player() { return STRUCT_OFFSET(AScaryMazeGameMode, Player); }
+	FORCEINLINE static uint32 __PPO__PlayerToSpawn() { return STRUCT_OFFSET(AScaryMazeGameMode, PlayerToSpawn); } \
+	FORCEINLINE static uint32 __PPO__Player() { return STRUCT_OFFSET(AScaryMazeGameMode, Player); } \
+	FORCEINLINE static uint32 __PPO__Controller() { return STRUCT_OFFSET(AScaryMazeGameMode, Controller); }
 
 
 #define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_17_PROLOG
