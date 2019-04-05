@@ -1,13 +1,19 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ScaryMazeBaseCharacter.h"
+#include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "GameFramework/InputSettings.h"
+#include "HeadMountedDisplayFunctionLibrary.h"
+#include "Kismet/GameplayStatics.h"
+#include "MotionControllerComponent.h"
 
 // Sets default values
 AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 {
+	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	// Stats of the character
@@ -24,12 +30,37 @@ AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
 	FirstPersonCameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 64.f); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
-
 	// Light to attach to character
 	LightSource = CreateDefaultSubobject<UPointLightComponent>(TEXT("LightSource"));
 	LightSource->SetIntensity(0.f);
 	LightSource->SetLightColor(FLinearColor::Red);
 	LightSource->SetupAttachment(FirstPersonCameraComponent);
+
+
+	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
+	Mesh1P->SetOnlyOwnerSee(true);
+	Mesh1P->SetupAttachment(FirstPersonCameraComponent);
+	Mesh1P->bCastDynamicShadow = false;
+	Mesh1P->CastShadow = false;
+	Mesh1P->RelativeRotation = FRotator(1.9f, -19.19f, 5.2f);
+	Mesh1P->RelativeLocation = FVector(-0.5f, -4.4f, -155.7f);
+
+	Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Weapon"));
+	Weapon->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
+	Weapon->bCastDynamicShadow = false;
+	Weapon->CastShadow = false;
+	Weapon->SetupAttachment(RootComponent);
+
+	/*
+	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
+	FP_MuzzleLocation->SetupAttachment(FP_Gun);
+	FP_MuzzleLocation->SetRelativeLocation(FVector(0.2f, 48.4f, -10.6f));
+
+	// Default offset from the character location for projectiles to spawn
+	GunOffset = FVector(100.0f, 0.0f, 10.0f);
+	*/
+
+	Skeleton = CreateDefaultSubobject<USkeleton>(TEXT("Skeleton"));
 }
 
 // Called when the game starts or when spawned
@@ -37,6 +68,7 @@ void AScaryMazeBaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Weapon->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 }
 
 // Called every frame
@@ -46,10 +78,17 @@ void AScaryMazeBaseCharacter::Tick(float DeltaTime)
 
 }
 
+void AScaryMazeBaseCharacter::Swing()
+{
+
+}
+
 // Called to bind functionality to input
 void AScaryMazeBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Binds functions to movement of character and camera
 	PlayerInputComponent->BindAxis("MoveForward", this, &AScaryMazeBaseCharacter::MoveForward);

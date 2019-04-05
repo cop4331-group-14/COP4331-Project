@@ -20,6 +20,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = Weapon)
+	class USkeletalMeshComponent* Weapon;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Skeleton)
+	class USkeleton* Skeleton;
+
+	UPROPERTY(EditAnywhere)
+		UPointLightComponent* LightSource;
+
+	UPROPERTY(EditAnywhere)
+		float LightTime;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	float MaxHealth;
 
@@ -41,13 +53,16 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float BaseLookUpRate;
 
-
+	UFUNCTION()
 	virtual void CalculateDead();
 
+	UFUNCTION()
 	virtual void ValidateHealth();
 	
+	UFUNCTION()
 	virtual void ValidateAttackPower();
 
+	UFUNCTION()
 	virtual void ValidateDefense();
 
 
@@ -59,12 +74,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 		virtual void CalculateDefense(float DeltaDefense);
-
-	UPROPERTY(EditAnywhere)
-		UPointLightComponent* LightSource;
-
-	UPROPERTY(EditAnywhere)
-		float LightTime;
 
 
 #if WITH_EDITOR
@@ -82,12 +91,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void Swing();
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
@@ -95,6 +99,15 @@ public:
 	void LookRight(float Value);
 	void TurnAtRate(float Rate);
 	void LookUpAtRate(float Rate);
+
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 
 
 };
