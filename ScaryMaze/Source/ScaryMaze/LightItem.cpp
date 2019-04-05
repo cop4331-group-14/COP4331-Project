@@ -6,6 +6,7 @@
 #include "ScaryMazeGameInstance.h"
 #include "Engine/Engine.h"
 #include "Kismet/GameplayStatics.h"
+#include "TimerManager.h"
 #include "Runtime/Engine/Classes/Engine/Engine.h"
 #include "Match.h"
 
@@ -45,17 +46,19 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
 		AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
-		if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
+		if (!GetWorldTimerManager().IsTimerActive(Player->LightTimerHandle))
 		{
+			// Set the light parameters
 			Player->LightSource->SetIntensity(this->LightIntensity);
 			Player->LightSource->SetLightColor(this->LightColor);
 			Player->LightTime = this->LightTime;
 
+			// Start the player's light timer.
 			Player->SetLightTime(this->LightTime);
 
+			DisplayLightCollectionMessage();
+			Destroy();
 		}
-		DisplayLightCollectionMessage();
-		Destroy();
 	}
 }
 

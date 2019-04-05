@@ -6,6 +6,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
+#include "Engine/Engine.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
@@ -76,6 +77,8 @@ void AScaryMazeBaseCharacter::BeginPlay()
 void AScaryMazeBaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+
 
 }
 
@@ -145,7 +148,8 @@ void AScaryMazeBaseCharacter::CalculateDefense(float DeltaDefense)
 
 void AScaryMazeBaseCharacter::SetLightTime(float Time)
 {
-	GetWorld()->GetTimerManager().SetTimer(LightTimerHandle, this, &AScaryMazeBaseCharacter::OnLightTimeRunsOut, Time, false);
+	GetWorldTimerManager().SetTimer(LightTimerHandle, this, &AScaryMazeBaseCharacter::OnLightTimeRunsOut, Time, false);
+
 }
 
 void AScaryMazeBaseCharacter::OnLightTimeRunsOut()
@@ -158,6 +162,8 @@ void AScaryMazeBaseCharacter::CalculateDead()
 {
 	if (Health <= 0.0)
 	{
+		// Clear the light timer before dying.
+		GetWorldTimerManager().ClearTimer(LightTimerHandle);
 		IsDead = true;
 	}
 	else
