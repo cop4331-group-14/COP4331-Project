@@ -46,6 +46,8 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
 		AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
+		
+		// Player can pick up light source only if they don't have a light source active.
 		if (!GetWorldTimerManager().IsTimerActive(Player->LightTimerHandle))
 		{
 			// Set the light parameters

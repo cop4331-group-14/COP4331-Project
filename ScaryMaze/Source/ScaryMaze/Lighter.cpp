@@ -4,5 +4,7 @@
 
 ALighter::ALighter()
 {
-
+	LightIntensity = 1000.f;
+	LightColor = FColor::Orange;
+	LightTime = 30.f;
 }
