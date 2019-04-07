@@ -507,7 +507,11 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\ScaryMaze\ArmorItem.cpp" />
+    <ClCompile Include="..\..\Source\ScaryMaze\Breastplate.cpp" />
     <ClCompile Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.cpp" />
+    <ClInclude Include="..\..\Source\ScaryMaze\ArmorItem.h" />
+    <ClInclude Include="..\..\Source\ScaryMaze\Breastplate.h" />
     <ClInclude Include="..\..\Source\ScaryMaze\BTService_CheckForPlayer.h" />
     <ClCompile Include="..\..\Source\ScaryMaze\BTTask_MoveToPlayer.cpp" />
     <ClInclude Include="..\..\Source\ScaryMaze\BTTask_MoveToPlayer.h" />
@@ -517,10 +521,14 @@
     <ClInclude Include="..\..\Source\ScaryMaze\EnemyCharacter.h" />
     <ClCompile Include="..\..\Source\ScaryMaze\Goal.cpp" />
     <ClInclude Include="..\..\Source\ScaryMaze\Goal.h" />
+    <ClCompile Include="..\..\Source\ScaryMaze\Greaves.cpp" />
     <ClCompile Include="..\..\Source\ScaryMaze\Ground.cpp" />
+    <ClInclude Include="..\..\Source\ScaryMaze\Greaves.h" />
     <ClInclude Include="..\..\Source\ScaryMaze\Ground.h" />
+    <ClCompile Include="..\..\Source\ScaryMaze\Helmet.cpp" />
     <ClCompile Include="..\..\Source\ScaryMaze\Lantern.cpp" />
     <ClCompile Include="..\..\Source\ScaryMaze\Lighter.cpp" />
+    <ClInclude Include="..\..\Source\ScaryMaze\Helmet.h" />
     <ClInclude Include="..\..\Source\ScaryMaze\Lantern.h" />
     <ClInclude Include="..\..\Source\ScaryMaze\Lighter.h" />
     <ClCompile Include="..\..\Source\ScaryMaze\LightItem.cpp" />

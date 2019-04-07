@@ -194,8 +194,6 @@ void AMaze::MazeConstructorLoop()
 		// We are at this index, so the cell is visited.
 		MazeWalls[CurrentIndex]->SetIsVisited(true);
 
-		// Add this cell to the MazePath array
-		MazePath.Add(MazeWalls[CurrentIndex]);
 
 		// Get the next index of a cell two cells away, but adjacent to the current one.
 		// That is two cells above, left, right, or below the current one. 
@@ -206,6 +204,9 @@ void AMaze::MazeConstructorLoop()
 		// to backtrack to it.
 		if (NextIndex)
 		{
+			// Add the current cell to the MazePath array
+			MazePath.Add(MazeWalls[CurrentIndex]);
+
 			// The cell between current and next is always the mean of current and next.
 			// Mark as visited so it 'cuts' a path.
 			MazeWalls[(CurrentIndex + NextIndex) / 2]->SetIsVisited(true);

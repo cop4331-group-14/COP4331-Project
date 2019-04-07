@@ -151,12 +151,36 @@
     <ClInclude Include="..\..\Source\ScaryMaze\Lantern.h">
       <Filter>Source\ScaryMaze</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\ArmorItem.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\Breastplate.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\Greaves.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScaryMaze\Helmet.h">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ScaryMaze\ScaryMazeGameInstance.cpp">
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\ScaryMaze\Lantern.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\ArmorItem.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\Breastplate.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\Greaves.cpp">
+      <Filter>Source\ScaryMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScaryMaze\Helmet.cpp">
       <Filter>Source\ScaryMaze</Filter>
     </ClCompile>
   </ItemGroup>

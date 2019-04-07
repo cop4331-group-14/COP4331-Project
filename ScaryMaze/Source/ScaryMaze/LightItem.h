@@ -42,6 +42,9 @@ protected:
 	UPROPERTY(EditAnywhere)
 		FColor LightColor;
 
+	UPROPERTY(EditAnywhere)
+		float Attenuation;
+
 	// Collider for Light.
 	UPROPERTY(EditAnywhere)
 		UBoxComponent* LightBox;

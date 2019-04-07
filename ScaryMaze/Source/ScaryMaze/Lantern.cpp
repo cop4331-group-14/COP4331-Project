@@ -4,7 +4,8 @@
 
 ALantern::ALantern()
 {
-	LightIntensity = 10000.f;
+	LightIntensity = 25000.f;
 	LightColor = FColor::White;
 	LightTime = 120.f;
+	Attenuation = 5000.f;
 }

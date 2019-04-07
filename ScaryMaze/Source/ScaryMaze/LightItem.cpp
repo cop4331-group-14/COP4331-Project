@@ -3,12 +3,14 @@
 #include "LightItem.h"
 
 #include "ScaryMazeBaseCharacter.h"
-#include "ScaryMazeGameInstance.h"
+//#include "ScaryMazeGameInstance.h"
 #include "Engine/Engine.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
-#include "Runtime/Engine/Classes/Engine/Engine.h"
+//#include "Runtime/Engine/Classes/Engine/Engine.h"
 #include "Match.h"
+#include "Lighter.h"
+#include "Lantern.h"
 
 // Sets default values
 ALightItem::ALightItem()
@@ -54,6 +56,7 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 			Player->LightSource->SetIntensity(this->LightIntensity);
 			Player->LightSource->SetLightColor(this->LightColor);
 			Player->LightTime = this->LightTime;
+			Player->LightSource->SetAttenuationRadius(this->Attenuation);
 
 			// Start the player's light timer.
 			Player->SetLightTime(this->LightTime);
@@ -71,6 +74,14 @@ void ALightItem::DisplayLightCollectionMessage()
 	if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
 	{
 		LightSource = "match";
+	}
+	else if (this->GetClass()->IsChildOf(ALighter::StaticClass()))
+	{
+		LightSource = "lighter";
+	}
+	else if (this->GetClass()->IsChildOf(ALantern::StaticClass()))
+	{
+		LightSource = "lantern";
 	}
 	else
 	{

@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeLantern() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALantern, 1209963194);
+	IMPLEMENT_CLASS(ALantern, 1464272374);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALantern(Z_Construct_UClass_ALantern, &ALantern::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("ALantern"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALantern);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

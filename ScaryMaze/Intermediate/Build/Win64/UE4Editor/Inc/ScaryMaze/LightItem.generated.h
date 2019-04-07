@@ -114,6 +114,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALightItem); \
 	FORCEINLINE static uint32 __PPO__LightIntensity() { return STRUCT_OFFSET(ALightItem, LightIntensity); } \
 	FORCEINLINE static uint32 __PPO__LightTime() { return STRUCT_OFFSET(ALightItem, LightTime); } \
 	FORCEINLINE static uint32 __PPO__LightColor() { return STRUCT_OFFSET(ALightItem, LightColor); } \
+	FORCEINLINE static uint32 __PPO__Attenuation() { return STRUCT_OFFSET(ALightItem, Attenuation); } \
 	FORCEINLINE static uint32 __PPO__LightBox() { return STRUCT_OFFSET(ALightItem, LightBox); }
 
 

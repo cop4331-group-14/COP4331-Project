@@ -35,7 +35,7 @@ public: \
 
 #define ScaryMaze_Source_ScaryMaze_Lantern_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ALantern(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ALantern(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALantern) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ALantern); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALantern); \
@@ -47,8 +47,6 @@ public:
 
 
 #define ScaryMaze_Source_ScaryMaze_Lantern_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ALantern() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ALantern(ALantern&&); \
