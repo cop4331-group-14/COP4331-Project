@@ -3,11 +3,14 @@
 #include "LightItem.h"
 
 #include "ScaryMazeBaseCharacter.h"
-#include "ScaryMazeGameInstance.h"
+//#include "ScaryMazeGameInstance.h"
 #include "Engine/Engine.h"
 #include "Kismet/GameplayStatics.h"
-#include "Runtime/Engine/Classes/Engine/Engine.h"
+#include "TimerManager.h"
+//#include "Runtime/Engine/Classes/Engine/Engine.h"
 #include "Match.h"
+#include "Lighter.h"
+#include "Lantern.h"
 
 // Sets default values
 ALightItem::ALightItem()
@@ -45,17 +48,22 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
 		AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
-		if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
+		
+		// Player can pick up light source only if they don't have a light source active.
+		if (!GetWorldTimerManager().IsTimerActive(Player->LightTimerHandle))
 		{
+			// Set the light parameters
 			Player->LightSource->SetIntensity(this->LightIntensity);
 			Player->LightSource->SetLightColor(this->LightColor);
 			Player->LightTime = this->LightTime;
+			Player->LightSource->SetAttenuationRadius(this->Attenuation);
 
+			// Start the player's light timer.
 			Player->SetLightTime(this->LightTime);
 
+			DisplayLightCollectionMessage();
+			Destroy();
 		}
-		DisplayLightCollectionMessage();
-		Destroy();
 	}
 }
 
@@ -66,6 +74,14 @@ void ALightItem::DisplayLightCollectionMessage()
 	if (this->GetClass()->IsChildOf(AMatch::StaticClass()))
 	{
 		LightSource = "match";
+	}
+	else if (this->GetClass()->IsChildOf(ALighter::StaticClass()))
+	{
+		LightSource = "lighter";
+	}
+	else if (this->GetClass()->IsChildOf(ALantern::StaticClass()))
+	{
+		LightSource = "lantern";
 	}
 	else
 	{

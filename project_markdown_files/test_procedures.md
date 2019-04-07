@@ -2,12 +2,12 @@
 ## U001
 | Step | Action | Observation |
 |------|--------|-------------|
-|1|Open Unreal Engine 4| Prompts if you want to create or open a project|
-|2| Click Open a project| Prompts a window to select a Project|
-|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
-|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
-|5| Click the mouse over each button located on the screen| Observe that it does what the text on the button says|
-|6| Repeat step 5 for each button|Observe that it does what the text on the button does|
+| 1 |Open Unreal Engine 4| Prompts if you want to create or open a project|
+| 2 | Click Open a project| Prompts a window to select a Project|
+| 3 | Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+| 4 | Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+| 5 | Click the mouse over each button located on the screen| Observe that it does what the text on the button says|
+| 6 | Repeat step 5 for each button|Observe that it does what the text on the button does|
 
 ## U002
 | Step | Action | Observation |
@@ -116,54 +116,64 @@
 ## U011
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Traverse the maze until you find a monster | There should be a monster on your screen |
+| 3 | Allow yourself to be attacked by the monster by moving towards it | The monster should approach you and attack you |
+| 4 | Verify that your health decreases when you are attacked | Observe the health value displayed at the bottom right corner of the screen decreasing |
 
 ## U012
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U011 | Verify that the view on the screen is a monster and your health value is decreasing |
+| 2 | Allow the monster to continue to attack you | Observe your health value decreasing |
+| 3 | Verify that you die once your health reaches zero | Observe the death screen appear |
 
 ## U013
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U011 | Verify that the view on the screen is a monster and your health value is decreasing |
+| 2 | Click on the monster to attack and kill it before your health reaches zero | Observe the monster die and vanish |
+| 3 | Traverse the maze until you find a health pack | Observe a health pack in the maze on your screen |
+| 4 | Taking note of your original health, step on the health pack | Verify that your health value increases |
 
 ## U014
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Traverse the maze until you find a monster | There should be a monster on your screen |
+| 3 | Slowly approach the monster | As you get near the monster, it should follow you |
 
 ## U015
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U016
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U017
 | Step | Action | Observation |
 |------|--------|-------------|
 | 1 | Follow the test procedure U003. | A maze should be observed. |
 | 2 | Stop the simulation by pressing 'Esc' | The game should stop. |
 | 3 | Follow Test procedure U003 again. | Observe a different maze appears. |
 | 4 | Stop simulation and repeat as needed. | A different random maze should be observed each time. |
+
+## U016
+| Step | Action | Observation |
+|------|--------|-------------|
+| 1 | Open Unreal Engine 4| Prompts if you want to create or open a project|
+| 2 | Click Open a project| Prompts a window to select a Project|
+| 3 | Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
+| 4 | Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
+| 5 | Press "New game" on the menu|Player will spawn in a scary maze|
+| 6 | Walk forward for 4 seconds| A weapon will appear|
+| 7 | Walk on top of the weapon | The weapon will be added to the inventory|
+| 8 | Click a weapon in the inventory located at the top right.| Adds clicked weapon to the player|
+| 9 | Procced to find a monster| Monster will want to battle|
+| 10 | kill the monster| The enemy will drop a gold nugget
+| 11 | Hover over the gold nugget| The count of nuggets will go up in the inventory located at the top right corner| 
+
+## U017
+| Step | Action | Observation |
+|------|--------|-------------|
+| 1 | Complete Test Procedure U014 | Verify there is a monster on the screen which is approaching you |
+| 2 | Click towards the monster | When the monster is close enough, it will be damaged by your attacks |
+| 3 | Repeat step 2 until the monster dies and vanishes | Verify the monster is no longer attacking you |
+
 ## U018
-| Step | Action | Observation |
-|------|--------|-------------|
-|1| Open Unreal Engine 4| Prompts if you want to create or open a project|
-|2| Click Open a project| Prompts a window to select a Project|
-|3| Double click the "ScaryMaze" project file.| Opens the project ScaryMaze|
-|4| Press the Play button, located on the top right of the screen| Prompts the game and it's Menu|
-|5| Press "New game" on the menu|Player will spawn in a scary maze|
-|6| Walk forward for 4 seconds| A weapon will appear|
-|7| Walk on top of the weapon | The weapon will be added to the inventory|
-|8| Click a weapon in the inventory located at the top right.| Adds clicked weapon to the player|
-|9| Procced to find a monster| Monster will want to battle|
-|10| kill the monster| The enemy will drop a gold nugget
-|11| Hover over the gold nugget| The count of nuggets will go up in the inventory located at the top right corner| 
-
-## U019
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U020
 | Step | Action | Observation |
 |------|--------|-------------|
 |1| Open Unreal Engine 4| Prompts if you want to create or open a project|
@@ -176,7 +186,7 @@
 |8| Repeat steps 6 and 7| Adds different kinds of weapons that appear at random|
 |9| Hover the mouse over the weapon in the inventory| Shows the percentage of attack strength that will be increased|
 
-## U021
+## U019
 | Step | Action | Observation |
 |------|--------|-------------|
 |1| Open Unreal Engine 4| Prompts if you want to create or open a project|
@@ -189,23 +199,29 @@
 |8| Repeat steps 6 and 7| Adds different kinds of armors that appear at random|
 |9| Hover the mouse over the weapon in the inventory| Shows the percentage of defense strength that will be increased|
 
+## U020
+| Step | Action | Observation |
+|------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Traverse the maze until you find the goal | There should be a giant glowing blue egg on your screen |
+| 3 | Walk into the goal | Observe the win screen appear |
+| 4 | Click the Next Level button | You should be placed in a new maze |
+| 5 | Traverse the maze until you find the goal | Observe that finding this goal took longer than finding the first goal, since the maze has increased in size |
+
+## U021
+| Step | Action | Observation |
+|------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Turn up your computer's volume | Observe spooky music playing |
+
 ## U022
 | Step | Action | Observation |
 |------|--------|-------------|
+| 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
+| 2 | Traverse the maze to find the goal (randomly or with some strategy such as following one wall) | Observe a giant glowing blue egg on your screen |
+| 3 | Walk into the goal | Observe the win screen appear |
 
 ## U023
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U024
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U025
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U026
 | Step | Action | Observation |
 |------|--------|-------------|
 | 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
@@ -214,7 +230,7 @@
 | 4 | Press the Save Game button in the Main Menu | The text "Game Saved" will appear on the screen |
 | 5 | Verify that a save game file has been created by navigating to the game file directory (e.g .../Unreal Projects/COP4331-Project/ScaryMaze) | Observe a file called savefile exists in the directory |
 
-## U027
+## U024
 | Step | Action | Observation |
 |------|--------|-------------|
 | 1 | Complete Test Procedure U026 | Verify that the file savefile exists in the game file directory |

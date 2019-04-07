@@ -10,6 +10,10 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Match.h"
 #include "Lighter.h"
+#include "Lantern.h"
+#include "Breastplate.h"
+#include "Greaves.h"
+#include "Helmet.h"
 #include "Engine/Engine.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
@@ -43,10 +47,43 @@ private:
 		TSubclassOf<AMatch> Match;
 
 	UFUNCTION()
-		void SpawnMatches();
+		void SpawnLightItems();
+
+	UFUNCTION()
+		void SpawnMatch(int CurrentCell);
+
+	UFUNCTION()
+		void SpawnLighter(int CurrentCell);
+
+	UFUNCTION()
+		void SpawnLantern(int CurrentCell);
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<ALighter> Lighter;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ALantern> Lantern;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<ABreastplate> Breastplate;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AGreaves> Greaves;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AHelmet> Helmet;
+
+	UFUNCTION()
+		void SpawnArmorItem();
+
+	UFUNCTION()
+		void SpawnBreastplate(int PathLength);
+
+	UFUNCTION()
+		void SpawnGreaves(int PathLength);
+
+	UFUNCTION()
+		void SpawnHelmet(int PathLength);
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AScaryMazeBaseCharacter> PlayerToSpawn;

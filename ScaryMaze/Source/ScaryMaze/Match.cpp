@@ -5,7 +5,8 @@
 // Sets default values
 AMatch::AMatch()
 {
-	LightIntensity = 10000.f;
+	LightIntensity = 5000.f;
 	LightColor = FColor::Red;
 	LightTime = 10.f;
+	Attenuation = 1200.f;
 }
