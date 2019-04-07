@@ -9,19 +9,24 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
+#include "ScaryMazeGameInstance.h"
 #include "MotionControllerComponent.h"
 
 // Sets default values
 AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 {
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	// Stats of the character
 	MaxHealth = 100.0;
 	Health = 100.0;
-	AttackPower = 1;
-	Defense = 1;
+	if (Instance)
+	{
+		AttackPower = 5 * Instance->Level;
+		Defense = 5 * Instance->Level;
+	}
 	IsDead = false;
 	// Turn speed of character
 	BaseTurnRate = 45.f;
@@ -81,7 +86,20 @@ void AScaryMazeBaseCharacter::Tick(float DeltaTime)
 
 void AScaryMazeBaseCharacter::Swing()
 {
+	UWorld* const World = GetWorld();
+	if (World != NULL)
+	{
+		if (FireAnimation != NULL)
+		{
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
 
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -90,6 +108,8 @@ void AScaryMazeBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AScaryMazeBaseCharacter::Swing);
 
 	// Binds functions to movement of character and camera
 	PlayerInputComponent->BindAxis("MoveForward", this, &AScaryMazeBaseCharacter::MoveForward);

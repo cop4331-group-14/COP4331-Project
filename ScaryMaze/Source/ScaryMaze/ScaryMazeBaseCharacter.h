@@ -14,7 +14,7 @@ class SCARYMAZE_API AScaryMazeBaseCharacter : public ACharacter
 
 public:
 
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	UPROPERTY(BlueprintReadOnly, Category = Mesh)
 	class USkeletalMeshComponent* Mesh1P;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -28,6 +28,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		UPointLightComponent* LightSource;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UAnimMontage* FireAnimation;
 
 	UPROPERTY(EditAnywhere)
 		float LightTime;
