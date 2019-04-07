@@ -132,19 +132,12 @@
 ## U015
 | Step | Action | Observation |
 |------|--------|-------------|
-
-## U016
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U017
-| Step | Action | Observation |
-|------|--------|-------------|
 | 1 | Follow the test procedure U003. | A maze should be observed. |
 | 2 | Stop the simulation by pressing 'Esc' | The game should stop. |
 | 3 | Follow Test procedure U003 again. | Observe a different maze appears. |
 | 4 | Stop simulation and repeat as needed. | A different random maze should be observed each time. |
-## U018
+
+## U016
 | Step | Action | Observation |
 |------|--------|-------------|
 |1| Open Unreal Engine 4| Prompts if you want to create or open a project|
@@ -159,11 +152,11 @@
 |10| kill the monster| The enemy will drop a gold nugget
 |11| Hover over the gold nugget| The count of nuggets will go up in the inventory located at the top right corner| 
 
-## U019
+## U017
 | Step | Action | Observation |
 |------|--------|-------------|
 
-## U020
+## U018
 | Step | Action | Observation |
 |------|--------|-------------|
 |1| Open Unreal Engine 4| Prompts if you want to create or open a project|
@@ -176,7 +169,7 @@
 |8| Repeat steps 6 and 7| Adds different kinds of weapons that appear at random|
 |9| Hover the mouse over the weapon in the inventory| Shows the percentage of attack strength that will be increased|
 
-## U021
+## U019
 | Step | Action | Observation |
 |------|--------|-------------|
 |1| Open Unreal Engine 4| Prompts if you want to create or open a project|
@@ -189,23 +182,19 @@
 |8| Repeat steps 6 and 7| Adds different kinds of armors that appear at random|
 |9| Hover the mouse over the weapon in the inventory| Shows the percentage of defense strength that will be increased|
 
+## U020
+| Step | Action | Observation |
+|------|--------|-------------|
+
+## U021
+| Step | Action | Observation |
+|------|--------|-------------|
+
 ## U022
 | Step | Action | Observation |
 |------|--------|-------------|
 
 ## U023
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U024
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U025
-| Step | Action | Observation |
-|------|--------|-------------|
-
-## U026
 | Step | Action | Observation |
 |------|--------|-------------|
 | 1 | Complete Test Procedure U002 | Verify that the view on the screen is walls around the player and an open sky above the player |
@@ -214,7 +203,7 @@
 | 4 | Press the Save Game button in the Main Menu | The text "Game Saved" will appear on the screen |
 | 5 | Verify that a save game file has been created by navigating to the game file directory (e.g .../Unreal Projects/COP4331-Project/ScaryMaze) | Observe a file called savefile exists in the directory |
 
-## U027
+## U024
 | Step | Action | Observation |
 |------|--------|-------------|
 | 1 | Complete Test Procedure U026 | Verify that the file savefile exists in the game file directory |
