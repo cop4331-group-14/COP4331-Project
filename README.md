@@ -35,7 +35,7 @@ If you are a fan of horror, then you will love **Scary Maze**!
 # Sprint 3
 * [Product Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/product_backlog.md)
 * [Sprint Backlog](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/sprint_3_backlog.md)
-  * Burndown Chart
+  * [Burndown Chart](https://github.com/cop4331-group-14/COP4331-Project/blob/master/burndownSprint3.pdf)
 * [Requirements](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/requirements.md)
 * [Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/project_markdown_files/architecture.md)
 * [Source Code](https://github.com/cop4331-group-14/COP4331-Project/tree/master/ScaryMaze)
