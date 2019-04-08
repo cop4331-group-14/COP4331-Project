@@ -20,7 +20,9 @@
 * inventory: contains limited items
 
 ## Class Diagrams
-* [Enemy Character](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.pdf)
+* Enemy Character
+
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.PNG)
 
 * [Maze](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.pdf)
 
