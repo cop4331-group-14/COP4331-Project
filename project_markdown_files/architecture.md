@@ -24,7 +24,9 @@
 
 ![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.PNG)
 
-* [Maze](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.pdf)
+* Maze
+
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.PNG)
 
 ## Data Design
 
