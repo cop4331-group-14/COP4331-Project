@@ -1,6 +1,7 @@
 # Program Organization
 
-## [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/systemarchitecture.pdf)
+## System Architecture
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/systemarchitecture.PNG)
 
 ## Naming Conventions
 * Naming conventions follow Epic Games [Coding Standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard)
@@ -19,9 +20,13 @@
 * inventory: contains limited items
 
 ## Class Diagrams
-* [Enemy Character](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.pdf)
+* Enemy Character
 
-* [Maze](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.pdf)
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/enemy_character_design.PNG)
+
+* Maze
+
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.PNG)
 
 ## Data Design
 
@@ -29,12 +34,16 @@
 * The game is not subject to business rules.
 
 ## User Interface Design
-[Menu Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/menudesign.pdf)
+* In-Game Design
 
-[In-Game Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.pdf)
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.PNG)
+
+* Menu Design
+
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/menudesign.PNG)
 
 ## Resource Management
-
+* Limited draw distance to improve performance
 
 ## Security
 * The game is not online and does not access personal information. Therefore, security is not a concern.
@@ -43,13 +52,16 @@
 * The game should operate at >= 30 frames-per-second.
 
 ## Scalability
+* Modular file structure (assets organized by function)
 
 ## Interoperability
+* Game is stored and run completely locally
 
 ## Internationalization/Localization
 * The game will only be presented in English, as it is only for the class project.
 
 ## Input/Output
+* Inputs include keys and mouse movements to control the player and navigate menus
 
 ## Error Processing
 

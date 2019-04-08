@@ -3,12 +3,12 @@
 |----|------------|--------|----------|---------------------|-------|
 | 006 | As a player, I want items that can increase the lighting and allow me to see further to increase my survivability. | 6 | 4 | When equipped, a lighting item changes the game lighting and view distance appropriate to the item. | James |
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | Pranav |
-| 011 | As a player, I want my health to lower based on damage from enemies so there is a consequence for playing poorly. | 5 | 6 | When damaged, the health statistic lowers appropriately. | Sherry |
-| 012 | As a player, I want my character to die when health reaches zero, in order to make gameplay challenging. | 2 | 5 | When the player's health reaches zero, they die and are presented with 'Load Game' menu. If no game save exists, they are presented with 'New Game'. | Sherry/Pranav |
-| 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When a health box is used that replenishes health, the health statistic increases appropriately. | Sherry/Luis | 
-| 014 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. | Sherry |
+| 011 | ~As a player, I want my health to lower based on damage from enemies so there is a consequence for playing poorly.~ | 5 | 6 | When damaged, the health statistic lowers appropriately. | Sherry |
+| 012 | ~As a player, I want my character to die when health reaches zero, in order to make gameplay challenging.~ | 2 | 5 | When the player's health reaches zero, they die and are presented with 'Load Game' menu. If no game save exists, they are presented with 'New Game'. | Sherry/Pranav |
+| 013 | ~As a player, I want items that replenish my lost health.~ | 4 | 6 | When a health box is used that replenishes health, the health statistic increases appropriately. | Sherry/Luis | 
+| 014 | ~As a player, I want the monsters to attack me when they are near to make me react.~ | 7 | 6 | When a player gets near a monster, the monster attacks them. | Sherry |
 | 016 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they gain points by playing well, such as by killing monsters or reaching a maze's goal. | Luis/James |
-| 017 | As a player, I want to be able to fight the enemy monsters in order to increase the challenge. | 9 | 8 | When a player encounters monsters, they can attack and defend against them. | Sherry |
+| 017 | ~As a player, I want to be able to fight the enemy monsters in order to increase the challenge.~ | 9 | 8 | When a player encounters monsters, they can attack and defend against them. | Sherry |
 | 018 | As a player, I want to have a variety of weapons to increase my attack strength. | 4 | 7 | When a player equips different weapons, it adjusts the player's attack strength appropriately. | Luis/James |
 | 019 | As a player, I want to have a variety of armors to increase my defense. | 4 | 7 | When a player equips different armors, it adjusts the player's ability to mitigate damage. | Luis/James |
 | 020 | As a player, I want the difficulty of the mazes to increase as I progress in order to increase the challenge. | 6 | 7 | When a player completes a level, the following level has a larger maze, more monsters, and monsters have higher stats. | James |
