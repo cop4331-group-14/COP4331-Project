@@ -17,12 +17,12 @@
 | 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When an item is used that replenishes health, the health statistic increases appropriately. | WORKING | 
 | 014 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. | WORKING |
 | 015 | ~As a player, I want the mazes to be generated randomly, to increase the uniqueness of levels.~ | 6 | 6 | When a maze is created for a level, it is generated randomly. | COMPLETED |
-| 016 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they find lootable containers with rewards. | WORKING |
+| 016 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they gain points by playing well, such as by killing monsters or reaching a maze's goal. | WORKING |
 | 017 | As a player, I want to be able to fight the enemy monsters in order to increase the challenge. | 9 | 8 | When a player encounters monsters, they can attack and defend against them. | WORKING |
 | 018 | As a player, I want to have a variety of weapons to increase my attack strength. | 4 | 7 | When a player equips different weapons, it adjusts the player's attack strength appropriately. | WORKING |
 | 019 | As a player, I want to have a variety of armors to increase my defense. | 4 | 7 | When a player equips different armors, it adjusts the player's ability to mitigate damage. | WORKING |
 | 020 | As a player, I want the difficulty of the mazes to increase I progress in order to increase the challenge. | 6 | 7 | When a player completes a level, the following level has a larger maze, more monsters, and monsters have higher stats. | WORKING |
 | 021 | As a player, I want there to be music to increase my immersion in the game. | 2 | 9 | When the player plays the game, there is music. | WORKING |
 | 022 | As a player, I want the game to have a finish that is reachable. | 4 | 6 | When the player completes the final level, they receive a congratulatory message and then taken to the main menu. | WORKING |
-| 023 | As a player, I want to be able to save my game progress through the menu so that I can continue to play later. | 2 | 8 | When 'Save Game' is selected in the menu, it saves the game state. | WORKING |
-| 024 | As a player, I want to be able to load my previously saved game in order to continue playing. | 2 | 8 | When 'Load Game' is selected from the menu,  the appropriate game state is loaded. | WORKING |
+| 023 | As a player, I want my game to be able to be saved so that I can continue to play later. | 2 | 8 | When the player walks through a level's goal, the player's level and statistics are saved. | WORKING |
+| 024 | As a player, I want to be able to load my previously saved game in order to continue playing. | 2 | 8 | When 'Load Game' is selected from the menu,  the appropriate player and level is loaded. | WORKING |
