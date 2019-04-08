@@ -1,5 +1,6 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331-Project).
-  Creating makefile for ScaryMazeEditor (source directory changed)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tride\Desktop\Unreal Projects\COP4331-Project).
+  Creating makefile for ScaryMazeEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
+  Deploying ScaryMazeEditor Win64 Development...
+  Total build time: 6.14 seconds (NoActionsToExecute executor: 0.00 seconds)
