@@ -1,4 +1,4 @@
-﻿Log file open, 04/08/19 14:48:46
+﻿Log file open, 04/08/19 15:44:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: ScaryMaze
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.885829
+LogStats: Stats thread started at 1.784790
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.441s to configure plugins.
+LogStreaming: Display: Took  1.041s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,1005 +149,470 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.032s to delete old logs.
+LogStreaming: Display: Took  0.060s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.04.08-18.48.50:450][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.04.08-18.48.50:450][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.04.08-18.48.50:467][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:467][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.04.08-18.48.50:467][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:467][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.04.08-18.48.50:468][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.04.08-18.48.50:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:472][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.04.08-18.48.50:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.04.08-18.48.50:474][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.04.08-18.48.50:474][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.04.08-18.48.50:474][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.04.08-18.48.50:474][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.04.08-18.48.50:474][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.04.08-18.48.50:475][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.04.08-18.48.50:476][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.04.08-18.48.50:476][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:478][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:636][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.08-18.48.50:636][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.08-18.48.50:637][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.08-18.48.50:638][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.08-18.48.50:639][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.08-18.48.50:640][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.08-18.48.50:645][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.08-18.48.50:646][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.08-18.48.50:755][  0]LogHAL: Display: Platform has ~ 8 GB [8499228672 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.08-18.48.50:764][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.04.08-18.48.50:764][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.08-18.48.50:776][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2019.04.08-18.48.50:776][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2019.04.08-18.48.50:777][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
-[2019.04.08-18.48.50:778][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2019.04.08-18.48.50:779][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.04.08-18.48.50:780][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2019.04.08-18.48.50:781][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2019.04.08-18.48.50:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.04.08-18.48.50:782][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.04.08-18.48.50:783][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
-[2019.04.08-18.48.50:841][  0]LogInit: Computer: LAPTOP-Q1QSGUBH
-[2019.04.08-18.48.50:842][  0]LogInit: User: james
-[2019.04.08-18.48.50:842][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.04.08-18.48.50:842][  0]LogInit: High frequency timer resolution =2.648437 MHz
-[2019.04.08-18.48.50:842][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.04.08-18.48.50:842][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.08-18.48.50:843][  0]LogMemory: Process Physical Memory: 102.98 MB used, 102.98 MB peak
-[2019.04.08-18.48.50:843][  0]LogMemory: Process Virtual Memory: 96.83 MB used, 96.83 MB peak
-[2019.04.08-18.48.50:843][  0]LogMemory: Physical Memory: 5378.16 MB used,  2727.33 MB free, 8105.50 MB total
-[2019.04.08-18.48.50:843][  0]LogMemory: Virtual Memory: 4640.92 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.04.08-18.48.53:777][  0]LogInit: Using OS detected language (en-US).
-[2019.04.08-18.48.53:777][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.08-18.48.53:788][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.08-18.48.55:293][  0]LogStreaming: Display: Took  1.509s to InitEngineTextLocalization.
-[2019.04.08-18.48.55:315][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.08-18.48.56:509][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.08-18.48.56:509][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.08-18.49.03:949][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.08-18.49.03:949][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.08-18.49.05:913][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 920MX' (Feature Level 11_0)
-[2019.04.08-18.49.05:913][  0]LogD3D11RHI:       2010/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.08-18.49.06:180][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2019.04.08-18.49.06:180][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.04.08-18.49.06:277][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.08-18.49.06:277][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.08-18.49.06:277][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.08-18.49.06:386][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.08-18.49.06:386][  0]LogD3D11RHI:     GPU DeviceId: 0x134f (for the marketing name, search the web for "GPU Device Id")
-[2019.04.08-18.49.06:386][  0]LogWindows: EnumDisplayDevices:
-[2019.04.08-18.49.06:386][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2019.04.08-18.49.06:386][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.04.08-18.49.06:387][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.04.08-18.49.06:387][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.04.08-18.49.06:387][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 920MX
-[2019.04.08-18.49.06:388][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.04.08-18.49.06:388][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.04.08-18.49.06:388][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.04.08-18.49.06:583][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.08-18.49.07:134][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
-[2019.04.08-18.49.08:159][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.08-18.49.08:236][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.08-18.49.08:256][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.08-18.49.08:275][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.08-18.49.08:406][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.08-18.49.08:489][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.08-18.49.08:531][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.08-18.49.08:571][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.08-18.49.08:669][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:806][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.08-18.49.08:828][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.08-18.49.08:979][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.08-18.49.08:979][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.08-18.49.09:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.08-18.49.09:020][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.08-18.49.09:048][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.08-18.49.09:074][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.08-18.49.09:096][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.08-18.49.09:155][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.08-18.49.09:233][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.08-18.49.09:233][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.08-18.49.09:233][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.08-18.49.10:464][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Intermediate/Shaders/WorkingDirectory/21368/).
-[2019.04.08-18.49.10:464][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/james/AppData/Local/Temp/UnrealShaderWorkingDir/4170F8134EA2B2633D889EB214A746A2/'.
-[2019.04.08-18.49.10:494][  0]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.08-18.49.10:495][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.08-18.49.10:495][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.08-18.49.10:496][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.08-18.49.16:861][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.08-18.49.18:333][  0]LogDerivedDataCache: Loaded boot cache 1.47s 124MB C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.08-18.49.18:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.04.08-18.49.18:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.08-18.49.18:334][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.08-18.49.18:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.08-18.49.18:334][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.08-18.49.18:411][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.08-18.49.18:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.08-18.49.18:411][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.04.08-18.49.18:452][  0]LogDerivedDataCache: Using Local data cache path C:/Users/james/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.08-18.49.18:453][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.08-18.49.18:453][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.08-18.49.18:653][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.08-18.49.18:729][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.08-18.49.18:836][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.08-18.49.20:964][  0]LogAssetRegistry: FAssetRegistry took 0.0613 seconds to start up
-[2019.04.08-18.49.27:042][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.08-18.49.29:161][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.08-18.49.29:343][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.08-18.49.29:344][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.08-18.49.29:357][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.08-18.49.29:358][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.08-18.49.30:500][  0]LogNetVersion: ScaryMaze 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3370334168)
-[2019.04.08-18.49.38:132][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.337720 seconds
-[2019.04.08-18.49.38:156][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.04.08-18.49.38:156][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.04.08-18.49.38:156][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.08-18.50.01:191][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.08-18.50.01:253][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.08-18.50.02:909][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-18.50.04:674][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.04:905][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-18.50.06:989][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-18.50.07:128][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-18.50.08:027][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:027][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:027][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:027][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:028][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:028][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:028][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:029][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:030][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:031][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:032][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.08:033][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.08-18.50.13:275][  0]SourceControl: Source control is disabled
-[2019.04.08-18.50.13:275][  0]SourceControl: Source control is disabled
-[2019.04.08-18.50.13:415][  0]SourceControl: Source control is disabled
-[2019.04.08-18.50.13:448][  0]SourceControl: Source control is disabled
-[2019.04.08-18.50.15:686][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.08-18.50.16:442][  0]LogOcInput: OculusInput pre-init called
-[2019.04.08-18.50.19:006][  0]LogEngine: Initializing Engine...
-[2019.04.08-18.50.19:099][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.08-18.50.19:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.04.08-18.50.19:155][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.08-18.50.19:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.006 s
-[2019.04.08-18.50.19:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.08-18.50.20:492][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.08-18.50.21:780][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.08-18.50.22:431][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.50.22:634][  0]LogInit: FAudioDevice initialized.
-[2019.04.08-18.50.22:666][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.08-18.50.23:593][  0]LogDerivedDataCache: Saved boot cache 0.93s 124MB C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.08-18.50.23:630][  0]LogInit: Texture streaming: Enabled
-[2019.04.08-18.50.23:986][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.08-18.50.24:026][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={4D839E09-4279-1B61-00AB-1C9D65481127}
-[2019.04.08-18.50.24:846][  0]LogInit: Transaction tracking system initialized
-[2019.04.08-18.50.25:724][  0]BlueprintLog: New page: Editor Load
-[2019.04.08-18.50.28:191][  0]LocalizationService: Localization service is disabled
-[2019.04.08-18.50.35:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/' took 0.08s
-[2019.04.08-18.50.35:986][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.08-18.50.35:987][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.08-18.50.35:988][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.08-18.50.35:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.08-18.50.35:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.08-18.50.35:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.08-18.50.35:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.08-18.50.38:678][  0]SourceControl: Source control is disabled
-[2019.04.08-18.50.38:708][  0]Cmd: MAP LOAD FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.08-18.50.38:765][  0]LightingResults: New page: Lighting Build
-[2019.04.08-18.50.39:085][  0]MapCheck: New page: Map Check
-[2019.04.08-18.50.39:085][  0]LightingResults: New page: Lighting Build
-[2019.04.08-18.50.40:216][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.50.40:540][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.08-18.50.40:853][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.08-18.50.40:858][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.257ms to complete.
-[2019.04.08-18.50.40:865][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 2.179
-[2019.04.08-18.50.44:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.50.44:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.50.44:465][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.50.44:474][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.50.44:667][  0]LogCollectionManager: Loaded 0 collections in 0.003058 seconds
-[2019.04.08-18.50.45:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Collections/' took 0.01s
-[2019.04.08-18.50.45:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/Developers/james/Collections/' took 0.01s
-[2019.04.08-18.50.45:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/Collections/' took 0.01s
-[2019.04.08-18.50.45:158][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.04.08-18.50.45:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0622 seconds. Added 2675 classes and 622 folders.
-[2019.04.08-18.50.45:494][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.04.08-18.50.45:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:630][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:694][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:714][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:730][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:913][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:937][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:974][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.45:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:110][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:127][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.46:158][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.08-18.50.47:093][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.04.08-18.50.47:197][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2019.04.08-18.50.48:068][  0]LogSlate: Took 0.018557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.08-18.50.48:099][  0]LogSlate: Took 0.021737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.08-18.50.48:236][  0]LogSlate: Took 0.029436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.08-18.50.49:179][  0]LogRenderer: Reallocating scene render targets to support 732x360 Format 9 NumSamples 1 (Frame:1).
-[2019.04.08-18.50.51:353][  0]LogSlate: Took 0.020730 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.08-18.50.52:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2019.04.08-18.50.52:146][  0]LogLoad: (Engine Initialization) Total time: 135.27 seconds
-[2019.04.08-18.50.52:146][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.08-18.50.52:246][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.08-18.50.52:719][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.08-18.50.54:309][  6]LogAssetRegistry: Asset discovery search completed in 93.3703 seconds
-[2019.04.08-18.50.54:311][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.08-18.50.54:311][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000156 seconds (updated 0 objects)
-[2019.04.08-18.51.06:108][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.51.08:034][763]LogSlate: Took 0.001384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.08-18.51.08:069][763]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/GameplayHUD.GameplayHUD
-[2019.04.08-18.51.09:727][763]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 117 classes and 0 folders.
-[2019.04.08-18.51.13:766][763]LogSlate: Took 0.021720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.08-18.51.22:902][173]LogSlate: Took 0.090478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.04.08-18.51.40:508][102]LogSlate: Took 0.017713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.08-18.52.45:542][281]BlueprintLog: New page: Compile GameplayHUD
-[2019.04.08-18.52.47:086][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/GameplayHUD" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset" SILENT=true
-[2019.04.08-18.52.47:420][333]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/GameplayHUDF87415B04EE839F90128F0B0D2EBECC4.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset'
-[2019.04.08-18.52.51:492][553]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.52.51:497][553]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.52.54:582][696]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.52.54:645][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.52.54:662][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.52.54:731][696]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:52:54 AM)
-[2019.04.08-18.52.54:931][696]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.52.54:969][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037390s)
-[2019.04.08-18.52.54:970][696]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.52.54:979][696]LogPlayLevel: PIE: World Init took: (0.009913s)
-[2019.04.08-18.52.54:979][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.048497s)
-[2019.04.08-18.52.55:090][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.52.55:128][696]LogInit: FAudioDevice initialized.
-[2019.04.08-18.52.55:281][696]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.52.55:283][696]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.52.55
-[2019.04.08-18.52.55:321][696]LogWorld: Bringing up level for play took: 0.039442
-[2019.04.08-18.52.55:909][696]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.04.08-18.52.56:337][696]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 1.744
-[2019.04.08-18.52.56:337][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.52.58:434][775]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.52.58:438][775]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.52.59:555][775]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.52.59:555][775]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.52.59:692][775]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.52.59
-[2019.04.08-18.52.59:693][775]LogWorld: Bringing up level for play took: 0.136831
-[2019.04.08-18.53.00:159][775]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.53.00:159][775]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.53.00:178][775]LogLoad: Took 1.739912 seconds to LoadMap(/Game/LevelOne)
-[2019.04.08-18.53.07:423][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.07:443][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.53.07:772][114]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.53.07:774][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.07:856][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.53.08:056][115]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.04.08-18.53.08:580][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.53.12:809][397]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.53.12:837][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.12:837][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.53.12:837][397]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:53:12 AM)
-[2019.04.08-18.53.12:838][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.53.12:839][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001687s)
-[2019.04.08-18.53.12:840][397]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.53.12:841][397]LogPlayLevel: PIE: World Init took: (0.000996s)
-[2019.04.08-18.53.12:841][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003168s)
-[2019.04.08-18.53.12:882][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.53.12:902][397]LogInit: FAudioDevice initialized.
-[2019.04.08-18.53.12:902][397]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.53.12:942][397]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.53.12:943][397]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.53.12
-[2019.04.08-18.53.12:944][397]LogWorld: Bringing up level for play took: 0.000697
-[2019.04.08-18.53.12:963][397]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 0.37
-[2019.04.08-18.53.12:964][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.13:759][442]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.53.13:759][442]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.53.13:837][442]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.53.13:844][442]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.53.13:862][442]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.53.13
-[2019.04.08-18.53.13:876][442]LogWorld: Bringing up level for play took: 0.018983
-[2019.04.08-18.53.14:376][442]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.53.14:377][442]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.53.14:377][442]LogLoad: Took 0.618649 seconds to LoadMap(/Game/LevelOne)
-[2019.04.08-18.53.18:979][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.18:980][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.53.19:107][685]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.53.19:109][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.53.19:164][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.53.19:304][686]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.04.08-18.53.24:831][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.53.25:016][  5]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/DeathScreen.DeathScreen
-[2019.04.08-18.53.49:327][388]LogSlate: Window 'DeathScreen' being destroyed
-[2019.04.08-18.53.49:336][388]LogSlate: Window 'DeathScreen' being destroyed
-[2019.04.08-18.53.57:564][874]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.53.57:890][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.53.58:688][930]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.53.59:688][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.54.07:992][465]Cmd: MAP LOAD FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.08-18.54.08:017][465]LightingResults: New page: Lighting Build
-[2019.04.08-18.54.08:020][465]LoadErrors: New page: Loading map: LevelOne.umap
-[2019.04.08-18.54.08:022][465]MapCheck: New page: Map Check
-[2019.04.08-18.54.08:022][465]LightingResults: New page: Lighting Build
-[2019.04.08-18.54.08:123][465]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.54.08:183][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.08-18.54.08:293][465]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.08-18.54.08:293][465]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.267ms to complete.
-[2019.04.08-18.54.08:293][465]LogFileHelpers: Loading map 'LevelOne' took 0.326
-[2019.04.08-18.54.08:322][465]LogSlate: Window 'Open Level' being destroyed
-[2019.04.08-18.54.12:745][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.54.30:020][688]MapCheck: New page: Map Check
-[2019.04.08-18.54.30:156][688]Cmd: MAP REBUILD ALLVISIBLE
-[2019.04.08-18.54.30:183][688]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.04.08-18.54.30:552][688]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
-[2019.04.08-18.54.32:102][688]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.08-18.54.32:103][688]TextureStreamingBuild: Display: Compiling optional shaders took 1.583 seconds.
-[2019.04.08-18.54.32:158][688]LogLevel: Display: Export Material TexCoord Scales took 0.055 seconds.
-[2019.04.08-18.54.32:194][688]TextureStreamingBuild: Display: Build Texture Streaming took 0.036 seconds.
-[2019.04.08-18.54.32:264][688]LightingResults: New page: Lighting Build - Apr 8, 2019, 10:54:32 AM
-[2019.04.08-18.54.32:777][688]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.04.08-18.54.33:302][688]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.04.08-18.54.33:532][688]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.04.08-18.54.36:187][688]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2019.04.08-18.54.36:330][688]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
-
-Server stack trace: 
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:line 2811
-[2019.04.08-18.54.41:730][688]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.04.08-18.54.41:730][688]LogSwarmInterface: [TryOpenConnection] Local Process ID is 21368
-[2019.04.08-18.54.58:883][688]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2019.04.08-18.54.58:891][688]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.04.08-18.54.58:891][688]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.04.08-18.54.58:891][688]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.04.08-18.54.58:891][688]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.04.08-18.54.58:891][688]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.04.08-18.54.59:765][688]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.04.08-18.54.59:765][688]MapCheck: New page: LevelOne - Apr 8, 2019, 10:54:59 AM
-[2019.04.08-18.54.59:837][688]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.79ms to complete.
-[2019.04.08-18.54.59:872][688]LogEditorBuildUtils: Build time 0:29
-[2019.04.08-18.55.06:797][973]Job is a success!
-[2019.04.08-18.55.06:870][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.07:094][974]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.081s
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:      Bricks at Level
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2019.04.08-18.55.07:095][974]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2019.04.08-18.55.07:406][974]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
-[2019.04.08-18.55.07:410][974]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
-[2019.04.08-18.55.07:430][974]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 32X32)
-[2019.04.08-18.55.07:566][974]Lightmass on LAPTOP-Q1QSGUBH: 3.59 sec total, 978 ms importing, 205 ms setup, 264 ms photons, 1.19 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 4.75 sec total, 113 ms processing.
-[2019.04.08-18.55.07:658][974]LogStaticLightingSystem: Illumination: 35.3 sec (187 ms encoding lightmaps, 12 ms encoding shadowmaps)
-[2019.04.08-18.55.07:659][974]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2019.04.08-18.55.07:659][974]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
-[2019.04.08-18.55.07:921][974]DumpUnbuiltLightIteractions
-[2019.04.08-18.55.07:921][974]Lights with unbuilt interactions: 0
-[2019.04.08-18.55.07:921][974]
-[2019.04.08-18.55.07:921][974]Primitives with unbuilt interactions: 0
-[2019.04.08-18.55.07:975][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.08:259][975]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.04.08-18.55.08:259][975]MapCheck: New page: LevelOne - Apr 8, 2019, 10:55:08 AM
-[2019.04.08-18.55.08:260][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.193ms to complete.
-[2019.04.08-18.55.27:431][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.28:994][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.34:559][282]LogSlate: Window 'Save Content' being destroyed
-[2019.04.08-18.55.34:574][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.34:608][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelOne" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.08-18.55.35:109][282]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/LevelOneFBC959F145577E708A694B9FDC03AB22.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/LevelOne.umap'
-[2019.04.08-18.55.35:177][282]LogFileHelpers: Saving map 'LevelOne' took 0.570
-[2019.04.08-18.55.35:201][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelOne_BuiltData" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/LevelOne_BuiltData.uasset" SILENT=true
-[2019.04.08-18.55.35:268][282]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/LevelOne_BuiltDataACA9141F431B7E1E9CF9DC9FF7F70DDC.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/LevelOne_BuiltData.uasset'
-[2019.04.08-18.55.35:283][282]Cmd: MAP LOAD FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.08-18.55.35:288][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.35:309][282]LightingResults: New page: Lighting Build
-[2019.04.08-18.55.35:310][282]LoadErrors: New page: Loading map: MainMenuLevel.umap
-[2019.04.08-18.55.35:344][282]MapCheck: New page: Map Check
-[2019.04.08-18.55.35:344][282]LightingResults: New page: Lighting Build
-[2019.04.08-18.55.35:445][282]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.55.35:452][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.08-18.55.35:536][282]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.08-18.55.35:537][282]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.264ms to complete.
-[2019.04.08-18.55.35:537][282]LogFileHelpers: Loading map 'MainMenuLevel' took 0.256
-[2019.04.08-18.55.35:539][282]LogSlate: Window 'Open Level' being destroyed
-[2019.04.08-18.55.35:587][282]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.55.36:667][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.37:668][394]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.55.37:700][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.37:700][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.55.37:700][394]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:55:37 AM)
-[2019.04.08-18.55.37:700][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.55.37:702][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001659s)
-[2019.04.08-18.55.37:703][394]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.55.37:704][394]LogPlayLevel: PIE: World Init took: (0.001512s)
-[2019.04.08-18.55.37:704][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003871s)
-[2019.04.08-18.55.37:741][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.55.37:759][394]LogInit: FAudioDevice initialized.
-[2019.04.08-18.55.37:759][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.37:794][394]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.55.37:795][394]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.55.37
-[2019.04.08-18.55.37:796][394]LogWorld: Bringing up level for play took: 0.000684
-[2019.04.08-18.55.37:812][394]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel -0.781
-[2019.04.08-18.55.37:812][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.39:355][486]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.55.39:355][486]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.55.39:388][486]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-18.55.39:399][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010769s)
-[2019.04.08-18.55.39:401][486]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.55.39:401][486]LogPlayLevel: PIE: World Init took: (0.001479s)
-[2019.04.08-18.55.39:401][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.013291s)
-[2019.04.08-18.55.39:401][486]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.55.39:406][486]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.55.39
-[2019.04.08-18.55.39:406][486]LogWorld: Bringing up level for play took: 0.004378
-[2019.04.08-18.55.39:557][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.55.39:557][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.55.39:589][486]LogLoad: Took 0.232872 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: libcurl info message cache 0 (Connection 0 seems to be dead!)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: libcurl info message cache 1 (Closing connection 0)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
-[2019.04.08-18.55.41:096][562]LogHttp: Warning: 0000024DE0A5DD00: libcurl info message cache 4 (Closing connection 1)
-[2019.04.08-18.55.41:097][562]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B129266E5-4FDB-3E3A-FF4A-D3BDEEF56045%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=ef1351464ecd6da1ec8cad9f92cf0fc4%7C29239fdcda3245059010fcf3993924f0%7Cfffb1d74-d26c-4892-9d78-db39a79cbb39&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2019.04.08-18.55.46:781][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.46:783][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.55.46:848][898]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.55.46:848][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.46:884][898]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.55.46:891][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.55.46:922][899]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.04.08-18.55.51:698][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.52:197][215]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (52.097 sec). This should never happen. Something is wrong with the timer delegate!
-[2019.04.08-18.55.52:500][233]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.55.52:525][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.52:525][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.55.52:525][233]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:55:52 AM)
-[2019.04.08-18.55.52:526][233]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.55.52:527][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001524s)
-[2019.04.08-18.55.52:528][233]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.55.52:529][233]LogPlayLevel: PIE: World Init took: (0.001352s)
-[2019.04.08-18.55.52:529][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003490s)
-[2019.04.08-18.55.52:569][233]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.55.52:593][233]LogInit: FAudioDevice initialized.
-[2019.04.08-18.55.52:593][233]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.55.52:632][233]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.55.52:633][233]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.55.52
-[2019.04.08-18.55.52:634][233]LogWorld: Bringing up level for play took: 0.000808
-[2019.04.08-18.55.52:652][233]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 0.06
-[2019.04.08-18.55.52:653][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.55.53:454][281]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.55.53:454][281]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.55.53:488][281]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-18.55.53:498][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010229s)
-[2019.04.08-18.55.53:500][281]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.55.53:501][281]LogPlayLevel: PIE: World Init took: (0.001798s)
-[2019.04.08-18.55.53:501][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.012823s)
-[2019.04.08-18.55.53:501][281]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.55.53:506][281]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.55.53
-[2019.04.08-18.55.53:506][281]LogWorld: Bringing up level for play took: 0.003809
-[2019.04.08-18.55.53:655][281]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.55.53:655][281]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.55.53:655][281]LogLoad: Took 0.200158 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-18.56.29:034][378]LogCharacterMovement: Goblin_C_0 is stuck and failed to move! Velocity: X=4.10 Y=-149.94 Z=0.00 Location: X=5565.70 Y=807.53 Z=90.15 Normal: X=0.75 Y=-0.67 Z=0.00 PenetrationDepth:9.719 Actor:MyScaryMazeMainCharacter_C_0 Component:SM_Spear BoneName:None (0 other events since notify)
-[2019.04.08-18.56.32:923][610]LogCharacterMovement: Goblin_C_0 is stuck and failed to move! Velocity: X=148.96 Y=17.59 Z=0.00 Location: X=5930.44 Y=765.83 Z=90.15 Normal: X=0.72 Y=0.69 Z=0.00 PenetrationDepth:10.072 Actor:MyScaryMazeMainCharacter_C_0 Component:SM_Spear BoneName:None (50 other events since notify)
-[2019.04.08-18.56.36:610][817]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 98.091217
-[2019.04.08-18.56.36:610][817]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.36:886][833]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 96.193146
-[2019.04.08-18.56.36:886][833]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.37:439][866]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 92.542549
-[2019.04.08-18.56.37:439][866]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.38:523][929]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 90.415283
-[2019.04.08-18.56.38:524][929]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.41:946][123]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 98.078491
-[2019.04.08-18.56.41:947][123]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.41:967][124]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 95.547745
-[2019.04.08-18.56.41:967][124]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.56:250][973]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 87.812523
-[2019.04.08-18.56.56:250][973]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.56:301][976]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 85.429092
-[2019.04.08-18.56.56:301][976]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.58:417][103]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 85.215919
-[2019.04.08-18.56.58:417][103]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.58:418][103]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 82.798424
-[2019.04.08-18.56.58:418][103]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.58:918][133]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 81.442215
-[2019.04.08-18.56.58:918][133]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.58:967][136]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 79.397049
-[2019.04.08-18.56.58:968][136]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.59:527][169]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 73.340744
-[2019.04.08-18.56.59:527][169]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.56.59:727][181]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 72.221664
-[2019.04.08-18.56.59:727][181]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.00:597][233]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 71.024086
-[2019.04.08-18.57.00:599][233]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.00:616][234]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 62.694698
-[2019.04.08-18.57.00:616][234]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.01:196][269]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 57.691372
-[2019.04.08-18.57.01:197][269]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.02:264][333]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 50.327927
-[2019.04.08-18.57.02:264][333]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.02:280][334]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 42.317917
-[2019.04.08-18.57.02:280][334]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-18.57.02:581][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.02:582][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.57.02:639][352]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.57.02:639][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.02:680][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.57.02:708][353]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.04.08-18.57.04:938][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.57.05:094][495]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/GameplayHUD.GameplayHUD
-[2019.04.08-18.57.34:930][542]BlueprintLog: New page: Compile GameplayHUD
-[2019.04.08-18.57.35:604][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/GameplayHUD" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset" SILENT=true
-[2019.04.08-18.57.35:674][567]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/GameplayHUDFCD58D354F5C5464C7606EB26A01B16B.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset'
-[2019.04.08-18.57.36:713][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.57.36:808][616]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.57.36:818][616]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.57.37:869][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.57.38:565][717]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.57.38:593][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.38:593][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.57.38:594][717]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:57:38 AM)
-[2019.04.08-18.57.38:594][717]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.57.38:596][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002091s)
-[2019.04.08-18.57.38:597][717]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.57.38:598][717]LogPlayLevel: PIE: World Init took: (0.001368s)
-[2019.04.08-18.57.38:598][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.004455s)
-[2019.04.08-18.57.38:635][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.57.38:653][717]LogInit: FAudioDevice initialized.
-[2019.04.08-18.57.38:653][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.57.38:689][717]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.57.38:689][717]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.57.38
-[2019.04.08-18.57.38:690][717]LogWorld: Bringing up level for play took: 0.000702
-[2019.04.08-18.57.38:706][717]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 0.113
-[2019.04.08-18.57.38:706][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.39:771][781]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.57.39:772][781]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.57.39:805][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-18.57.39:817][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012268s)
-[2019.04.08-18.57.39:819][781]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.57.39:819][781]LogPlayLevel: PIE: World Init took: (0.001633s)
-[2019.04.08-18.57.39:820][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.014554s)
-[2019.04.08-18.57.39:820][781]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.57.39:826][781]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.57.39
-[2019.04.08-18.57.39:826][781]LogWorld: Bringing up level for play took: 0.004853
-[2019.04.08-18.57.39:967][781]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.57.39:967][781]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.57.39:967][781]LogLoad: Took 0.195097 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-18.57.47:303][209]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.47:304][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.57.47:362][209]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.57.47:362][209]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.57.47:399][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.57.47:414][210]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.04.08-18.57.50:940][421]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/GameplayHUD.GameplayHUD
-[2019.04.08-18.58.11:135][172]BlueprintLog: New page: Compile GameplayHUD
-[2019.04.08-18.58.11:866][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/GameplayHUD" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset" SILENT=true
-[2019.04.08-18.58.11:948][193]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/GameplayHUD3CB8F67A4BC691B6CAADF88EBAB889C8.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset'
-[2019.04.08-18.58.12:692][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.58.12:770][227]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.58.12:782][227]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.58.13:652][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.58.14:347][312]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.58.14:421][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.14:421][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-18.58.14:422][312]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:58:14 AM)
-[2019.04.08-18.58.14:422][312]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.58.14:425][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002085s)
-[2019.04.08-18.58.14:426][312]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.58.14:426][312]LogPlayLevel: PIE: World Init took: (0.001260s)
-[2019.04.08-18.58.14:427][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.004377s)
-[2019.04.08-18.58.14:479][312]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.58.14:508][312]LogInit: FAudioDevice initialized.
-[2019.04.08-18.58.14:508][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.58.14:568][312]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.58.14:570][312]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.58.14
-[2019.04.08-18.58.14:570][312]LogWorld: Bringing up level for play took: 0.000819
-[2019.04.08-18.58.14:587][312]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel -0.006
-[2019.04.08-18.58.14:588][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.15:158][346]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.58.15:158][346]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.58.15:199][346]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-18.58.15:210][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010755s)
-[2019.04.08-18.58.15:212][346]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.58.15:212][346]LogPlayLevel: PIE: World Init took: (0.001600s)
-[2019.04.08-18.58.15:212][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.013067s)
-[2019.04.08-18.58.15:213][346]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.58.15:218][346]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.58.15
-[2019.04.08-18.58.15:219][346]LogWorld: Bringing up level for play took: 0.004461
-[2019.04.08-18.58.15:413][346]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.58.15:413][346]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.58.15:414][346]LogLoad: Took 0.255487 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-18.58.19:194][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.19:195][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.58.19:249][563]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.58.19:249][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.19:286][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.58.19:301][564]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.04.08-18.58.22:210][738]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/GameplayHUD.GameplayHUD
-[2019.04.08-18.58.52:666][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/GameplayHUD" FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset" SILENT=true
-[2019.04.08-18.58.52:768][822]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/GameplayHUD1FA81E10410175BF8DA2A48DDCB94081.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenu/GameplayHUD.uasset'
-[2019.04.08-18.58.53:699][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-18.58.53:797][875]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.58.53:826][875]LogSlate: Window 'GameplayHUD' being destroyed
-[2019.04.08-18.58.54:413][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.58.54:993][934]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-18.58.55:016][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.55:016][934]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.04.08-18.58.55:024][934]LogPlayLevel: [PlayLevel] Compiling GameplayHUD before play...
-[2019.04.08-18.58.55:218][934]LogPlayLevel: PlayLevel: Blueprint regeneration took 202 ms (1 blueprints)
-[2019.04.08-18.58.55:218][934]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 10:58:55 AM)
-[2019.04.08-18.58.55:219][934]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-18.58.55:221][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001835s)
-[2019.04.08-18.58.55:222][934]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-18.58.55:223][934]LogPlayLevel: PIE: World Init took: (0.001462s)
-[2019.04.08-18.58.55:223][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.004326s)
-[2019.04.08-18.58.55:262][934]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-18.58.55:285][934]LogInit: FAudioDevice initialized.
-[2019.04.08-18.58.55:285][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-18.58.55:331][934]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-18.58.55:332][934]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-14.58.55
-[2019.04.08-18.58.55:332][934]LogWorld: Bringing up level for play took: 0.000718
-[2019.04.08-18.58.55:351][934]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 0.758
-[2019.04.08-18.58.55:351][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.58.56:006][973]LogNet: Browse: /Game/LevelOne
-[2019.04.08-18.58.56:006][973]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-18.58.56:040][973]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-18.58.56:050][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009940s)
-[2019.04.08-18.58.56:051][973]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-18.58.56:051][973]LogPlayLevel: PIE: World Init took: (0.001502s)
-[2019.04.08-18.58.56:052][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.012208s)
-[2019.04.08-18.58.56:052][973]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-18.58.56:057][973]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-14.58.56
-[2019.04.08-18.58.56:057][973]LogWorld: Bringing up level for play took: 0.004016
-[2019.04.08-18.58.56:186][973]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.58.56:186][973]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-18.58.56:186][973]LogLoad: Took 0.179885 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-18.59.00:562][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.59.00:566][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.59.00:618][233]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-18.59.00:618][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-18.59.00:654][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-18.59.00:669][234]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.04.08-18.59.17:955][266]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MyScaryMazeMainCharacter.MyScaryMazeMainCharacter
-[2019.04.08-18.59.59:271][495]BlueprintLog: New page: Compile MyScaryMazeMainCharacter
-[2019.04.08-18.59.59:293][495]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-18.59.59:367][495]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-19.00.56:721][777]BlueprintLog: New page: Compile MyScaryMazeMainCharacter
-[2019.04.08-19.00.56:751][777]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-19.00.56:810][777]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
-[2019.04.08-19.00.57:947][808]LogSavePackage: Moving '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/MyScaryMazeMainCharacter19EB505843635C941A48699F39BAC2F2.tmp' to '../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/Blueprints/MyScaryMazeMainCharacter.uasset'
-[2019.04.08-19.00.58:603][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.08-19.00.58:698][844]LogSlate: Window 'MyScaryMazeMainCharacter' being destroyed
-[2019.04.08-19.00.58:711][844]LogSlate: Window 'MyScaryMazeMainCharacter' being destroyed
-[2019.04.08-19.00.59:853][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-19.01.03:051][ 93]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.08-19.01.03:079][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-19.01.03:079][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.08-19.01.03:079][ 93]PIE: New page: PIE session: MainMenuLevel (Apr 8, 2019, 11:01:03 AM)
-[2019.04.08-19.01.03:079][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenuLevel
-[2019.04.08-19.01.03:081][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001736s)
-[2019.04.08-19.01.03:082][ 93]LogAIModule: Creating AISystem for world MainMenuLevel
-[2019.04.08-19.01.03:083][ 93]LogPlayLevel: PIE: World Init took: (0.001268s)
-[2019.04.08-19.01.03:083][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenuLevel.MainMenuLevel to /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003616s)
-[2019.04.08-19.01.03:139][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.08-19.01.03:168][ 93]LogInit: FAudioDevice initialized.
-[2019.04.08-19.01.03:168][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.08-19.01.03:208][ 93]LogLoad: Game class is 'GameModeBase'
-[2019.04.08-19.01.03:209][ 93]LogWorld: Bringing World /Game/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2019.04.08-15.01.03
-[2019.04.08-19.01.03:210][ 93]LogWorld: Bringing up level for play took: 0.000774
-[2019.04.08-19.01.03:227][ 93]PIE: Play in editor start time for /Game/UEDPIE_0_MainMenuLevel 0.635
-[2019.04.08-19.01.03:228][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-19.01.03:983][138]LogNet: Browse: /Game/LevelOne
-[2019.04.08-19.01.03:983][138]LogLoad: LoadMap: /Game/LevelOne
-[2019.04.08-19.01.04:020][138]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
-[2019.04.08-19.01.04:033][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013012s)
-[2019.04.08-19.01.04:035][138]LogAIModule: Creating AISystem for world LevelOne
-[2019.04.08-19.01.04:036][138]LogPlayLevel: PIE: World Init took: (0.001998s)
-[2019.04.08-19.01.04:036][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.015867s)
-[2019.04.08-19.01.04:036][138]LogLoad: Game class is 'BP_ScaryMazeGameMode_C'
-[2019.04.08-19.01.04:041][138]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2019.04.08-15.01.04
-[2019.04.08-19.01.04:042][138]LogWorld: Bringing up level for play took: 0.004333
-[2019.04.08-19.01.04:203][138]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-19.01.04:203][138]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(ScaryMazeBaseCharacter_0)
-[2019.04.08-19.01.04:203][138]LogLoad: Took 0.220156 seconds to LoadMap(/Game/UEDPIE_0_LevelOne)
-[2019.04.08-19.01.54:253][ 55]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 99.235878
-[2019.04.08-19.01.54:254][ 55]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.54:304][ 58]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 91.3209
-[2019.04.08-19.01.54:304][ 58]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.54:620][ 77]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 89.948334
-[2019.04.08-19.01.54:620][ 77]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.55:930][154]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 86.409744
-[2019.04.08-19.01.55:930][154]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.55:963][156]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 79.686485
-[2019.04.08-19.01.55:964][156]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.56:280][175]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 76.686729
-[2019.04.08-19.01.56:280][175]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.57:604][254]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 70.287727
-[2019.04.08-19.01.57:605][254]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.57:654][257]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 70.825279
-[2019.04.08-19.01.57:655][257]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.57:974][276]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 63.340401
-[2019.04.08-19.01.57:974][276]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.59:274][354]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 54.741474
-[2019.04.08-19.01.59:275][354]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.59:324][357]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 51.373665
-[2019.04.08-19.01.59:324][357]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.01.59:642][376]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 45.342018
-[2019.04.08-19.01.59:642][376]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.00:955][454]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 39.927456
-[2019.04.08-19.02.00:955][454]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.01:005][457]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 39.432323
-[2019.04.08-19.02.01:005][457]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.01:321][476]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 38.740742
-[2019.04.08-19.02.01:322][476]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.02:623][554]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 37.874809
-[2019.04.08-19.02.02:623][554]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.02:673][557]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 29.798391
-[2019.04.08-19.02.02:673][557]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.02:990][576]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 28.03784
-[2019.04.08-19.02.02:990][576]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.04:342][657]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 20.16025
-[2019.04.08-19.02.04:342][657]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.04:659][676]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 13.596054
-[2019.04.08-19.02.04:659][676]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.05:962][754]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 11.959866
-[2019.04.08-19.02.05:963][754]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.06:012][757]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] 6.279578
-[2019.04.08-19.02.06:012][757]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.06:329][776]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] -0.38301
-[2019.04.08-19.02.06:329][776]LogBlueprintUserMessages: [MyScaryMazeMainCharacter_C_0] Health:
-[2019.04.08-19.02.10:391][ 18]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-19.02.10:392][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-19.02.10:450][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.08-19.02.10:450][ 18]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
-[2019.04.08-19.02.10:486][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.08-19.02.10:515][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2019.04.08-19.02.14:520][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.08-19.44.07:876][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.08-19.44.07:877][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.08-19.44.07:894][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.07:894][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.08-19.44.07:894][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.07:894][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.07:894][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.08-19.44.07:894][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.08-19.44.07:895][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.07:895][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.08-19.44.07:896][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.08-19.44.07:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.07:897][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.08:140][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.08-19.44.08:140][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.08-19.44.08:140][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.08-19.44.08:140][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.08-19.44.08:141][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.08-19.44.08:142][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.08-19.44.08:143][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.08-19.44.08:144][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.08-19.44.08:145][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.08-19.44.08:211][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-19.44.08:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.08-19.44.08:314][  0]LogHAL: Display: Platform has ~ 8 GB [8499228672 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.08-19.44.08:323][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.08-19.44.08:323][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.08-19.44.08:335][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:335][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.04.08-19.44.08:335][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.04.08-19.44.08:335][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:335][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.08-19.44.08:335][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:335][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.04.08-19.44.08:336][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.04.08-19.44.08:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.04.08-19.44.08:338][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.04.08-19.44.08:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.04.08-19.44.08:340][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Scalability.ini]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.04.08-19.44.08:341][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.08-19.44.08:342][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.08-19.44.08:342][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Config/Windows/Engine.ini]
+[2019.04.08-19.44.08:401][  0]LogInit: Computer: LAPTOP-Q1QSGUBH
+[2019.04.08-19.44.08:401][  0]LogInit: User: james
+[2019.04.08-19.44.08:401][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.04.08-19.44.08:401][  0]LogInit: High frequency timer resolution =2.648437 MHz
+[2019.04.08-19.44.08:402][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.04.08-19.44.08:403][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.08-19.44.08:403][  0]LogMemory: Process Physical Memory: 102.96 MB used, 102.96 MB peak
+[2019.04.08-19.44.08:403][  0]LogMemory: Process Virtual Memory: 96.61 MB used, 96.61 MB peak
+[2019.04.08-19.44.08:403][  0]LogMemory: Physical Memory: 6530.17 MB used,  1575.33 MB free, 8105.50 MB total
+[2019.04.08-19.44.08:403][  0]LogMemory: Virtual Memory: 4640.92 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.04.08-19.44.13:692][  0]LogInit: Using OS detected language (en-US).
+[2019.04.08-19.44.13:692][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.08-19.44.13:771][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.08-19.44.15:452][  0]LogStreaming: Display: Took  1.771s to InitEngineTextLocalization.
+[2019.04.08-19.44.15:480][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.08-19.44.17:114][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.08-19.44.17:114][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.08-19.44.27:521][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.08-19.44.27:521][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.08-19.44.29:618][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 920MX' (Feature Level 11_0)
+[2019.04.08-19.44.29:618][  0]LogD3D11RHI:       2010/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.08-19.44.29:806][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2019.04.08-19.44.29:806][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.08-19.44.29:891][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.08-19.44.29:891][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.08-19.44.29:891][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.08-19.44.29:979][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.08-19.44.29:980][  0]LogD3D11RHI:     GPU DeviceId: 0x134f (for the marketing name, search the web for "GPU Device Id")
+[2019.04.08-19.44.29:980][  0]LogWindows: EnumDisplayDevices:
+[2019.04.08-19.44.29:980][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2019.04.08-19.44.29:985][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.04.08-19.44.29:986][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.04.08-19.44.29:986][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.08-19.44.29:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 920MX
+[2019.04.08-19.44.29:986][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.08-19.44.29:986][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.08-19.44.29:987][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.08-19.44.30:190][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.08-19.44.30:711][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 4)
+[2019.04.08-19.44.31:739][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.08-19.44.31:802][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.08-19.44.31:826][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.08-19.44.31:853][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.08-19.44.31:953][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.08-19.44.32:061][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.08-19.44.32:105][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.08-19.44.32:143][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.08-19.44.32:176][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.08-19.44.32:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:373][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:374][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.08-19.44.32:422][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.08-19.44.32:618][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-19.44.32:618][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.08-19.44.32:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-19.44.32:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.08-19.44.32:762][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.08-19.44.32:788][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.08-19.44.32:811][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.08-19.44.32:862][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.08-19.44.32:965][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.08-19.44.32:965][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.08-19.44.32:965][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.08-19.44.34:313][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Intermediate/Shaders/WorkingDirectory/17104/).
+[2019.04.08-19.44.34:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/james/AppData/Local/Temp/UnrealShaderWorkingDir/1E2C55C841DEED112745E2B135C5E355/'.
+[2019.04.08-19.44.34:358][  0]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.08-19.44.34:359][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.08-19.44.34:359][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.08-19.44.34:359][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.08-19.44.43:117][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.08-19.44.45:028][  0]LogDerivedDataCache: Loaded boot cache 1.90s 124MB C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.08-19.44.45:028][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.08-19.44.45:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.08-19.44.45:028][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.08-19.44.45:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.08-19.44.45:029][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.08-19.44.45:255][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.08-19.44.45:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.08-19.44.45:276][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.08-19.44.45:380][  0]LogDerivedDataCache: Using Local data cache path C:/Users/james/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.08-19.44.45:380][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.08-19.44.45:380][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.08-19.44.45:935][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.08-19.44.46:625][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.08-19.44.47:030][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.08-19.44.58:583][  0]LogAssetRegistry: FAssetRegistry took 0.0716 seconds to start up
+[2019.04.08-19.45.11:354][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.08-19.45.16:177][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.08-19.45.16:925][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.08-19.45.16:940][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.08-19.45.16:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.08-19.45.16:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.08-19.45.20:224][  0]LogNetVersion: ScaryMaze 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3370334168)
+[2019.04.08-19.45.44:181][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.656087 seconds
+[2019.04.08-19.45.44:219][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.08-19.45.44:219][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.08-19.45.44:219][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.08-19.46.18:948][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.08-19.46.19:007][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.08-19.46.22:565][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2019.04.08-19.46.26:052][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.26:414][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2019.04.08-19.46.28:942][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2019.04.08-19.46.29:189][  0]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2019.04.08-19.46.32:400][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:400][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:400][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:400][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:401][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:401][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:402][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:402][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:402][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:402][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:403][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:403][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:403][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:403][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:404][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:404][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:404][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:404][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:404][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:405][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:405][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:405][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:405][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:405][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:406][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:406][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:406][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:407][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:407][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:408][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:409][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:410][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.32:410][  0]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.08-19.46.39:771][  0]SourceControl: Source control is disabled
+[2019.04.08-19.46.39:772][  0]SourceControl: Source control is disabled
+[2019.04.08-19.46.39:981][  0]SourceControl: Source control is disabled
+[2019.04.08-19.46.40:035][  0]SourceControl: Source control is disabled
+[2019.04.08-19.46.42:425][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.08-19.46.43:430][  0]LogOcInput: OculusInput pre-init called
+[2019.04.08-19.46.48:640][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 4.23s
+[2019.04.08-19.46.48:816][  0]LogEngine: Initializing Engine...
+[2019.04.08-19.46.48:919][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.08-19.46.49:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.009 s
+[2019.04.08-19.46.49:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-19.46.49:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.04.08-19.46.49:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-19.46.50:734][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.08-19.46.51:786][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.08-19.46.52:438][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.08-19.46.54:610][  0]LogInit: FAudioDevice initialized.
+[2019.04.08-19.46.54:643][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.08-19.46.55:942][  0]LogDerivedDataCache: Saved boot cache 1.30s 124MB C:/Users/james/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.08-19.46.55:996][  0]LogInit: Texture streaming: Enabled
+[2019.04.08-19.46.59:212][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.08-19.46.59:269][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={129266E5-4FDB-3E3A-FF4A-D3BDEEF56045}
+[2019.04.08-19.46.59:934][  0]LogInit: Transaction tracking system initialized
+[2019.04.08-19.47.00:745][  0]BlueprintLog: New page: Editor Load
+[2019.04.08-19.47.03:553][  0]LocalizationService: Localization service is disabled
+[2019.04.08-19.47.12:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/' took 0.13s
+[2019.04.08-19.47.12:341][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.08-19.47.12:341][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.08-19.47.12:352][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.08-19.47.12:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.08-19.47.12:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.08-19.47.12:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.08-19.47.12:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.08-19.47.15:588][  0]SourceControl: Source control is disabled
+[2019.04.08-19.47.15:629][  0]Cmd: MAP LOAD FILE="../../../../../../Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.08-19.47.15:687][  0]LightingResults: New page: Lighting Build
+[2019.04.08-19.47.16:051][  0]MapCheck: New page: Map Check
+[2019.04.08-19.47.16:051][  0]LightingResults: New page: Lighting Build
+[2019.04.08-19.47.17:293][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2019.04.08-19.47.17:650][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.08-19.47.17:930][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.08-19.47.17:935][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.257ms to complete.
+[2019.04.08-19.47.17:943][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 2.334
+[2019.04.08-19.47.24:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-19.47.24:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-19.47.24:886][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-19.47.24:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.08-19.47.25:419][  0]LogCollectionManager: Loaded 0 collections in 0.002510 seconds
+[2019.04.08-19.47.26:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Saved/Collections/' took 0.01s
+[2019.04.08-19.47.26:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/Developers/james/Collections/' took 0.01s
+[2019.04.08-19.47.26:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/james/Desktop/Processes for OOS/COP4331-Project/ScaryMaze/Content/Collections/' took 0.01s
+[2019.04.08-19.47.26:400][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.08-19.47.26:733][  0]LogContentBrowser: Native class hierarchy populated in 0.2646 seconds. Added 2675 classes and 622 folders.
+[2019.04.08-19.47.27:460][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.08-19.47.27:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.27:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.27:966][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.27:982][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:055][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:193][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:213][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:231][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:433][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:627][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:719][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.28:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.08-19.47.29:837][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.08-19.47.29:929][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.04.08-19.47.31:121][  0]LogSlate: Took 0.018279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.08-19.47.31:198][  0]LogSlate: Took 0.046411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.08-19.47.31:317][  0]LogSlate: Took 0.016765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.08-19.47.32:556][  0]LogRenderer: Reallocating scene render targets to support 732x360 Format 9 NumSamples 1 (Frame:1).
+[2019.04.08-19.47.41:491][  0]LogSlate: Took 1.781156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.08-19.47.43:425][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.08-19.47.43:425][  0]LogLoad: (Engine Initialization) Total time: 237.40 seconds
+[2019.04.08-19.47.43:425][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.08-19.47.44:007][  0]LogEditorViewport: Clicking Background
+[2019.04.08-19.47.45:597][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.08-19.47.50:727][  5]LogAssetRegistry: Asset discovery search completed in 172.1910 seconds
+[2019.04.08-19.47.50:835][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.08-19.47.50:835][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011771 seconds (updated 0 objects)
