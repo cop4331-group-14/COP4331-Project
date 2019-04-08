@@ -29,7 +29,7 @@
 | 026 | 007 | Player has attack statistic. | VERIFIED |
 | 027 | 007 | Player has defense statistic. | VERIFIED |
 | 028 | 006 | There is at least one item that can be equipped that increases visibility. | VERIFIED |
-| 029 | 008 | The statistic for the player's health will display on the screen. | NOT VERIFIED |
+| 029 | 008 | The statistic for the player's health will display on the screen. | VERIFIED |
 | 030 | 008 | The statistic for the player's attack will display on the screen. | NOT VERIFIED |
 | 031 | 008 | The statistic for the player's defense will display on the screen. | NOT VERIFIED |
 | 032 | 009 | There will be characters that are considered enemies besides the player who are within the maze. | VERIFIED |
@@ -49,9 +49,9 @@
 | 045 | 014 | Enemies recognize a player within 3000 Unreal Units of them. | VERIFIED |
 | 046 | 014 | Enemies try to attack the player when within 100 Unreal Units of them. | VERIFIED |
 | 046 | 015 | Every maze that is generated will be random in arrangement. | VERIFIED |
-| 047 | 016 | The player will recieve "Points" based on their progress. | NOT VERIFIED |
-| 048 | 016 | The player's points will be preserved through levels. | NOT VERIFIED |
-| 049 | 016 | The player's points will be preserved through loads. | NOT VERIFIED |
+| 047 | 016 | The player will recieve "Points" based on their progress. | VERIFIED |
+| 048 | 016 | The player's points will be preserved through levels. | VERIFIED |
+| 049 | 016 | The player's points will be preserved through loads. | VERIFIED |
 | 050 | 017 | When the Left Mouse button is pressed, the attack animation plays. | VERIFIED |
 | 051 | 017 | When an enemy is within 350 Unreal Units of the player, the player can inflict damage to them. | VERIFIED |
 | 052 | 017 | After enough damage is inflicted, the enemies will be destroyed. | VERIFIED |
