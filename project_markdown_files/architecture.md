@@ -34,9 +34,11 @@
 * The game is not subject to business rules.
 
 ## User Interface Design
-[Menu Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/menudesign.pdf)
+* [Menu Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/menudesign.pdf)
 
-[In-Game Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.pdf)
+* In-Game Design
+
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.PNG)
 
 ## Resource Management
 * Limited draw distance to improve performance
