@@ -8,4 +8,5 @@ ALantern::ALantern()
 	LightColor = FColor::White;
 	LightTime = 120.f;
 	Attenuation = 5000.f;
+	Points = 5;
 }

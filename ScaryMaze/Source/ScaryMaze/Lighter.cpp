@@ -8,4 +8,5 @@ ALighter::ALighter()
 	LightColor = FColor::Orange;
 	LightTime = 30.f;
 	Attenuation = 2400.f;
+	Points = 3;
 }

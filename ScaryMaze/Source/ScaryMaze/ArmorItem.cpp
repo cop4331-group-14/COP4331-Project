@@ -48,6 +48,9 @@ void AArmorItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 		// Add armor to the player.
 		Player->Defense += this->Defense;
 
+		// Add points.
+		Player->Score += this->Points;
+
 		// Display the collection message.
 		DisplayArmorCollectionMessage();
 

@@ -5,4 +5,5 @@
 AHelmet::AHelmet()
 {
 	Defense = 10;
+	Points = 35;
 }

@@ -35,6 +35,9 @@ protected:
 	UPROPERTY(EditAnywhere)
 		int Defense;
 
+	UPROPERTY(EditAnywhere)
+		int Points;
+
 	// Collider for Light.
 	UPROPERTY(EditAnywhere)
 		UBoxComponent* ArmorBox;

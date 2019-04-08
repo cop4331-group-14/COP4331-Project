@@ -5,4 +5,5 @@
 ABreastplate::ABreastplate()
 {
 	Defense = 20;
+	Points = 50;
 }
