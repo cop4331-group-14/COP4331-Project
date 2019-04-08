@@ -48,7 +48,7 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 {
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Grey, TEXT("AUTOSAVING"));
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Silver, TEXT("AUTOSAVING"));
 
 		UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 		if (Instance)
