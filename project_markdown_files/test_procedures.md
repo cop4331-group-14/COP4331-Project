@@ -135,6 +135,7 @@
 | 2 | Click on the monster to attack and kill it before your health reaches zero | Observe the monster die and vanish |
 | 3 | Traverse the maze until you find a health pack | Observe a health pack in the maze on your screen |
 | 4 | Taking note of your original health, step on the health pack | Verify that your health value increases |
+| 5 | Once the health pack is stepped on | Verify you hear a "Ding" sound which notify the pack was picked up
 
 ## U014
 | Step | Action | Observation |
