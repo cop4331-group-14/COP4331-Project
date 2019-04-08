@@ -16,6 +16,6 @@ class SCARYMAZE_API AGreaves : public AArmorItem
 
 public:
 	AGreaves();
-	Points = 25;
+	
 	
 };

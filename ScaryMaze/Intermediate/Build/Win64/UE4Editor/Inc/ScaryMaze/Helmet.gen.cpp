@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeHelmet() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHelmet, 2691108883);
+	IMPLEMENT_CLASS(AHelmet, 4046675945);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHelmet(Z_Construct_UClass_AHelmet, &AHelmet::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AHelmet"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHelmet);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

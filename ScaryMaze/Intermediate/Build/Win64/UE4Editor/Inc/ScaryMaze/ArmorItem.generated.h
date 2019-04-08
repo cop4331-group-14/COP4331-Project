@@ -112,6 +112,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArmorItem); \
 	FORCEINLINE static uint32 __PPO__ArmorRoot() { return STRUCT_OFFSET(AArmorItem, ArmorRoot); } \
 	FORCEINLINE static uint32 __PPO__ArmorMesh() { return STRUCT_OFFSET(AArmorItem, ArmorMesh); } \
 	FORCEINLINE static uint32 __PPO__Defense() { return STRUCT_OFFSET(AArmorItem, Defense); } \
+	FORCEINLINE static uint32 __PPO__Points() { return STRUCT_OFFSET(AArmorItem, Points); } \
 	FORCEINLINE static uint32 __PPO__ArmorBox() { return STRUCT_OFFSET(AArmorItem, ArmorBox); }
 
 

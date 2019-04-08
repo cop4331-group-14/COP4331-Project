@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeBreastplate() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABreastplate, 2219054313);
+	IMPLEMENT_CLASS(ABreastplate, 86956127);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABreastplate(Z_Construct_UClass_ABreastplate, &ABreastplate::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("ABreastplate"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABreastplate);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

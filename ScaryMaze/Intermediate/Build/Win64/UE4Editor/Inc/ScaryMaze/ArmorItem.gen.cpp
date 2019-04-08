@@ -156,6 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeArmorItem() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ArmorBox;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Points_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Points;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Defense_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Defense;
@@ -195,6 +199,13 @@ void EmptyLinkFunctionForGeneratedCodeArmorItem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorBox = { UE4CodeGen_Private::EPropertyClass::Object, "ArmorBox", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(AArmorItem, ArmorBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorBox_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArmorItem_Statics::NewProp_Points_MetaData[] = {
+		{ "Category", "ArmorItem" },
+		{ "ModuleRelativePath", "ArmorItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AArmorItem_Statics::NewProp_Points = { UE4CodeGen_Private::EPropertyClass::Int, "Points", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(AArmorItem, Points), METADATA_PARAMS(Z_Construct_UClass_AArmorItem_Statics::NewProp_Points_MetaData, ARRAY_COUNT(Z_Construct_UClass_AArmorItem_Statics::NewProp_Points_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArmorItem_Statics::NewProp_Defense_MetaData[] = {
 		{ "Category", "ArmorItem" },
 		{ "ModuleRelativePath", "ArmorItem.h" },
@@ -221,6 +232,7 @@ void EmptyLinkFunctionForGeneratedCodeArmorItem() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorRoot = { UE4CodeGen_Private::EPropertyClass::Object, "ArmorRoot", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(AArmorItem, ArmorRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorRoot_MetaData, ARRAY_COUNT(Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorRoot_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AArmorItem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArmorItem_Statics::NewProp_Points,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArmorItem_Statics::NewProp_Defense,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArmorItem_Statics::NewProp_ArmorRoot,
@@ -248,7 +260,7 @@ void EmptyLinkFunctionForGeneratedCodeArmorItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArmorItem, 740389820);
+	IMPLEMENT_CLASS(AArmorItem, 2862536381);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AArmorItem(Z_Construct_UClass_AArmorItem, &AArmorItem::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AArmorItem"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AArmorItem);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeGreaves() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGreaves, 321305320);
+	IMPLEMENT_CLASS(AGreaves, 2870614103);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGreaves(Z_Construct_UClass_AGreaves, &AGreaves::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AGreaves"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGreaves);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

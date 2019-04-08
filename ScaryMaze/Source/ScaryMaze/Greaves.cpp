@@ -5,4 +5,5 @@
 AGreaves::AGreaves()
 {
 	Defense = 5;
+	Points = 25;
 }

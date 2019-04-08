@@ -1,2 +1,31 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331-Project).
+  Creating makefile for ScaryMazeEditor (source directory changed)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for ScaryMazeEditor
+    Running UnrealHeaderTool "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ScaryMazeEditor in 35.4118938 seconds
+  Building 16 actions with 4 processes...
+    [1/16] Greaves.gen.cpp
+C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Source\ScaryMaze/Greaves.h(19): error C2059: syntax error: '='
+C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Source\ScaryMaze/Greaves.h(19): error C2238: unexpected token(s) preceding ';'
+    [2/16] ScaryMaze.init.gen.cpp
+    [3/16] Helmet.gen.cpp
+    [4/16] Breastplate.gen.cpp
+    [5/16] Breastplate.cpp
+    [6/16] ArmorItem.gen.cpp
+    [7/16] Greaves.cpp
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2059: syntax error: '='
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2238: unexpected token(s) preceding ';'
+    [8/16] Helmet.cpp
+    [9/16] Lantern.cpp
+    [10/16] Lighter.cpp
+    [11/16] ArmorItem.cpp
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2059: syntax error: '='
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2238: unexpected token(s) preceding ';'
+    [12/16] ScaryMazeGameMode.cpp
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2059: syntax error: '='
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2238: unexpected token(s) preceding ';'
+    [13/16] ScaryMazeGameMode.gen.cpp
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2059: syntax error: '='
+c:\users\james\desktop\processes for oos\cop4331-project\scarymaze\source\scarymaze\Greaves.h(19): error C2238: unexpected token(s) preceding ';'
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.
