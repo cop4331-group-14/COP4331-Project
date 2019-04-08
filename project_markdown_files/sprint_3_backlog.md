@@ -5,7 +5,7 @@
 | 008 | As a player, I want to be able to view my character stats so that I can make informed gameplay decisions. | 3 | 5 | When looking at the screen, the player's stats are displayed accurately. | Pranav |
 | 011 | As a player, I want my health to lower based on damage from enemies so there is a consequence for playing poorly. | 5 | 6 | When damaged, the health statistic lowers appropriately. | Sherry |
 | 012 | As a player, I want my character to die when health reaches zero, in order to make gameplay challenging. | 2 | 5 | When the player's health reaches zero, they die and are presented with 'Load Game' menu. If no game save exists, they are presented with 'New Game'. | Sherry/Pranav |
-| 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When an item is used that replenishes health, the health statistic increases appropriately. | Sherry/Luis | 
+| 013 | As a player, I want items that replenish my lost health. | 4 | 6 | When a health box is used that replenishes health, the health statistic increases appropriately. | Sherry/Luis | 
 | 014 | As a player, I want the monsters to attack me when they are near to make me react. | 7 | 6 | When a player gets near a monster, the monster attacks them. | Sherry |
 | 016 | As a player, I want some type of rewards to find so that I can feel like I'm accomplishing something. | 4 | 7 | When a player plays the game, they gain points by playing well, such as by killing monsters or reaching a maze's goal. | Luis/James |
 | 017 | As a player, I want to be able to fight the enemy monsters in order to increase the challenge. | 9 | 8 | When a player encounters monsters, they can attack and defend against them. | Sherry |
