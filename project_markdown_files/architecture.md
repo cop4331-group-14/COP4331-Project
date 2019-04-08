@@ -29,6 +29,7 @@
 ![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/maze_design.PNG)
 
 ## Data Design
+* Local file structure, organized in folders and classes by functionality
 
 ## Business Rules
 * The game is not subject to business rules.
