@@ -15,6 +15,8 @@
 #include "Breastplate.h"
 #include "Greaves.h"
 #include "Helmet.h"
+#include "HealthPack.h"
+#include "EnemyCharacter.h"
 #include "Engine/Engine.h"
 #include "GameFramework/GameModeBase.h"
 #include "ScaryMazeGameMode.generated.h"
@@ -98,9 +100,32 @@ private:
 	UPROPERTY(EditAnywhere)
 		APlayerController* Controller;
 	
-
 	UFUNCTION()
 		AScaryMazeBaseCharacter* SpawnPlayer(UScaryMazeGameInstance* Instance);
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AHealthPack> HealthPackToSpawn;
+
+	UFUNCTION()
+		void SpawnHealthPacks();
+
+	UFUNCTION()
+		void SpawnHealthPack(int CurrentCell);
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AEnemyCharacter> HerakliosToSpawn;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AEnemyCharacter> GoblinToSpawn;
+
+	UFUNCTION()
+		void SpawnEnemies();
+
+	UFUNCTION()
+		void SpawnHeraklios(int CurrentCell);
+
+	UFUNCTION()
+		void SpawnGoblin(int CurrentCell);
 
 	UFUNCTION()
 		void MoveControllerToPlayer();

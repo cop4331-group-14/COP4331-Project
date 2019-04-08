@@ -15,13 +15,56 @@ class AScaryMazeBaseCharacter;
 #endif
 #define SCARYMAZE_ScaryMazeGameMode_generated_h
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_RPC_WRAPPERS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execMoveControllerToPlayer) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveControllerToPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnGoblin) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnGoblin(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHeraklios) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHeraklios(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnEnemies) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnEnemies(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHealthPack) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHealthPack(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHealthPacks) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHealthPacks(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -121,13 +164,56 @@ class AScaryMazeBaseCharacter;
 	}
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execMoveControllerToPlayer) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveControllerToPlayer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnGoblin) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnGoblin(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHeraklios) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHeraklios(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnEnemies) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnEnemies(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHealthPack) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_CurrentCell); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHealthPack(Z_Param_CurrentCell); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnHealthPacks) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnHealthPacks(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -227,7 +313,7 @@ class AScaryMazeBaseCharacter;
 	}
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_INCLASS_NO_PURE_DECLS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAScaryMazeGameMode(); \
 	friend struct Z_Construct_UClass_AScaryMazeGameMode_Statics; \
@@ -236,7 +322,7 @@ public: \
 	DECLARE_SERIALIZER(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_INCLASS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_INCLASS \
 private: \
 	static void StaticRegisterNativesAScaryMazeGameMode(); \
 	friend struct Z_Construct_UClass_AScaryMazeGameMode_Statics; \
@@ -245,7 +331,7 @@ public: \
 	DECLARE_SERIALIZER(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_STANDARD_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	SCARYMAZE_API AScaryMazeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AScaryMazeGameMode) \
@@ -258,7 +344,7 @@ private: \
 public:
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_ENHANCED_CONSTRUCTORS \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	SCARYMAZE_API AScaryMazeGameMode(AScaryMazeGameMode&&); \
@@ -269,7 +355,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AScaryMazeGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AScaryMazeGameMode)
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_PRIVATE_PROPERTY_OFFSET \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentMaze() { return STRUCT_OFFSET(AScaryMazeGameMode, CurrentMaze); } \
 	FORCEINLINE static uint32 __PPO__ScaryMaze() { return STRUCT_OFFSET(AScaryMazeGameMode, ScaryMaze); } \
 	FORCEINLINE static uint32 __PPO__Match() { return STRUCT_OFFSET(AScaryMazeGameMode, Match); } \
@@ -280,28 +366,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AScaryMazeGameMode); \
 	FORCEINLINE static uint32 __PPO__Helmet() { return STRUCT_OFFSET(AScaryMazeGameMode, Helmet); } \
 	FORCEINLINE static uint32 __PPO__PlayerToSpawn() { return STRUCT_OFFSET(AScaryMazeGameMode, PlayerToSpawn); } \
 	FORCEINLINE static uint32 __PPO__Player() { return STRUCT_OFFSET(AScaryMazeGameMode, Player); } \
-	FORCEINLINE static uint32 __PPO__Controller() { return STRUCT_OFFSET(AScaryMazeGameMode, Controller); }
+	FORCEINLINE static uint32 __PPO__Controller() { return STRUCT_OFFSET(AScaryMazeGameMode, Controller); } \
+	FORCEINLINE static uint32 __PPO__HealthPackToSpawn() { return STRUCT_OFFSET(AScaryMazeGameMode, HealthPackToSpawn); } \
+	FORCEINLINE static uint32 __PPO__HerakliosToSpawn() { return STRUCT_OFFSET(AScaryMazeGameMode, HerakliosToSpawn); } \
+	FORCEINLINE static uint32 __PPO__GoblinToSpawn() { return STRUCT_OFFSET(AScaryMazeGameMode, GoblinToSpawn); }
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_22_PROLOG
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_GENERATED_BODY_LEGACY \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_24_PROLOG
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_RPC_WRAPPERS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_INCLASS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_STANDARD_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_RPC_WRAPPERS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_INCLASS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_GENERATED_BODY \
+#define ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_PRIVATE_PROPERTY_OFFSET \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_INCLASS_NO_PURE_DECLS \
-	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_25_ENHANCED_CONSTRUCTORS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_PRIVATE_PROPERTY_OFFSET \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_INCLASS_NO_PURE_DECLS \
+	ScaryMaze_Source_ScaryMaze_ScaryMazeGameMode_h_27_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

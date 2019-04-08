@@ -13,6 +13,18 @@ AScaryMazeGameMode::AScaryMazeGameMode()
 	// use our custom HUD class
 	HUDClass = AScaryMazeHUD::StaticClass();
 
+	// Assign the HealthPack blueprint to HealthPack
+	static ConstructorHelpers::FClassFinder<AHealthPack> HealthBP(TEXT("Blueprint'/Game/Blueprints/Health/HealthPickUp'"));
+	HealthPackToSpawn = (HealthBP.Class != nullptr) ? HealthBP.Class : AHealthPack::StaticClass();
+
+	// Assign the Heraklios blueprint to Heraklios
+	static ConstructorHelpers::FClassFinder<AEnemyCharacter>Heraklios(TEXT("Blueprint'/Game/Blueprints/Enemy/Heraklios/Heraklios'"));
+	HerakliosToSpawn = (Heraklios.Class != nullptr) ? Heraklios.Class : AEnemyCharacter::StaticClass();
+
+	// Assign the Goblin blueprint to Goblin
+	static ConstructorHelpers::FClassFinder<AEnemyCharacter>Goblin(TEXT("Blueprint'/Game/Blueprints/Enemy/Goblin/Goblin'"));
+	GoblinToSpawn = (Goblin.Class != nullptr) ? Goblin.Class : AEnemyCharacter::StaticClass();
+
 	// Assign the Maze blueprint to ScaryMaze
 	static ConstructorHelpers::FObjectFinder<UClass> BP_Maze(TEXT("Blueprint'/Game/Blueprints/BP_Maze.BP_Maze_C'"));
 	CurrentMaze = (BP_Maze.Object != nullptr) ? BP_Maze.Object : AMaze::StaticClass();
@@ -86,6 +98,10 @@ void AScaryMazeGameMode::BeginPlay()
 
 	// Spawn the matches
 	SpawnLightItems();
+
+	SpawnHealthPacks();
+
+	SpawnEnemies();
 }
 
 void AScaryMazeGameMode::SpawnScaryMaze()
@@ -279,6 +295,113 @@ AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer(UScaryMazeGameInstance*
 		UE_LOG(LogTemp, Fatal, TEXT("World was null!"));
 		return nullptr;
 	}
+
+}
+
+void AScaryMazeGameMode::SpawnHealthPacks()
+{
+	const UWorld* World = GetWorld();
+
+	if (World)
+	{
+		// Max length
+		int PathLength = ScaryMaze->GetMazePath().Num();
+
+		// Loop through all the cells of the path of the maze and spawn health packs at determined
+		// intervals.
+		for (int CurrentCell = 0; CurrentCell < PathLength; CurrentCell++)
+		{
+
+			if ((CurrentCell != 0 && (CurrentCell % 15 == 0) && CurrentCell % 30 != 0) && CurrentCell != PathLength / 2)
+			{
+				SpawnHealthPack(CurrentCell);
+			}
+		}
+	}
+
+}
+
+void AScaryMazeGameMode::SpawnHealthPack(int CurrentCell)
+{
+	// Spawn Location
+	FVector Location = (ScaryMaze->GetMazePath())[CurrentCell]->GetActorLocation();
+
+	// Fine tune the location by lowering the z value so that the health pack sits on the ground.
+	Location.Z = 0.f;
+
+	// Spawn Parameters
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+
+	// This should fit on one line…
+	GetWorld()->SpawnActor<AHealthPack>(HealthPackToSpawn, Location, FRotator::ZeroRotator, SpawnParams);
+}
+
+void AScaryMazeGameMode::SpawnEnemies()
+{
+	const UWorld* World = GetWorld();
+
+	float SpawnRateHeraklios = 1.0 - (0.1 * Level);
+
+
+	if (World)
+	{
+		// Max length
+		int PathLength = ScaryMaze->GetMazePath().Num();
+
+		// Loop through all the cells of the path of the maze and spawn Enemies at determined
+		// intervals.
+		for (int CurrentCell = 0; CurrentCell < PathLength; CurrentCell++)
+		{
+
+			if (((CurrentCell % (2 * 20) == 0) && CurrentCell % 60 != 0) && CurrentCell != PathLength / 2)
+			{
+				float RandomEnemy = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+				if (RandomEnemy > SpawnRateHeraklios)
+				{
+					SpawnHeraklios(CurrentCell);
+				}
+				else
+				{
+					SpawnGoblin(CurrentCell);
+				}
+			}
+		}
+	}
+
+}
+
+void AScaryMazeGameMode::SpawnHeraklios(int CurrentCell)
+{
+	// Spawn Location
+	FVector Location = (ScaryMaze->GetMazePath())[CurrentCell]->GetActorLocation();
+
+	// Fine tune the location by lowering the z value so that the match sits on the ground.
+	Location.Z = 0.f;
+
+	// Spawn Parameters
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+
+	// This should fit on one line…
+	GetWorld()->SpawnActor<AEnemyCharacter>(HerakliosToSpawn, Location, FRotator::ZeroRotator, SpawnParams);
+
+}
+
+void AScaryMazeGameMode::SpawnGoblin(int CurrentCell)
+{
+	// Spawn Location
+	FVector Location = (ScaryMaze->GetMazePath())[CurrentCell]->GetActorLocation();
+
+	// Fine tune the location by lowering the z value so that the match sits on the ground.
+	Location.Z = 0.f;
+
+	// Spawn Parameters
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+
+	// This should fit on one line…
+	GetWorld()->SpawnActor<AEnemyCharacter>(GoblinToSpawn, Location, FRotator::ZeroRotator, SpawnParams);
 
 }
 

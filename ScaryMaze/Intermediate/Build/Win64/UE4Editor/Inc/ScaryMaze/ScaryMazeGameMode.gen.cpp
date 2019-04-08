@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_MoveControllerToPlayer();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnArmorItem();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnBreastplate();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnGreaves();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHelmet();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnLantern();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnLighter();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnLightItems();
@@ -31,8 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	SCARYMAZE_API UClass* Z_Construct_UClass_AScaryMazeBaseCharacter_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_UScaryMazeGameInstance_NoRegister();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze();
-	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	SCARYMAZE_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
+	SCARYMAZE_API UClass* Z_Construct_UClass_AHealthPack_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_AHelmet_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_AGreaves_NoRegister();
 	SCARYMAZE_API UClass* Z_Construct_UClass_ABreastplate_NoRegister();
@@ -49,8 +56,13 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 			{ "MoveControllerToPlayer", &AScaryMazeGameMode::execMoveControllerToPlayer },
 			{ "SpawnArmorItem", &AScaryMazeGameMode::execSpawnArmorItem },
 			{ "SpawnBreastplate", &AScaryMazeGameMode::execSpawnBreastplate },
+			{ "SpawnEnemies", &AScaryMazeGameMode::execSpawnEnemies },
+			{ "SpawnGoblin", &AScaryMazeGameMode::execSpawnGoblin },
 			{ "SpawnGreaves", &AScaryMazeGameMode::execSpawnGreaves },
+			{ "SpawnHealthPack", &AScaryMazeGameMode::execSpawnHealthPack },
+			{ "SpawnHealthPacks", &AScaryMazeGameMode::execSpawnHealthPacks },
 			{ "SpawnHelmet", &AScaryMazeGameMode::execSpawnHelmet },
+			{ "SpawnHeraklios", &AScaryMazeGameMode::execSpawnHeraklios },
 			{ "SpawnLantern", &AScaryMazeGameMode::execSpawnLantern },
 			{ "SpawnLighter", &AScaryMazeGameMode::execSpawnLighter },
 			{ "SpawnLightItems", &AScaryMazeGameMode::execSpawnLightItems },
@@ -158,6 +170,60 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnEnemies", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics
+	{
+		struct ScaryMazeGameMode_eventSpawnGoblin_Parms
+		{
+			int32 CurrentCell;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CurrentCell;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::NewProp_CurrentCell = { UE4CodeGen_Private::EPropertyClass::Int, "CurrentCell", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameMode_eventSpawnGoblin_Parms, CurrentCell), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::NewProp_CurrentCell,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnGoblin", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(ScaryMazeGameMode_eventSpawnGoblin_Parms), Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnGreaves_Statics
 	{
 		struct ScaryMazeGameMode_eventSpawnGreaves_Parms
@@ -190,6 +256,60 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics
+	{
+		struct ScaryMazeGameMode_eventSpawnHealthPack_Parms
+		{
+			int32 CurrentCell;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CurrentCell;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::NewProp_CurrentCell = { UE4CodeGen_Private::EPropertyClass::Int, "CurrentCell", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameMode_eventSpawnHealthPack_Parms, CurrentCell), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::NewProp_CurrentCell,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnHealthPack", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(ScaryMazeGameMode_eventSpawnHealthPack_Parms), Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnHealthPacks", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnHelmet_Statics
 	{
 		struct ScaryMazeGameMode_eventSpawnHelmet_Parms
@@ -219,6 +339,38 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnHelmet_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics
+	{
+		struct ScaryMazeGameMode_eventSpawnHeraklios_Parms
+		{
+			int32 CurrentCell;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CurrentCell;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::NewProp_CurrentCell = { UE4CodeGen_Private::EPropertyClass::Int, "CurrentCell", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameMode_eventSpawnHeraklios_Parms, CurrentCell), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::NewProp_CurrentCell,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "SpawnHeraklios", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(ScaryMazeGameMode_eventSpawnHeraklios_Parms), Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -410,6 +562,18 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GoblinToSpawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_GoblinToSpawn;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HerakliosToSpawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HerakliosToSpawn;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthPackToSpawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HealthPackToSpawn;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Controller_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Controller;
@@ -466,8 +630,13 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_MoveControllerToPlayer, "MoveControllerToPlayer" }, // 3085187582
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnArmorItem, "SpawnArmorItem" }, // 3098533194
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnBreastplate, "SpawnBreastplate" }, // 473130189
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnEnemies, "SpawnEnemies" }, // 2915728057
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnGoblin, "SpawnGoblin" }, // 246983915
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnGreaves, "SpawnGreaves" }, // 913373972
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPack, "SpawnHealthPack" }, // 2354197454
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnHealthPacks, "SpawnHealthPacks" }, // 1010333807
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnHelmet, "SpawnHelmet" }, // 3989657912
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnHeraklios, "SpawnHeraklios" }, // 1743773204
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnLantern, "SpawnLantern" }, // 3571083684
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnLighter, "SpawnLighter" }, // 767336265
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnLightItems, "SpawnLightItems" }, // 2335852559
@@ -483,6 +652,27 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_GoblinToSpawn_MetaData[] = {
+		{ "Category", "ScaryMazeGameMode" },
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_GoblinToSpawn = { UE4CodeGen_Private::EPropertyClass::Class, "GoblinToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, GoblinToSpawn), Z_Construct_UClass_AEnemyCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_GoblinToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_GoblinToSpawn_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HerakliosToSpawn_MetaData[] = {
+		{ "Category", "ScaryMazeGameMode" },
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HerakliosToSpawn = { UE4CodeGen_Private::EPropertyClass::Class, "HerakliosToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, HerakliosToSpawn), Z_Construct_UClass_AEnemyCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HerakliosToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HerakliosToSpawn_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HealthPackToSpawn_MetaData[] = {
+		{ "Category", "ScaryMazeGameMode" },
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HealthPackToSpawn = { UE4CodeGen_Private::EPropertyClass::Class, "HealthPackToSpawn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, HealthPackToSpawn), Z_Construct_UClass_AHealthPack_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HealthPackToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HealthPackToSpawn_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Controller_MetaData[] = {
 		{ "Category", "ScaryMazeGameMode" },
@@ -562,6 +752,9 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze = { UE4CodeGen_Private::EPropertyClass::Class, "CurrentMaze", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0044000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeGameMode, CurrentMaze), Z_Construct_UClass_AMaze_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_CurrentMaze_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AScaryMazeGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_GoblinToSpawn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HerakliosToSpawn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_HealthPackToSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Controller,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_Player,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeGameMode_Statics::NewProp_PlayerToSpawn,
@@ -597,7 +790,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeGameMode, 3649291811);
+	IMPLEMENT_CLASS(AScaryMazeGameMode, 1068649124);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeGameMode(Z_Construct_UClass_AScaryMazeGameMode, &AScaryMazeGameMode::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

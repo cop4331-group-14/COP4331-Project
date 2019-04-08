@@ -1,29 +1,29 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331-Project).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\tride\Desktop\Unreal Projects\COP4331-Project).
   Creating makefile for ScaryMazeEditor (source directory changed)
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for ScaryMazeEditor
-    Running UnrealHeaderTool "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ScaryMazeEditor in 12.0099485 seconds
-  Building 18 actions with 4 processes...
+    Running UnrealHeaderTool "C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ScaryMazeEditor in 9.2725971 seconds
+  Building 18 actions with 8 processes...
     [1/18] ScaryMaze.init.gen.cpp
     [2/18] ScaryMazeBaseCharacter.gen.cpp
     [3/18] Goal.gen.cpp
-    [4/18] Maze.gen.cpp
-    [5/18] ScaryMazeGameInstance.gen.cpp
+    [4/18] ScaryMazeGameInstance.gen.cpp
+    [5/18] Maze.gen.cpp
     [6/18] ScaryMazeGameMode.gen.cpp
     [7/18] LightItem.cpp
-    [8/18] BTTask_MoveToPlayer.cpp
+    [8/18] ScaryMazeGameInstance.cpp
     [9/18] Maze.cpp
-    [10/18] ScaryMazeBaseCharacter.cpp
-    [11/18] ScaryMazeGameInstance.cpp
+    [10/18] BTTask_MoveToPlayer.cpp
+    [11/18] ScaryMazeBaseCharacter.cpp
     [12/18] ScaryMazeGameMode.cpp
     [13/18] ArmorItem.cpp
     [14/18] Goal.cpp
-    [15/18] BTService_CheckForPlayer.cpp
-    [16/18] ScaryMazeSaveGame.cpp
+    [15/18] ScaryMazeSaveGame.cpp
+    [16/18] BTService_CheckForPlayer.cpp
     [17/18] UE4Editor-ScaryMaze.lib
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.exp
+       Creating library C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.lib and object C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.exp
     [18/18] UE4Editor-ScaryMaze.dll
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.exp
+       Creating library C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.lib and object C:\Users\tride\Desktop\Unreal Projects\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.exp
   Deploying ScaryMazeEditor Win64 Development...
-  Total build time: 51.14 seconds (Parallel executor: 30.58 seconds)
+  Total build time: 34.65 seconds (Parallel executor: 18.85 seconds)

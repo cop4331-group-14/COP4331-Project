@@ -14,7 +14,7 @@ class SCARYMAZE_API AScaryMazeBaseCharacter : public ACharacter
 
 public:
 
-	UPROPERTY(BlueprintReadOnly, Category = Mesh)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Mesh)
 	class USkeletalMeshComponent* Mesh1P;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
