@@ -62,7 +62,7 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 			// Save player's statistics for next level.
 			AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
 			Instance->Health = Player->Health;
-			Instance->AttackPower = Player->AttackPower + 1;
+			Instance->AttackPower = Player->AttackPower;
 			Instance->Defense = Player->Defense;
 			Instance->Score = Player->Score + 100;
 
