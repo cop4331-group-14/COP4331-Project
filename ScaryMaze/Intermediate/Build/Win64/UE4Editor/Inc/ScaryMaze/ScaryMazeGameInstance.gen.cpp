@@ -17,15 +17,49 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameInstance() {}
 	SCARYMAZE_API UClass* Z_Construct_UClass_UScaryMazeGameInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	UPackage* Z_Construct_UPackage__Script_ScaryMaze();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_UScaryMazeGameInstance_SetbLoad();
 // End Cross Module References
 	void UScaryMazeGameInstance::StaticRegisterNativesUScaryMazeGameInstance()
 	{
 		UClass* Class = UScaryMazeGameInstance::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetLevel", &UScaryMazeGameInstance::execGetLevel },
 			{ "SetbLoad", &UScaryMazeGameInstance::execSetbLoad },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics
+	{
+		struct ScaryMazeGameInstance_eventGetLevel_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Int, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameInstance_eventGetLevel_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UScaryMazeGameInstance, "GetLevel", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(ScaryMazeGameInstance_eventGetLevel_Parms), Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UScaryMazeGameInstance_SetbLoad_Statics
 	{
@@ -74,6 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameInstance() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ScaryMaze,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UScaryMazeGameInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UScaryMazeGameInstance_GetLevel, "GetLevel" }, // 140281605
 		{ &Z_Construct_UFunction_UScaryMazeGameInstance_SetbLoad, "SetbLoad" }, // 1093536222
 	};
 #if WITH_METADATA
@@ -119,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UScaryMazeGameInstance, 852083454);
+	IMPLEMENT_CLASS(UScaryMazeGameInstance, 4117609463);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UScaryMazeGameInstance(Z_Construct_UClass_UScaryMazeGameInstance, &UScaryMazeGameInstance::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("UScaryMazeGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UScaryMazeGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

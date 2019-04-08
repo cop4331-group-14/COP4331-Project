@@ -2,6 +2,11 @@
 
 #include "ScaryMazeGameInstance.h"
 
+int UScaryMazeGameInstance::GetLevel()
+{
+	return Level;
+}
+
 void UScaryMazeGameInstance::SetbLoad()
 {
 	bLoad = true;

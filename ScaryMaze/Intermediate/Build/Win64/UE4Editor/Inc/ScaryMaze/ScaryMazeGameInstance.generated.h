@@ -21,6 +21,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->SetbLoad(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetLevel(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -31,6 +39,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetbLoad(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLevel) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetLevel(); \
 		P_NATIVE_END; \
 	}
 

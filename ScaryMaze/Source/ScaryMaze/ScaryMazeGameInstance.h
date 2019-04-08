@@ -20,6 +20,9 @@ public:
 	// The level of the game
 	int Level = 1;
 
+	UFUNCTION(BlueprintCallable)
+		int GetLevel();
+
 	// The player's current health.
 	float Health = 100.f;
 
