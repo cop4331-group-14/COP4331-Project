@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "Kismet/GameplayStatics.h"
 #include "ScaryMazeBaseCharacter.h"
 #include "ScaryMazeGameInstance.generated.h"
 
@@ -20,12 +21,17 @@ public:
 	int Level = 1;
 
 	// The player's current health.
-	float Health;
+	float Health = 100.f;
 
 	// The player's current attack power.
-	int AttackPower;
+	int AttackPower = 1;
 
 	// The player's current defense.
-	int Defense;
-	
+	int Defense = 1;
+
+	UPROPERTY(EditAnywhere)
+		bool bLoad = false;
+
+	UFUNCTION(BlueprintCallable)
+		void SetbLoad();
 };

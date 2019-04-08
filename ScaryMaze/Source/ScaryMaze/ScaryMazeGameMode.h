@@ -8,6 +8,7 @@
 #include "ScaryMazeHUD.h"
 #include "ScaryMazeBaseCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 #include "Match.h"
 #include "Lighter.h"
 #include "Lantern.h"
@@ -27,6 +28,9 @@ public:
 	AScaryMazeGameMode();
 
 	int Level;
+
+	UFUNCTION()
+		void LoadGame();
 
 protected:
 	virtual void BeginPlay() override;
@@ -96,10 +100,12 @@ private:
 	
 
 	UFUNCTION()
-		AScaryMazeBaseCharacter* SpawnPlayer();
+		AScaryMazeBaseCharacter* SpawnPlayer(UScaryMazeGameInstance* Instance);
 
 	UFUNCTION()
 		void MoveControllerToPlayer();
+
+
 };
 
 

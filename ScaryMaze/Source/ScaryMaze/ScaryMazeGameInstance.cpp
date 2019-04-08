@@ -2,3 +2,7 @@
 
 #include "ScaryMazeGameInstance.h"
 
+void UScaryMazeGameInstance::SetbLoad()
+{
+	bLoad = true;
+}

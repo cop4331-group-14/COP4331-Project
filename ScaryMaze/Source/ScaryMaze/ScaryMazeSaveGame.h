@@ -29,7 +29,7 @@ public:
 	int Defense;
 
 	UPROPERTY(VisibleAnywhere, Category = Basic)
-	bool IsDead;
+		int Level;
 
 	UScaryMazeSaveGame();
 };

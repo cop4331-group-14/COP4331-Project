@@ -3,6 +3,8 @@
 #include "Goal.h"
 #include "ScaryMazeGameMode.h"
 #include "ScaryMazeBaseCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "ScaryMazeSaveGame.h"
 #include "Engine.h"
 
 // Sets default values
@@ -51,13 +53,22 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 		UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 		if (Instance)
 		{
+			// Increment level.
 			Instance->Level++;
 
+			// Save player's statistics for next level.
 			AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
-			Player->Health += 10;
 			Instance->Health = Player->Health;
 			Instance->AttackPower = Player->AttackPower;
 			Instance->Defense = Player->Defense;
+
+			// Save player's game.
+			UScaryMazeSaveGame* SavedGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::CreateSaveGameObject(UScaryMazeSaveGame::StaticClass()));
+			SavedGame->Level = Instance->Level;
+			SavedGame->Health = Instance->Health;
+			SavedGame->AttackPower = Instance->AttackPower;
+			SavedGame->Defense = Instance->Defense;
+			UGameplayStatics::SaveGameToSlot(SavedGame, TEXT("Saved Game"), 0);
 		}
 
 		UGameplayStatics::OpenLevel(GetWorld(), FName("LevelComplete"), false);

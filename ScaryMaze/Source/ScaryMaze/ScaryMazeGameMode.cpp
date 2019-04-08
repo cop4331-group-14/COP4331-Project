@@ -1,6 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "ScaryMazeGameMode.h"
+#include "ScaryMazeSaveGame.h"
 
 
 AScaryMazeGameMode::AScaryMazeGameMode()
@@ -52,9 +53,16 @@ void AScaryMazeGameMode::BeginPlay()
 	// Spawn the ScaryMaze
 	SpawnScaryMaze();
 
+	// Get reference to game instance
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+	// Are we loading?
+	if (Instance->bLoad)
+	{
+		LoadGame();
+	}
 
 	// Make the Game Mode Level match the Level in Game Instance and get the Game Instance Player stats;
-	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	if (Instance)
 	{
 		this->Level = Instance->Level;
@@ -65,7 +73,7 @@ void AScaryMazeGameMode::BeginPlay()
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Level: " + currentLevel));
 
 	// Spawn the player and assign it to this player and the GameInstance player.
-	this->Player = SpawnPlayer();
+	this->Player = SpawnPlayer(Instance);
 
 
 	// Change default controller to work on the spawned player.
@@ -238,9 +246,8 @@ void AScaryMazeGameMode::SpawnHelmet(int PathLength)
 	GetWorld()->SpawnActor<AHelmet>(Helmet, Location, FRotator::ZeroRotator, SpawnParams);
 }
 
-AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer()
+AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer(UScaryMazeGameInstance* Instance)
 {
-	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	// Spawn Location
 	FVector Location = ScaryMaze->GetMazePath()[0]->GetActorLocation();
 	Location.Z = 100.f;
@@ -276,4 +283,21 @@ void AScaryMazeGameMode::MoveControllerToPlayer()
 {
 	Controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	Controller->Possess(Player);
+}
+
+void AScaryMazeGameMode::LoadGame()
+{
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	if (UGameplayStatics::DoesSaveGameExist(TEXT("Saved Game"), 0))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Here!!"));
+		UScaryMazeSaveGame* LoadGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::CreateSaveGameObject(UScaryMazeSaveGame::StaticClass()));
+		LoadGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::LoadGameFromSlot(TEXT("Saved Game"), 0));
+
+		Instance->Level = LoadGame->Level;
+		Instance->Health = LoadGame->Health;
+		Instance->AttackPower = LoadGame->AttackPower;
+		Instance->Defense = LoadGame->Defense;
+		Instance->bLoad = false;
+	}
 }
