@@ -34,7 +34,7 @@
 [In-Game Design](https://github.com/cop4331-group-14/COP4331-Project/blob/master/ingamedesign.pdf)
 
 ## Resource Management
-
+* Limited draw distance to improve performance
 
 ## Security
 * The game is not online and does not access personal information. Therefore, security is not a concern.
@@ -43,13 +43,16 @@
 * The game should operate at >= 30 frames-per-second.
 
 ## Scalability
+* Modular file structure (assets organized by function)
 
 ## Interoperability
+* Game is stored and run completely locally
 
 ## Internationalization/Localization
 * The game will only be presented in English, as it is only for the class project.
 
 ## Input/Output
+* Inputs include keys and mouse movements to control the player and navigate menus
 
 ## Error Processing
 
