@@ -1,11 +1,65 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331 Project).
-  Creating makefile for ScaryMazeEditor (source directory changed)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\james\Desktop\Processes for OOS\COP4331-Project).
+  Creating makefile for ScaryMazeEditor (game project files are newer)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] Goal.cpp
-    [2/3] UE4Editor-ScaryMaze.lib
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.exp
-    [3/3] UE4Editor-ScaryMaze.dll
-       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331 Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.exp
+  Parsing headers for ScaryMazeEditor
+    Running UnrealHeaderTool "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\ScaryMaze.uproject" "C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\ScaryMazeEditor\Development\ScaryMazeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ScaryMazeEditor in 18.4915986 seconds
+  Building 54 actions with 4 processes...
+    [1/54] PCLaunch.rc
+    [2/54] SharedPCH.Engine.cpp
+    [3/54] Greaves.gen.cpp
+    [4/54] EnemyCharacter.gen.cpp
+    [5/54] Goal.gen.cpp
+    [6/54] Ground.gen.cpp
+    [7/54] EnemyAI.gen.cpp
+    [8/54] HealthPack.gen.cpp
+    [9/54] Helmet.gen.cpp
+    [10/54] Lantern.gen.cpp
+    [11/54] Lighter.gen.cpp
+    [12/54] ScaryMaze.init.gen.cpp
+    [13/54] LightItem.gen.cpp
+    [14/54] BTService_CheckForPlayer.gen.cpp
+    [15/54] Maze.gen.cpp
+    [16/54] ScaryMazeCharacter.gen.cpp
+    [17/54] ScaryMazeBaseCharacter.gen.cpp
+    [18/54] ScaryMazeProjectile.gen.cpp
+    [19/54] ScaryMazeHUD.gen.cpp
+    [20/54] ScaryMazeGameInstance.gen.cpp
+    [21/54] ScaryMazeSaveGame.gen.cpp
+    [22/54] Wall.gen.cpp
+    [23/54] ScaryMazeGameMode.gen.cpp
+    [24/54] Match.gen.cpp
+    [25/54] Breastplate.gen.cpp
+    [26/54] ArmorItem.gen.cpp
+    [27/54] Lantern.cpp
+    [28/54] Breastplate.cpp
+    [29/54] EnemyCharacter.cpp
+    [30/54] BTTask_MoveToPlayer.cpp
+    [31/54] EnemyAI.cpp
+    [32/54] Greaves.cpp
+    [33/54] Ground.cpp
+    [34/54] HealthPack.cpp
+    [35/54] Helmet.cpp
+    [36/54] Wall.cpp
+    [37/54] Lighter.cpp
+    [38/54] Match.cpp
+    [39/54] LightItem.cpp
+    [40/54] Maze.cpp
+    [41/54] ScaryMazeBaseCharacter.cpp
+    [42/54] ScaryMazeCharacter.cpp
+    [43/54] ScaryMazeGameInstance.cpp
+    [44/54] Goal.cpp
+    [45/54] ScaryMazeGameMode.cpp
+    [46/54] BTService_CheckForPlayer.cpp
+    [47/54] ScaryMazeProjectile.cpp
+    [48/54] ScaryMazeHUD.cpp
+    [49/54] ArmorItem.cpp
+    [50/54] BTTask_MoveToPlayer.gen.cpp
+    [51/54] ScaryMaze.cpp
+    [52/54] ScaryMazeSaveGame.cpp
+    [53/54] UE4Editor-ScaryMaze.lib
+       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.exp
+    [54/54] UE4Editor-ScaryMaze.dll
+       Creating library C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.lib and object C:\Users\james\Desktop\Processes for OOS\COP4331-Project\ScaryMaze\Intermediate\Build\Win64\UE4Editor\Development\ScaryMaze\UE4Editor-ScaryMaze.suppressed.exp
   Deploying ScaryMazeEditor Win64 Development...
-  Total build time: 753.01 seconds (Parallel executor: 619.35 seconds)
+  Total build time: 150.79 seconds (Parallel executor: 117.80 seconds)

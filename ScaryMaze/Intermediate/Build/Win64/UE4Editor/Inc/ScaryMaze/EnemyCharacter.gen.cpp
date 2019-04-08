@@ -18,8 +18,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ScaryMaze();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CalculateAttackPower();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CalculateDead();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CalculateDefense();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_CalculateHealth();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateDefense();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateHealth();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
@@ -28,8 +32,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		UClass* Class = AEnemyCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CalculateAttackPower", &AEnemyCharacter::execCalculateAttackPower },
+			{ "CalculateDead", &AEnemyCharacter::execCalculateDead },
 			{ "CalculateDefense", &AEnemyCharacter::execCalculateDefense },
 			{ "CalculateHealth", &AEnemyCharacter::execCalculateHealth },
+			{ "ValidateAttackPower", &AEnemyCharacter::execValidateAttackPower },
+			{ "ValidateDefense", &AEnemyCharacter::execValidateDefense },
+			{ "ValidateHealth", &AEnemyCharacter::execValidateHealth },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -63,6 +71,28 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CalculateAttackPower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, "CalculateDead", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_CalculateDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_CalculateDead_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -132,6 +162,72 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, "ValidateAttackPower", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, "ValidateDefense", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateDefense()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_ValidateDefense_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyCharacter, "ValidateHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AEnemyCharacter_ValidateHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AEnemyCharacter_ValidateHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister()
 	{
 		return AEnemyCharacter::StaticClass();
@@ -161,6 +257,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
@@ -178,8 +278,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AEnemyCharacter_CalculateAttackPower, "CalculateAttackPower" }, // 2915691326
+		{ &Z_Construct_UFunction_AEnemyCharacter_CalculateDead, "CalculateDead" }, // 756577032
 		{ &Z_Construct_UFunction_AEnemyCharacter_CalculateDefense, "CalculateDefense" }, // 3363937937
 		{ &Z_Construct_UFunction_AEnemyCharacter_CalculateHealth, "CalculateHealth" }, // 2333150165
+		{ &Z_Construct_UFunction_AEnemyCharacter_ValidateAttackPower, "ValidateAttackPower" }, // 2040380243
+		{ &Z_Construct_UFunction_AEnemyCharacter_ValidateDefense, "ValidateDefense" }, // 1452634387
+		{ &Z_Construct_UFunction_AEnemyCharacter_ValidateHealth, "ValidateHealth" }, // 3744046293
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::Class_MetaDataParams[] = {
@@ -217,10 +321,16 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Health_MetaData[] = {
 		{ "Category", "Base Character" },
 		{ "ModuleRelativePath", "EnemyCharacter.h" },
-		{ "ToolTip", "UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = \"true\"))\nclass UCameraComponent* FirstPersonCameraComponent;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Float, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AEnemyCharacter, Health), METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Health_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "Base Character" },
+		{ "ModuleRelativePath", "EnemyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_MaxHealth = { UE4CodeGen_Private::EPropertyClass::Float, "MaxHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AEnemyCharacter, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_MaxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_MaxHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Mesh1P_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -241,6 +351,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Defense,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_AttackPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_Mesh1P,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BotBehavior,
 	};
@@ -267,7 +378,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyCharacter, 4289328022);
+	IMPLEMENT_CLASS(AEnemyCharacter, 438720914);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyCharacter(Z_Construct_UClass_AEnemyCharacter, &AEnemyCharacter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AEnemyCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

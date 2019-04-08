@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	SCARYMAZE_API UClass* Z_Construct_UClass_AScaryMazeGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_ScaryMaze();
+	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_LoadGame();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_MoveControllerToPlayer();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnArmorItem();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnBreastplate();
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatch();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer();
 	SCARYMAZE_API UClass* Z_Construct_UClass_AScaryMazeBaseCharacter_NoRegister();
+	SCARYMAZE_API UClass* Z_Construct_UClass_UScaryMazeGameInstance_NoRegister();
 	SCARYMAZE_API UFunction* Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -43,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	{
 		UClass* Class = AScaryMazeGameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "LoadGame", &AScaryMazeGameMode::execLoadGame },
 			{ "MoveControllerToPlayer", &AScaryMazeGameMode::execMoveControllerToPlayer },
 			{ "SpawnArmorItem", &AScaryMazeGameMode::execSpawnArmorItem },
 			{ "SpawnBreastplate", &AScaryMazeGameMode::execSpawnBreastplate },
@@ -56,6 +59,28 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 			{ "SpawnScaryMaze", &AScaryMazeGameMode::execSpawnScaryMaze },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ScaryMazeGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AScaryMazeGameMode, "LoadGame", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AScaryMazeGameMode_LoadGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AScaryMazeGameMode_LoadGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AScaryMazeGameMode_MoveControllerToPlayer_Statics
 	{
@@ -319,9 +344,11 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 	{
 		struct ScaryMazeGameMode_eventSpawnPlayer_Parms
 		{
+			UScaryMazeGameInstance* Instance;
 			AScaryMazeBaseCharacter* ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Instance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -329,8 +356,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameMode_eventSpawnPlayer_Parms, ReturnValue), Z_Construct_UClass_AScaryMazeBaseCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::NewProp_Instance = { UE4CodeGen_Private::EPropertyClass::Object, "Instance", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ScaryMazeGameMode_eventSpawnPlayer_Parms, Instance), Z_Construct_UClass_UScaryMazeGameInstance_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::NewProp_Instance,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer_Statics::Function_MetaDataParams[] = {
@@ -433,6 +462,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ScaryMaze,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AScaryMazeGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_LoadGame, "LoadGame" }, // 1515369394
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_MoveControllerToPlayer, "MoveControllerToPlayer" }, // 3085187582
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnArmorItem, "SpawnArmorItem" }, // 3098533194
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnBreastplate, "SpawnBreastplate" }, // 473130189
@@ -442,7 +472,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnLighter, "SpawnLighter" }, // 767336265
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnLightItems, "SpawnLightItems" }, // 2335852559
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnMatch, "SpawnMatch" }, // 1422315538
-		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer, "SpawnPlayer" }, // 1320504766
+		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnPlayer, "SpawnPlayer" }, // 3013131565
 		{ &Z_Construct_UFunction_AScaryMazeGameMode_SpawnScaryMaze, "SpawnScaryMaze" }, // 4064320148
 	};
 #if WITH_METADATA
@@ -567,7 +597,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeGameMode, 3693010071);
+	IMPLEMENT_CLASS(AScaryMazeGameMode, 3649291811);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeGameMode(Z_Construct_UClass_AScaryMazeGameMode, &AScaryMazeGameMode::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

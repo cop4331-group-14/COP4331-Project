@@ -32,10 +32,9 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeSaveGame() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsDead_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[];
 #endif
-		static void NewProp_IsDead_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDead;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Level;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Defense_MetaData[];
 #endif
@@ -67,16 +66,12 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeSaveGame() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Level_MetaData[] = {
 		{ "Category", "Basic" },
 		{ "ModuleRelativePath", "ScaryMazeSaveGame.h" },
 	};
 #endif
-	void Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead_SetBit(void* Obj)
-	{
-		((UScaryMazeSaveGame*)Obj)->IsDead = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead = { UE4CodeGen_Private::EPropertyClass::Bool, "IsDead", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UScaryMazeSaveGame), &Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead_MetaData, ARRAY_COUNT(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(UScaryMazeSaveGame, Level), METADATA_PARAMS(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Level_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Defense_MetaData[] = {
 		{ "Category", "Basic" },
@@ -106,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeSaveGame() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_SaveName = { UE4CodeGen_Private::EPropertyClass::Str, "SaveName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(UScaryMazeSaveGame, SaveName), METADATA_PARAMS(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_SaveName_MetaData, ARRAY_COUNT(Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_SaveName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UScaryMazeSaveGame_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_IsDead,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Defense,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_AttackPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScaryMazeSaveGame_Statics::NewProp_Health,
@@ -135,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeSaveGame() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UScaryMazeSaveGame, 4049919267);
+	IMPLEMENT_CLASS(UScaryMazeSaveGame, 2540212307);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UScaryMazeSaveGame(Z_Construct_UClass_UScaryMazeSaveGame, &UScaryMazeSaveGame::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("UScaryMazeSaveGame"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UScaryMazeSaveGame);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

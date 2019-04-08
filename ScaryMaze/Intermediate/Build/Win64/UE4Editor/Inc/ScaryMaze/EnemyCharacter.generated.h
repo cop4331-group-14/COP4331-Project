@@ -40,6 +40,38 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->CalculateHealth(Z_Param_DeltaHealth); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateDefense) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateDefense(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateAttackPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateAttackPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCalculateDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CalculateDead(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -69,6 +101,38 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->CalculateHealth(Z_Param_DeltaHealth); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateDefense) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateDefense(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateAttackPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateAttackPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execValidateHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ValidateHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCalculateDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CalculateDead(); \
 		P_NATIVE_END; \
 	}
 
