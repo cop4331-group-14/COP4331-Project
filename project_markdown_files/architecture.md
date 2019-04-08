@@ -64,16 +64,22 @@
 * Inputs include keys and mouse movements to control the player and navigate menus
 
 ## Error Processing
+* Handled by Unreal Engine 4
 
 ## Fault Tolerance
+* Handled by Unreal Engine 4
 
 ## Architectural Feasibility
+* Estimated what functionality could be built in the given time, making adjustments based on progress
 
 ## Overengineering
+* Making judgments based on feasibility of what functionality should be built and what may be unnecessary
 
 ## Build-vs-Buy Decisions
 * Unreal Engine 4 will be used along with Visual Studio as these programs work together effortlessly, according to UE4 design. UE4 provides much functionality that would be too time-consuming to code from scratch.
 
 ## Reuse
+* Modular file structure
 
 ## Change Strategy
+* Using Github for version control
