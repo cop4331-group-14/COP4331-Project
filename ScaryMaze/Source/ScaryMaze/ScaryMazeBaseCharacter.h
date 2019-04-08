@@ -52,11 +52,20 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	int AttackPower;
 
+	UFUNCTION(BlueprintCallable)
+		int GetAttackPower();
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	int Defense;
 
+	UFUNCTION(BlueprintCallable)
+		int GetDefense();
+
 	UPROPERTY(EditAnywhere)
 	int Score = 0;
+
+	UFUNCTION(BlueprintCallable)
+		int GetScore();
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Base Character")
 	bool IsDead;

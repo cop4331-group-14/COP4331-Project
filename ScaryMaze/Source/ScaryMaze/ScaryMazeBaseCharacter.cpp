@@ -177,6 +177,21 @@ void AScaryMazeBaseCharacter::OnLightTimeRunsOut()
 	this->LightSource->SetIntensity(0.f);
 }
 
+int AScaryMazeBaseCharacter::GetAttackPower()
+{
+	return AttackPower;
+}
+
+int AScaryMazeBaseCharacter::GetDefense()
+{
+	return Defense;
+}
+
+int AScaryMazeBaseCharacter::GetScore()
+{
+	return Score;
+}
+
 // Function to check if the character is still alive
 void AScaryMazeBaseCharacter::CalculateDead()
 {
