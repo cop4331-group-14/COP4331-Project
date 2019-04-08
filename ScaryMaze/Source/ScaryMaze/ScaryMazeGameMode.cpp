@@ -80,9 +80,7 @@ void AScaryMazeGameMode::BeginPlay()
 		this->Level = Instance->Level;
 	}
 
-	// Display the current Level
-	FString currentLevel = FString::FromInt(this->Level);
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Level: " + currentLevel));
+	
 
 	// Spawn the player and assign it to this player and the GameInstance player.
 	this->Player = SpawnPlayer(Instance);
@@ -93,8 +91,6 @@ void AScaryMazeGameMode::BeginPlay()
 	// Change default controller to work on the spawned player.
 	MoveControllerToPlayer();
 
-	FString currentHealth = FString::FromInt(this->Player->Health);
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Health: " + currentHealth));
 
 	// Spawn the matches
 	SpawnLightItems();
@@ -416,7 +412,7 @@ void AScaryMazeGameMode::LoadGame()
 	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	if (UGameplayStatics::DoesSaveGameExist(TEXT("Saved Game"), 0))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT(" Here!!"));
+
 		UScaryMazeSaveGame* LoadGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::CreateSaveGameObject(UScaryMazeSaveGame::StaticClass()));
 		LoadGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::LoadGameFromSlot(TEXT("Saved Game"), 0));
 
