@@ -36,11 +36,32 @@
 | 033 | 010 | Enemies have health statistic. | VERIFIED |
 | 034 | 010 | Enemies have attack statistic. | VERIFIED |
 | 035 | 010 | Enemies have defense statistic. | VERIFIED |
-| 036 | 015 | Enemies recognize a player within 5 Unreal Units of them. | VERIFIED |
-| 037 | 015 | Enemies try to attack the player when within 1 Unreal Units of them. | NOT VERIFIED |
-| 038 | 017 | Every maze that is generated will be random in arrangement. | VERIFIED |
-| 039 | 018 | The player will recieve "Gold" based on their progress. | NOT VERIFIED |
-| 040 | 020 | The player will recieve weapons which will increase their attack power. | NOT VERIFIED |
-| 041 | 021 | The player will recieve armor which will increase their defense. | NOT VERIFIED |
-| 042 | 026 | The game state will be able to be saved to preserve progress. | NOT VERIFIED |
-| 043 | 027 | The game state will be able to be loaded to continue progress. | NOT VERIFIED |
+| 036 | 011 | Enemies will attack the player when within range. | VERIFIED |
+| 037 | 012 | The player health shouuld be able to reach 0 and destroy the player. | VERIFIED |
+| 038 | 012 | The Death Screen has text saying "YOU DIED". | VERIFIED |
+| 039 | 012 | The Death Screen should have a button to start a new game. | VERIFIED |
+| 040 | 012 | The Death Screen should have a button to load a saved game. | VERIFIED |
+| 041 | 012 | The Death Screen should have a button to exit the game. | VERIFIED |
+| 042 | 013 | Health packs should restore 25 health. | VERIFIED |
+| 043 | 013 | Health packs should spawn randomly within the maze. | VERIFIED |
+| 043 | 013 | Health packs should disappear after being collected. | VERIFIED |
+| 044 | 013 | Health packs should make a "Ding" sound when collected. | VERIFIED |
+| 045 | 014 | Enemies recognize a player within 3000 Unreal Units of them. | VERIFIED |
+| 046 | 014 | Enemies try to attack the player when within 100 Unreal Units of them. | VERIFIED |
+| 046 | 015 | Every maze that is generated will be random in arrangement. | VERIFIED |
+| 047 | 016 | The player will recieve "Points" based on their progress. | NOT VERIFIED |
+| 048 | 016 | The player's points will be preserved through levels. | NOT VERIFIED |
+| 049 | 016 | The player's points will be preserved through loads. | NOT VERIFIED |
+| 050 | 017 | When the Left Mouse button is pressed, the attack animation plays. | VERIFIED |
+| 051 | 017 | When an enemy is within 350 Unreal Units of the player, the player can inflict damage to them. | VERIFIED |
+| 052 | 017 | After enough damage is inflicted, the enemies will be destroyed. | VERIFIED |
+| 053 | 018 | The player's attack power will increase with each level. | VERIFIED |
+| 054 | 019 | The player will recieve armor which will increase their defense. | VERIFIED |
+| 055 | 020 | Each level will be larger than the last. | VERIFIED |
+| 056 | 020 | Each level will have more enemies than the last. | VERIFIED |
+| 057 | 020 | Each level will have stronger enemies than the last. | VERIFIED |
+| 058 | 021 | Music will play in the background throughout the game. | VERIFIED |
+| 059 | 022 | Each level can be finished and has a completion screen. | VERIFIED |
+| 060 | 022 | Finishing level 10 will have a completion screen. | VERIFIED |
+| 061 | 023 | The game state will be able to be saved to preserve progress. | VERIFIED |
+| 062 | 024 | The game state will be able to be loaded to continue progress. | VERIFIED |
