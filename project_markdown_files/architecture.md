@@ -1,6 +1,7 @@
 # Program Organization
 
-## [System Architecture](https://github.com/cop4331-group-14/COP4331-Project/blob/master/systemarchitecture.pdf)
+## System Architecture
+![](https://github.com/cop4331-group-14/COP4331-Project/blob/master/systemarchitecture.PNG)
 
 ## Naming Conventions
 * Naming conventions follow Epic Games [Coding Standards](https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard)
