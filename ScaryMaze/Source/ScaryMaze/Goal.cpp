@@ -49,6 +49,7 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 	if (OtherActor && (OtherActor != this) && (OtherActor->GetClass()->IsChildOf(AScaryMazeBaseCharacter::StaticClass())))
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Silver, TEXT("AUTOSAVING"));
+		
 
 		UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 		if (Instance)
@@ -56,11 +57,14 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 			// Increment level.
 			Instance->Level++;
 
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("Score: " + FString::FromInt(Instance->Score)));
+
 			// Save player's statistics for next level.
 			AScaryMazeBaseCharacter* Player = Cast<AScaryMazeBaseCharacter>(OtherActor);
 			Instance->Health = Player->Health;
 			Instance->AttackPower = Player->AttackPower;
 			Instance->Defense = Player->Defense;
+			Instance->Score = Player->Score;
 
 			// Save player's game.
 			UScaryMazeSaveGame* SavedGame = Cast<UScaryMazeSaveGame>(UGameplayStatics::CreateSaveGameObject(UScaryMazeSaveGame::StaticClass()));

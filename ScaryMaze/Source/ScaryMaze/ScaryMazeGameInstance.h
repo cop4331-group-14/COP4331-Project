@@ -29,6 +29,9 @@ public:
 	// The player's current defense.
 	int Defense = 1;
 
+	// The player's current score.
+	int Score = 0;
+
 	UPROPERTY(EditAnywhere)
 		bool bLoad = false;
 

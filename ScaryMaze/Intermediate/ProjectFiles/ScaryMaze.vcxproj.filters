@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ScaryMaze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C5929ADF-EB44-4A54-97C1-D744C28F12E7}</UniqueIdentifier>
+      <UniqueIdentifier>{777DEBCD-107C-4F6D-BBD2-D1C67634BB28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ScaryMaze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F3616098-93FB-4D4A-A7AB-6BE312BADC6A}</UniqueIdentifier>
+      <UniqueIdentifier>{B4933A48-8004-41FD-BBE9-356E60B7319C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ScaryMaze">
-      <UniqueIdentifier>{54BE104E-852E-4A13-8DB4-42B7087E28A5}</UniqueIdentifier>
+      <UniqueIdentifier>{DFA90E6D-3C0E-4FEC-996F-C603A02ADBB5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ScaryMaze\ArmorItem.cpp">
       <Filter>Source\ScaryMaze</Filter>

@@ -16,7 +16,7 @@ class SCARYMAZE_API AMatch : public ALightItem
 
 public:
 	AMatch();
-	
+
 };
 
 

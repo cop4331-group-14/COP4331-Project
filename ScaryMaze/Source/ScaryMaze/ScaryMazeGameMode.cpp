@@ -270,6 +270,7 @@ AScaryMazeBaseCharacter* AScaryMazeGameMode::SpawnPlayer(UScaryMazeGameInstance*
 		SpawnedPlayer->Health = Instance->Health;
 		SpawnedPlayer->AttackPower = Instance->AttackPower;
 		SpawnedPlayer->Defense = Instance->Defense;
+		SpawnedPlayer->Score = Instance->Score;
 
 		return SpawnedPlayer;
 	}
@@ -300,6 +301,7 @@ void AScaryMazeGameMode::LoadGame()
 		Instance->Health = LoadGame->Health;
 		Instance->AttackPower = LoadGame->AttackPower;
 		Instance->Defense = LoadGame->Defense;
+		Instance->Score = LoadGame->Score;
 		Instance->bLoad = false;
 	}
 }

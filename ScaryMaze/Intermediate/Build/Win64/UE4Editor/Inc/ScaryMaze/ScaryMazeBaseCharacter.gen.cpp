@@ -314,6 +314,10 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		static void NewProp_IsDead_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDead;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Score_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Score;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Defense_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Defense;
@@ -411,6 +415,13 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead = { UE4CodeGen_Private::EPropertyClass::Bool, "IsDead", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AScaryMazeBaseCharacter), &Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Score_MetaData[] = {
+		{ "Category", "ScaryMazeBaseCharacter" },
+		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Score = { UE4CodeGen_Private::EPropertyClass::Int, "Score", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AScaryMazeBaseCharacter, Score), METADATA_PARAMS(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Score_MetaData, ARRAY_COUNT(Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Score_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Defense_MetaData[] = {
 		{ "Category", "Base Character" },
 		{ "ModuleRelativePath", "ScaryMazeBaseCharacter.h" },
@@ -496,6 +507,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_IsDead,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Score,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Defense,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_AttackPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AScaryMazeBaseCharacter_Statics::NewProp_Health,
@@ -531,7 +543,7 @@ void EmptyLinkFunctionForGeneratedCodeScaryMazeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 3806485510);
+	IMPLEMENT_CLASS(AScaryMazeBaseCharacter, 190766941);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AScaryMazeBaseCharacter(Z_Construct_UClass_AScaryMazeBaseCharacter, &AScaryMazeBaseCharacter::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("AScaryMazeBaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AScaryMazeBaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

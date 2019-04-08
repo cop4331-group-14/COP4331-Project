@@ -9,4 +9,5 @@ AMatch::AMatch()
 	LightColor = FColor::Red;
 	LightTime = 10.f;
 	Attenuation = 1200.f;
+	Points = 1;
 }

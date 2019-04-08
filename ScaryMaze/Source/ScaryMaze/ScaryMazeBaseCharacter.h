@@ -55,6 +55,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 	int Defense;
 
+	UPROPERTY(EditAnywhere)
+	int Score = 0;
+
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Base Character")
 	bool IsDead;
 

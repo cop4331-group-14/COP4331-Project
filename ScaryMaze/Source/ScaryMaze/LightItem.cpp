@@ -58,6 +58,9 @@ void ALightItem::OnPlayerEnterLightBox(UPrimitiveComponent * OverlappedComp, AAc
 			Player->LightTime = this->LightTime;
 			Player->LightSource->SetAttenuationRadius(this->Attenuation);
 
+			// Increment Player score.
+			Player->Score += this->Points;
+
 			// Start the player's light timer.
 			Player->SetLightTime(this->LightTime);
 

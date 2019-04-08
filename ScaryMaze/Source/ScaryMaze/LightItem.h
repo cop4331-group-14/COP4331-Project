@@ -45,6 +45,9 @@ protected:
 	UPROPERTY(EditAnywhere)
 		float Attenuation;
 
+	UPROPERTY(EditAnywhere)
+		int Points;
+
 	// Collider for Light.
 	UPROPERTY(EditAnywhere)
 		UBoxComponent* LightBox;

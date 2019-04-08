@@ -7,8 +7,4 @@
 UScaryMazeSaveGame::UScaryMazeSaveGame()
 {
 
-	//SaveName = TEXT("Saved Game");
-	//Health = 100.0;
-	//AttackPower = 1;
-	//Defense = 1;
 }

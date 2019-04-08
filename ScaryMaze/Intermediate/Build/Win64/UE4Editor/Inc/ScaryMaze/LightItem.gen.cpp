@@ -157,6 +157,10 @@ void EmptyLinkFunctionForGeneratedCodeLightItem() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LightBox;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Points_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Points;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attenuation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Attenuation;
@@ -208,6 +212,13 @@ void EmptyLinkFunctionForGeneratedCodeLightItem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALightItem_Statics::NewProp_LightBox = { UE4CodeGen_Private::EPropertyClass::Object, "LightBox", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(ALightItem, LightBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALightItem_Statics::NewProp_LightBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALightItem_Statics::NewProp_LightBox_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALightItem_Statics::NewProp_Points_MetaData[] = {
+		{ "Category", "LightItem" },
+		{ "ModuleRelativePath", "LightItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALightItem_Statics::NewProp_Points = { UE4CodeGen_Private::EPropertyClass::Int, "Points", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ALightItem, Points), METADATA_PARAMS(Z_Construct_UClass_ALightItem_Statics::NewProp_Points_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALightItem_Statics::NewProp_Points_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALightItem_Statics::NewProp_Attenuation_MetaData[] = {
 		{ "Category", "LightItem" },
 		{ "ModuleRelativePath", "LightItem.h" },
@@ -255,6 +266,7 @@ void EmptyLinkFunctionForGeneratedCodeLightItem() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALightItem_Statics::NewProp_LightRoot = { UE4CodeGen_Private::EPropertyClass::Object, "LightRoot", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(ALightItem, LightRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALightItem_Statics::NewProp_LightRoot_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALightItem_Statics::NewProp_LightRoot_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALightItem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALightItem_Statics::NewProp_LightBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALightItem_Statics::NewProp_Points,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALightItem_Statics::NewProp_Attenuation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALightItem_Statics::NewProp_LightColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALightItem_Statics::NewProp_LightTime,
@@ -285,7 +297,7 @@ void EmptyLinkFunctionForGeneratedCodeLightItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALightItem, 3654442096);
+	IMPLEMENT_CLASS(ALightItem, 2288422859);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALightItem(Z_Construct_UClass_ALightItem, &ALightItem::StaticClass, TEXT("/Script/ScaryMaze"), TEXT("ALightItem"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALightItem);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

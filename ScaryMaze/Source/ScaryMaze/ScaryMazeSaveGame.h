@@ -31,5 +31,8 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Basic)
 		int Level;
 
+	UPROPERTY(VisibleAnywhere, Category = Basic)
+		int Score;
+
 	UScaryMazeSaveGame();
 };
