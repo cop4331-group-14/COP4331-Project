@@ -75,6 +75,8 @@ void AScaryMazeGameMode::BeginPlay()
 	// Spawn the player and assign it to this player and the GameInstance player.
 	this->Player = SpawnPlayer(Instance);
 
+	// Spawn the armor items.
+	SpawnArmorItem();
 
 	// Change default controller to work on the spawned player.
 	MoveControllerToPlayer();
