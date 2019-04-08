@@ -7,7 +7,8 @@ AEnemyCharacter::AEnemyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	Health = 100.0;
+	MaxHealth = 100.0;
+	Health = MaxHealth;
 	AttackPower = 1;
 	Defense = 1;
 	IsDead = false;
@@ -38,15 +39,17 @@ void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 void AEnemyCharacter::CalculateHealth(float DeltaHealth)
 {
 	Health += DeltaHealth;
-	CalculateDead();
+	ValidateHealth();
 }
 
+// Function to change the characters attack power, and check if it is valid
 void AEnemyCharacter::CalculateAttackPower(float DeltaAttackPower)
 {
 	AttackPower += DeltaAttackPower;
 	ValidateAttackPower();
 }
 
+// Function to change the characters defense, and check if it is valid
 void AEnemyCharacter::CalculateDefense(float DeltaDefense)
 {
 	Defense += DeltaDefense;
@@ -57,11 +60,24 @@ void AEnemyCharacter::CalculateDead()
 {
 	if (Health <= 0.0)
 	{
+		// Clear the light timer before dying.
 		IsDead = true;
 	}
 	else
 	{
 		IsDead = false;
+	}
+}
+
+void AEnemyCharacter::ValidateHealth()
+{
+	if (Health > MaxHealth)
+	{
+		Health = MaxHealth;
+	}
+	else
+	{
+		CalculateDead();
 	}
 }
 
@@ -80,6 +96,7 @@ void AEnemyCharacter::ValidateDefense()
 		Defense = 1;
 	}
 }
+
 
 #if WITH_EDITOR
 

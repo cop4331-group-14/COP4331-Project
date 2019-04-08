@@ -21,33 +21,33 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class USkeletalMeshComponent* Mesh1P;
 
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	//class UCameraComponent* FirstPersonCameraComponent;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-	float Health;
+		float MaxHealth;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-	int AttackPower;
+		float Health;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
-	int Defense;
+		int AttackPower;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
+		int Defense;
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Base Character")
-	bool IsDead;
+		bool IsDead;
 
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	//float BaseTurnRate;
+	UFUNCTION()
+		virtual void CalculateDead();
 
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	//float BaseLookUpRate;
+	UFUNCTION()
+		virtual void ValidateHealth();
 
+	UFUNCTION()
+		virtual void ValidateAttackPower();
 
-	virtual void CalculateDead();
-
-	virtual void ValidateAttackPower();
-
-	virtual void ValidateDefense();
+	UFUNCTION()
+		virtual void ValidateDefense();
 
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 	virtual void CalculateHealth(float DeltaHealth);

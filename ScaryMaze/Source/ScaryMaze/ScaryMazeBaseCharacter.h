@@ -76,7 +76,6 @@ public:
 	UFUNCTION()
 	virtual void ValidateDefense();
 
-
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 		virtual void CalculateHealth(float DeltaHealth);
 

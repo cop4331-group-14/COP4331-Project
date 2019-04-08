@@ -67,7 +67,7 @@ AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
 	*/
 
-	Skeleton = CreateDefaultSubobject<USkeleton>(TEXT("Skeleton"));
+
 }
 
 // Called when the game starts or when spawned
