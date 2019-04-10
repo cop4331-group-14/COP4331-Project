@@ -27,10 +27,10 @@ public:
 	float Health = 100.f;
 
 	// The player's current attack power.
-	int AttackPower = 1;
+	int AttackPower = 5 * Level;
 
 	// The player's current defense.
-	int Defense = 1;
+	int Defense = 5 * Level;
 
 	// The player's current score.
 	int Score = 0;

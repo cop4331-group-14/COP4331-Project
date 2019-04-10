@@ -17,17 +17,11 @@
 AScaryMazeBaseCharacter::AScaryMazeBaseCharacter()
 {
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
-	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	// Stats of the character
 	MaxHealth = 100.0;
 	Health = 100.0;
-	if (Instance)
-	{
-		AttackPower = 5 * Instance->Level;
-		Defense = 5 * Instance->Level;
-	}
 	IsDead = false;
 	// Turn speed of character
 	BaseTurnRate = 45.f;
@@ -76,6 +70,14 @@ void AScaryMazeBaseCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	Weapon->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+	if (Instance)
+	{
+		AttackPower = 5 * Instance->Level;
+		Defense = 5 * Instance->Level;
+	}
+
+
 }
 
 // Called every frame
