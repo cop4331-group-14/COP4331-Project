@@ -7,7 +7,12 @@ int UScaryMazeGameInstance::GetLevel()
 	return Level;
 }
 
-void UScaryMazeGameInstance::SetbLoad()
+void UScaryMazeGameInstance::SetbLoad(bool bLoadValue)
 {
-	bLoad = true;
+	bLoad = bLoadValue;
+}
+
+void UScaryMazeGameInstance::SetbNewGame(bool bNewGameValue)
+{
+	bNewGameValue = bNewGameValue;
 }

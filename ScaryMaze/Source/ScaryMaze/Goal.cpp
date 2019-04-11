@@ -65,6 +65,8 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 			Instance->AttackPower = Player->AttackPower;
 			Instance->Defense = Player->Defense;
 			Instance->Score = Player->Score + 100;
+			Instance->bNewGame = false;
+			Instance->bLoad = false;
 
 			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("Score: " + FString::FromInt(Instance->Score)));
 
@@ -74,6 +76,7 @@ void AGoal::OnPlayerEnterGoalBox(UPrimitiveComponent * OverlappedComp, AActor * 
 			SavedGame->Health = Instance->Health;
 			SavedGame->AttackPower = Instance->AttackPower;
 			SavedGame->Defense = Instance->Defense;
+			SavedGame->Score = Instance->Score;
 			UGameplayStatics::SaveGameToSlot(SavedGame, TEXT("Saved Game"), 0);
 		}
 

@@ -27,10 +27,10 @@ public:
 	float Health = 100.f;
 
 	// The player's current attack power.
-	int AttackPower = 5 * Level;
+	int AttackPower = 10 * Level;
 
 	// The player's current defense.
-	int Defense = 5 * Level;
+	int Defense = 10 * Level;
 
 	// The player's current score.
 	int Score = 0;
@@ -39,5 +39,11 @@ public:
 		bool bLoad = false;
 
 	UFUNCTION(BlueprintCallable)
-		void SetbLoad();
+		void SetbLoad(bool bLoadValue);
+
+	UPROPERTY(EditAnywhere)
+		bool bNewGame = false;
+
+	UFUNCTION(BlueprintCallable)
+		void SetbNewGame(bool bNewGameValue);
 };

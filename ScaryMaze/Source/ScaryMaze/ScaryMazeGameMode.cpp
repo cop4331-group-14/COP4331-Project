@@ -62,9 +62,6 @@ void AScaryMazeGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Spawn the ScaryMaze
-	SpawnScaryMaze();
-
 	// Get reference to game instance
 	UScaryMazeGameInstance* Instance = Cast<UScaryMazeGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 
@@ -72,6 +69,18 @@ void AScaryMazeGameMode::BeginPlay()
 	if (Instance->bLoad)
 	{
 		LoadGame();
+	}
+	else if (Instance->bNewGame)
+	{
+		Instance->Level = 1;
+		Instance->Score = 0;
+		Instance->AttackPower = 10 * Level ;
+		Instance->Defense = 10 * Level;
+		Instance->Health = 100.f;
+	}
+	else
+	{
+		// do nothing
 	}
 
 	// Make the Game Mode Level match the Level in Game Instance and get the Game Instance Player stats;
@@ -81,6 +90,8 @@ void AScaryMazeGameMode::BeginPlay()
 	}
 
 	
+	// Spawn the ScaryMaze
+	SpawnScaryMaze();
 
 	// Spawn the player and assign it to this player and the GameInstance player.
 	this->Player = SpawnPlayer(Instance);
@@ -422,5 +433,6 @@ void AScaryMazeGameMode::LoadGame()
 		Instance->Defense = LoadGame->Defense;
 		Instance->Score = LoadGame->Score;
 		Instance->bLoad = false;
+		Instance->bNewGame = true;
 	}
 }

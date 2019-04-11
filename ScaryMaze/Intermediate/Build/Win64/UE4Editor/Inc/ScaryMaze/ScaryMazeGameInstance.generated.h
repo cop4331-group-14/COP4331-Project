@@ -15,11 +15,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ScaryMaze_Source_ScaryMaze_ScaryMazeGameInstance_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetbLoad) \
+	DECLARE_FUNCTION(execSetbNewGame) \
 	{ \
+		P_GET_UBOOL(Z_Param_bNewGameValue); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetbLoad(); \
+		P_THIS->SetbNewGame(Z_Param_bNewGameValue); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetbLoad) \
+	{ \
+		P_GET_UBOOL(Z_Param_bLoadValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetbLoad(Z_Param_bLoadValue); \
 		P_NATIVE_END; \
 	} \
  \
@@ -34,11 +44,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ScaryMaze_Source_ScaryMaze_ScaryMazeGameInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSetbLoad) \
+	DECLARE_FUNCTION(execSetbNewGame) \
 	{ \
+		P_GET_UBOOL(Z_Param_bNewGameValue); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetbLoad(); \
+		P_THIS->SetbNewGame(Z_Param_bNewGameValue); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetbLoad) \
+	{ \
+		P_GET_UBOOL(Z_Param_bLoadValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetbLoad(Z_Param_bLoadValue); \
 		P_NATIVE_END; \
 	} \
  \
